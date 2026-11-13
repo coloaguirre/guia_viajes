@@ -2,7 +2,7 @@
 "use strict";
 
 const $ = (id) => document.getElementById(id);
-const state = { data: null, stack: [], pos: null, nearest: null, speaking: null };
+const state = { data: null, stack: [], pos: null, nearest: null, speaking: null, queue: [] };
 
 // ---------- utilidades de texto ----------
 const norm = (s) =>
@@ -85,11 +85,19 @@ function showTema(l, tema) {
 }
 
 function showList(title, relatos) {
+  const total = relatos.reduce((a, r) => a + r.minutos, 0);
   const items = relatos
     .map((r) => `<button class="item" data-id="${r.id}">${r.titulo}<small>${r.lugar.nombre} · ${r.subtema} · ${r.minutos} min</small></button>`)
     .join("");
-  render(title, `<div class="list">${items}</div>`);
-  $("screen").querySelectorAll("[data-id]").forEach((b) => (b.onclick = () => play(findRelato(b.dataset.id))));
+  const all = relatos.length > 1 ? `<button class="item all" id="play-all">▶ Escuchar todos en orden<small>${relatos.length} relatos · ${Math.round(total)} min</small></button>` : "";
+  render(title, `<div class="list">${all}${items}</div>`);
+  $("screen").querySelectorAll("[data-id]").forEach((b) => (b.onclick = () => {
+    const i = relatos.findIndex((r) => r.id === b.dataset.id);
+    state.queue = relatos.slice(i + 1); // lo que sigue en la lista, para "siguiente"
+    play(relatos[i]);
+  }));
+  const pa = $("play-all");
+  if (pa) pa.onclick = () => { state.queue = relatos.slice(1); play(relatos[0]); };
 }
 const findRelato = (id) => state.data.lugares.flatMap((l) => l.relatos).find((r) => r.id === id);
 
@@ -119,13 +127,19 @@ function play(relato) {
   state.speaking = job;
   $("player").hidden = false;
   $("player-title").textContent = relato.titulo;
-  $("player-meta").textContent = `${relato.lugar.nombre} · ${relato.tema} · ${relato.subtema} · ${relato.minutos} min` + (voice ? ` · voz ${voice.name}` : " · sin voz en español");
+  $("player-meta").textContent = `${relato.lugar.nombre} · ${relato.tema} · ${relato.subtema} · ${relato.minutos} min` + (voice ? ` · voz ${voice.name}` : " · sin voz en español") + (state.queue.length ? ` · quedan ${state.queue.length}` : "");
+  $("p-next").disabled = !state.queue.length;
   $("p-toggle").textContent = "❚❚";
   speakNext(job);
 }
 function speakNext(job) {
   if (job.canceled) return;
-  if (job.i >= job.parts.length) { $("p-progress").value = 1; $("p-toggle").textContent = "▶"; return; }
+  if (job.i >= job.parts.length) {
+    $("p-progress").value = 1;
+    $("p-toggle").textContent = "▶";
+    if (state.queue.length) setTimeout(() => { if (state.speaking === job && !job.canceled) playNext(); }, 1200);
+    return;
+  }
   const u = new SpeechSynthesisUtterance(job.parts[job.i]);
   if (voice) u.voice = voice;
   u.lang = voice ? voice.lang : "es-AR";
@@ -139,7 +153,12 @@ function stop() {
   if (state.speaking) state.speaking.canceled = true;
   synth.cancel();
 }
-$("p-stop").onclick = () => { stop(); $("player").hidden = true; };
+function playNext() {
+  const next = state.queue.shift();
+  if (next) play(next);
+}
+$("p-next").onclick = playNext;
+$("p-stop").onclick = () => { stop(); state.queue = []; $("player").hidden = true; };
 $("p-restart").onclick = () => state.speaking && play(state.speaking.relato);
 $("p-toggle").onclick = () => {
   const job = state.speaking;

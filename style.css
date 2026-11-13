@@ -12,6 +12,9 @@ main{flex:1;overflow:auto;padding:12px 16px}
 .item{display:block;width:100%;text-align:left;padding:14px}
 .item small{display:block;color:var(--muted);margin-top:2px}
 .item.near{outline:2px solid var(--accent)}
+.item.all{background:var(--accent);color:var(--accent-fg)}
+.item.all small{color:var(--accent-fg);opacity:.8}
+button:disabled{opacity:.4}
 .hint{color:var(--muted);font-size:.9rem;margin:4px 0 12px}
 #player{padding:12px 16px;border-top:1px solid var(--line);background:var(--card)}
 #player-title{font-weight:600}
