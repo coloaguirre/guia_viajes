@@ -1,0 +1,20 @@
+# Parámetros del viaje y del contenido. Se versiona.
+[viaje]
+nombre = "Viaje"
+# Pista para el geocoder: país y, si ayuda, región (en texto libre).
+pais = "Argentina"
+region = ""
+
+[relato]
+min_palabras = 500
+max_palabras = 780
+# Temas que se piden por lugar. El redactor puede omitir los que no
+# tengan sustancia para ese lugar y agregar subtemas propios.
+temas = [
+  "Historia",
+  "Naturaleza y biología",
+  "Paisaje y geología",
+  "Comidas y bebidas",
+  "Costumbres y gente",
+  "Qué ver y qué hacer",
+]

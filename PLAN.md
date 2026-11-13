@@ -11,14 +11,14 @@ itinerario real en 2-3 días (meta: 2026-11-15/16).
 - Matching de comandos de voz por palabras clave + lugar más cercano.
 
 ## Fase 1 — Pipeline de contenido (src/guia)
-- [ ] 1.1 Parser de itinerario (xlsx/csv) → lista de lugares únicos
+- [x] 1.1 Parser de itinerario (xlsx/csv) → lista de lugares únicos
       (de "Tramo / Base" y "Noche en"), con el día en que se visitan.
-- [ ] 1.2 Geocoding de lugares → lat/lon, con cache JSON en data/.
-- [ ] 1.3 Esquema de relato + validador (duración, campos, tags).
-- [ ] 1.4 Generador de prompts por lugar (temas: historia, naturaleza,
+- [x] 1.2 Geocoding de lugares → lat/lon, con cache JSON en data/.
+- [x] 1.3 Esquema de relato + validador (duración, campos, tags).
+- [x] 1.4 Generador de prompts por lugar (temas: historia, naturaleza,
       geología/paisaje, comida, costumbres, personajes, qué ver) y
       guía de estilo para redactar los relatos.
-- [ ] 1.5 Empaquetador: data/relatos/*.json → app/content/relatos.json.
+- [x] 1.5 Empaquetador: data/relatos/*.json → app/content/relatos.json.
 
 ## Fase 2 — App (app/)
 - [ ] 2.1 Menú lugares → temas → relatos; reproducción con
