@@ -27,8 +27,10 @@ por comando de voz con geolocalización.
   Voz: Web Speech API (reconocimiento es-AR) y speechSynthesis con voz
   es-AR del dispositivo. Geo: navigator.geolocation. Service worker
   para offline.
-- **`data/`** (gitignorado): itinerario original y relatos
-  intermedios. **`app/content/`** SÍ se versiona: es el producto.
+- **`data/`**: el itinerario (`data/itinerario/`, con teléfonos y códigos)
+  está gitignorado. `data/relatos/`, `data/lugares.json` y
+  `data/geocache.json` SÍ se versionan. **`app/content/`** también: es
+  el producto empaquetado.
 
 ## Convenciones
 - Relato: 600-750 palabras (≈5 min a 130-150 ppm). Un test lo valida.

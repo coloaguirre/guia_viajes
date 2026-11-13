@@ -1,0 +1,120 @@
+{
+ "buenos-aires": {
+  "lat": -34.6095579,
+  "lon": -58.3887904,
+  "display": "Buenos Aires, Comuna 1, Ciudad Autónoma de Buenos Aires, Argentina"
+ },
+ "rio-colorado": {
+  "lat": -38.9908428,
+  "lon": -64.0957548,
+  "display": "Municipio de Río Colorado, Departamento Pichi Mahuida, Río Negro, Argentina"
+ },
+ "camarones": {
+  "lat": -44.7984943,
+  "lon": -65.7103731,
+  "display": "Camarones, Municipio de Camarones, Departamento Florentino Ameghino, Chubut, Argentina"
+ },
+ "cabo-dos-bahias": {
+  "lat": -44.927809,
+  "lon": -65.5247471,
+  "display": "Cabo Dos Bahías, Departamento Florentino Ameghino, Chubut, Argentina"
+ },
+ "cabo-raso": {
+  "lat": -44.3373552,
+  "lon": -65.2493254,
+  "display": "Cabo Raso, Departamento Florentino Ameghino, Chubut, Argentina"
+ },
+ "bahia-bustamante": {
+  "lat": -45.1270778,
+  "lon": -66.5368939,
+  "display": "Bahía Bustamante, Departamento Escalante, Chubut, Argentina"
+ },
+ "puerto-deseado": {
+  "lat": -47.7516166,
+  "lon": -65.9013234,
+  "display": "Municipio de Puerto Deseado, Deseado, Santa Cruz, 9050, Argentina"
+ },
+ "puerto-san-julian": {
+  "lat": -49.3069531,
+  "lon": -67.7297851,
+  "display": "Puerto San Julián, Magallanes, Santa Cruz, Argentina"
+ },
+ "comandante-luis-piedrabuena": {
+  "lat": -49.983042,
+  "lon": -68.9187357,
+  "display": "Comandante Luis Piedrabuena, Corpen Aike, Santa Cruz, Argentina"
+ },
+ "gobernador-gregores": {
+  "lat": -48.7508681,
+  "lon": -70.2485805,
+  "display": "Gobernador Gregores, Río Chico, Santa Cruz, Argentina"
+ },
+ "parque-nacional-perito-moreno": {
+  "lat": -47.9258463,
+  "lon": -72.3175521,
+  "display": "Parque Nacional Perito Moreno, Río Chico, Santa Cruz, Argentina"
+ },
+ "estancia-la-oriental": null,
+ "comodoro-rivadavia": {
+  "lat": -45.8632024,
+  "lon": -67.4752615,
+  "display": "Municipio de Comodoro Rivadavia, Departamento Escalante, Chubut, U9000, Argentina"
+ },
+ "ria-deseado": {
+  "lat": -47.7976975,
+  "lon": -66.0772987,
+  "display": "Reserva Natural Provincial Ría de Puerto Deseado, Municipio de Puerto Deseado, Deseado, Santa Cruz, Argentina"
+ },
+ "parque-nacional-monte-leon": {
+  "lat": -50.3371638,
+  "lon": -69.0171803,
+  "display": "Parque Nacional Monte León, Corpen Aike, Santa Cruz, Argentina"
+ },
+ "puerto-madryn": {
+  "lat": -42.7673414,
+  "lon": -65.0365942,
+  "display": "Municipio de Puerto Madryn, Departamento Biedma, Chubut, U9120, Argentina"
+ },
+ "trelew": {
+  "lat": -43.2531242,
+  "lon": -65.3094407,
+  "display": "Trelew, Municipio de Trelew, Departamento Rawson, Chubut, U9100, Argentina"
+ },
+ "viedma": {
+  "lat": -40.8084274,
+  "lon": -62.994722,
+  "display": "Municipio de Viedma, Departamento Adolfo Alsina, Río Negro, Argentina"
+ },
+ "bahia-blanca": {
+  "lat": -38.7176522,
+  "lon": -62.2654871,
+  "display": "Bahía Blanca, Cuartel I, Partido de Bahía Blanca, Buenos Aires, Argentina"
+ },
+ "caleta-olivia": {
+  "lat": -46.442117,
+  "lon": -67.5175069,
+  "display": "Caleta Olivia, Mercado de la Ciudad, Caleta Olivia, Deseado, Santa Cruz, 9011, Argentina"
+ },
+ "isla-pinguino": null,
+ "cabo-blanco": {
+  "lat": -47.2065894,
+  "lon": -65.7431228,
+  "display": "Cabo Blanco, Deseado, Santa Cruz, Argentina"
+ },
+ "peninsula-san-julian": {
+  "lat": -49.3272897,
+  "lon": -67.6547998,
+  "display": "Península San Julián, Magallanes, Santa Cruz, Argentina"
+ },
+ "isla-leones": {
+  "lat": -45.0516927,
+  "lon": -65.6044497,
+  "display": "Isla Leones, Departamento Atlántico, Chubut, Argentina"
+ },
+ "sarmiento": {
+  "lat": -45.5867861,
+  "lon": -69.0687743,
+  "display": "Sarmiento, Municipio de Sarmiento, Departamento Sarmiento, Chubut, U9020, Argentina"
+ },
+ "bosque-petrificado-sarmiento": null
+}

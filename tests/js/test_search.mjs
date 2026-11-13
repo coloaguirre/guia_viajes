@@ -4,7 +4,7 @@ import { readFileSync } from "node:fs";
 import assert from "node:assert/strict";
 import vm from "node:vm";
 
-const data = JSON.parse(readFileSync(new URL("../../app/content/relatos.json", import.meta.url), "utf8"));
+const data = JSON.parse(readFileSync(new URL("./fixture_relatos.json", import.meta.url), "utf8"));
 const el = () => ({ hidden: false, textContent: "", innerHTML: "", value: 0, classList: { add() {}, remove() {} }, querySelectorAll: () => [], set onclick(f) {} });
 const ctx = {
   document: { getElementById: el },

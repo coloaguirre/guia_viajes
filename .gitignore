@@ -1,5 +1,10 @@
-# Datos y artefactos — nunca al repo
-data/
+# Datos y artefactos — nunca al repo. Excepción de este proyecto: los relatos
+# fuente, los lugares y el cache de geocoding SÍ se versionan (no son
+# sensibles y son el producto). El itinerario (data/itinerario/) NO.
+data/*
+!data/relatos/
+!data/lugares.json
+!data/geocache.json
 models/
 logs/
 

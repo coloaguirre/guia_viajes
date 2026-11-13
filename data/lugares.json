@@ -1,0 +1,564 @@
+[
+ {
+  "nombre": "Buenos Aires",
+  "slug": "buenos-aires",
+  "dias": [
+   1,
+   19
+  ],
+  "roles": [
+   "tramo"
+  ],
+  "tipo": "lugar",
+  "lat": -34.6095579,
+  "lon": -58.3887904,
+  "geo_display": "Buenos Aires, Comuna 1, Ciudad Autónoma de Buenos Aires, Argentina"
+ },
+ {
+  "nombre": "Río Colorado",
+  "slug": "rio-colorado",
+  "dias": [
+   1,
+   2,
+   18,
+   19
+  ],
+  "roles": [
+   "noche",
+   "tramo"
+  ],
+  "tipo": "lugar",
+  "lat": -38.9908428,
+  "lon": -64.0957548,
+  "geo_display": "Municipio de Río Colorado, Departamento Pichi Mahuida, Río Negro, Argentina"
+ },
+ {
+  "nombre": "Ruta Buenos Aires – Río Colorado",
+  "slug": "ruta-buenos-aires-rio-colorado",
+  "dias": [
+   1,
+   19
+  ],
+  "roles": [
+   "ruta"
+  ],
+  "tipo": "tramo",
+  "extremos": [
+   "buenos-aires",
+   "rio-colorado"
+  ],
+  "lat": -36.80020035,
+  "lon": -61.24227259999999,
+  "geo_display": "punto medio de Buenos Aires – Río Colorado"
+ },
+ {
+  "nombre": "Camarones",
+  "slug": "camarones",
+  "dias": [
+   2,
+   3,
+   4,
+   5
+  ],
+  "roles": [
+   "noche",
+   "tramo"
+  ],
+  "tipo": "lugar",
+  "lat": -44.7984943,
+  "lon": -65.7103731,
+  "geo_display": "Camarones, Municipio de Camarones, Departamento Florentino Ameghino, Chubut, Argentina"
+ },
+ {
+  "nombre": "Ruta Río Colorado – Camarones",
+  "slug": "ruta-rio-colorado-camarones",
+  "dias": [
+   2,
+   18
+  ],
+  "roles": [
+   "ruta"
+  ],
+  "tipo": "tramo",
+  "extremos": [
+   "rio-colorado",
+   "camarones"
+  ],
+  "lat": -41.894668550000006,
+  "lon": -64.90306394999999,
+  "geo_display": "punto medio de Río Colorado – Camarones"
+ },
+ {
+  "nombre": "Cabo Dos Bahías",
+  "slug": "cabo-dos-bahias",
+  "dias": [
+   3
+  ],
+  "roles": [
+   "tramo"
+  ],
+  "tipo": "lugar",
+  "lat": -44.927809,
+  "lon": -65.5247471,
+  "geo_display": "Cabo Dos Bahías, Departamento Florentino Ameghino, Chubut, Argentina"
+ },
+ {
+  "nombre": "Cabo Raso",
+  "slug": "cabo-raso",
+  "dias": [
+   3
+  ],
+  "roles": [
+   "tramo"
+  ],
+  "tipo": "lugar",
+  "lat": -44.3373552,
+  "lon": -65.2493254,
+  "geo_display": "Cabo Raso, Departamento Florentino Ameghino, Chubut, Argentina"
+ },
+ {
+  "nombre": "Ruta Camarones – Cabo Raso",
+  "slug": "ruta-camarones-cabo-raso",
+  "dias": [
+   3
+  ],
+  "roles": [
+   "ruta"
+  ],
+  "tipo": "tramo",
+  "extremos": [
+   "camarones",
+   "cabo-raso"
+  ],
+  "lat": -44.56792475,
+  "lon": -65.47984925,
+  "geo_display": "punto medio de Camarones – Cabo Raso"
+ },
+ {
+  "nombre": "Bahía Bustamante",
+  "slug": "bahia-bustamante",
+  "dias": [
+   4
+  ],
+  "roles": [
+   "tramo"
+  ],
+  "tipo": "lugar",
+  "lat": -45.1270778,
+  "lon": -66.5368939,
+  "geo_display": "Bahía Bustamante, Departamento Escalante, Chubut, Argentina"
+ },
+ {
+  "nombre": "Puerto Deseado",
+  "slug": "puerto-deseado",
+  "dias": [
+   5,
+   6,
+   7,
+   8
+  ],
+  "roles": [
+   "noche",
+   "tramo"
+  ],
+  "tipo": "lugar",
+  "lat": -47.7516166,
+  "lon": -65.9013234,
+  "geo_display": "Municipio de Puerto Deseado, Deseado, Santa Cruz, 9050, Argentina"
+ },
+ {
+  "nombre": "Ruta Camarones – Puerto Deseado",
+  "slug": "ruta-camarones-puerto-deseado",
+  "dias": [
+   5
+  ],
+  "roles": [
+   "ruta"
+  ],
+  "tipo": "tramo",
+  "extremos": [
+   "camarones",
+   "puerto-deseado"
+  ],
+  "lat": -46.275055449999996,
+  "lon": -65.80584825,
+  "geo_display": "punto medio de Camarones – Puerto Deseado"
+ },
+ {
+  "nombre": "Puerto San Julián",
+  "slug": "puerto-san-julian",
+  "dias": [
+   8,
+   9
+  ],
+  "roles": [
+   "noche",
+   "tramo"
+  ],
+  "tipo": "lugar",
+  "lat": -49.3069531,
+  "lon": -67.7297851,
+  "geo_display": "Puerto San Julián, Magallanes, Santa Cruz, Argentina"
+ },
+ {
+  "nombre": "Ruta Puerto Deseado – Puerto San Julián",
+  "slug": "ruta-puerto-deseado-puerto-san-julian",
+  "dias": [
+   8
+  ],
+  "roles": [
+   "ruta"
+  ],
+  "tipo": "tramo",
+  "extremos": [
+   "puerto-deseado",
+   "puerto-san-julian"
+  ],
+  "lat": -48.529284849999996,
+  "lon": -66.81555424999999,
+  "geo_display": "punto medio de Puerto Deseado – Puerto San Julián"
+ },
+ {
+  "nombre": "Comandante Luis Piedrabuena",
+  "slug": "comandante-luis-piedrabuena",
+  "dias": [
+   9,
+   10
+  ],
+  "roles": [
+   "noche",
+   "tramo"
+  ],
+  "tipo": "lugar",
+  "lat": -49.983042,
+  "lon": -68.9187357,
+  "geo_display": "Comandante Luis Piedrabuena, Corpen Aike, Santa Cruz, Argentina"
+ },
+ {
+  "nombre": "Ruta Puerto San Julián – Comandante Luis Piedrabuena",
+  "slug": "ruta-puerto-san-julian-comandante-luis-piedrabuena",
+  "dias": [
+   9
+  ],
+  "roles": [
+   "ruta"
+  ],
+  "tipo": "tramo",
+  "extremos": [
+   "puerto-san-julian",
+   "comandante-luis-piedrabuena"
+  ],
+  "lat": -49.64499755,
+  "lon": -68.3242604,
+  "geo_display": "punto medio de Puerto San Julián – Comandante Luis Piedrabuena"
+ },
+ {
+  "nombre": "Gobernador Gregores",
+  "slug": "gobernador-gregores",
+  "dias": [
+   10,
+   11
+  ],
+  "roles": [
+   "noche",
+   "tramo"
+  ],
+  "tipo": "lugar",
+  "lat": -48.7508681,
+  "lon": -70.2485805,
+  "geo_display": "Gobernador Gregores, Río Chico, Santa Cruz, Argentina"
+ },
+ {
+  "nombre": "Ruta Comandante Luis Piedrabuena – Gobernador Gregores",
+  "slug": "ruta-comandante-luis-piedrabuena-gobernador-gregores",
+  "dias": [
+   10
+  ],
+  "roles": [
+   "ruta"
+  ],
+  "tipo": "tramo",
+  "extremos": [
+   "comandante-luis-piedrabuena",
+   "gobernador-gregores"
+  ],
+  "lat": -49.36695505,
+  "lon": -69.58365810000001,
+  "geo_display": "punto medio de Comandante Luis Piedrabuena – Gobernador Gregores"
+ },
+ {
+  "nombre": "Parque Nacional Perito Moreno",
+  "slug": "parque-nacional-perito-moreno",
+  "dias": [
+   11,
+   12,
+   13,
+   14,
+   15,
+   16
+  ],
+  "roles": [
+   "noche",
+   "tramo"
+  ],
+  "tipo": "lugar",
+  "lat": -47.9258463,
+  "lon": -72.3175521,
+  "geo_display": "Parque Nacional Perito Moreno, Río Chico, Santa Cruz, Argentina"
+ },
+ {
+  "nombre": "Ruta Gobernador Gregores – Parque Nacional Perito Moreno",
+  "slug": "ruta-gobernador-gregores-parque-nacional-perito-moreno",
+  "dias": [
+   11
+  ],
+  "roles": [
+   "ruta"
+  ],
+  "tipo": "tramo",
+  "extremos": [
+   "gobernador-gregores",
+   "parque-nacional-perito-moreno"
+  ],
+  "lat": -48.338357200000004,
+  "lon": -71.2830663,
+  "geo_display": "punto medio de Gobernador Gregores – Parque Nacional Perito Moreno"
+ },
+ {
+  "nombre": "Estancia La Oriental",
+  "slug": "estancia-la-oriental",
+  "dias": [
+   12,
+   13,
+   15,
+   16,
+   17
+  ],
+  "roles": [
+   "noche",
+   "tramo"
+  ],
+  "tipo": "lugar",
+  "lat": -47.84,
+  "lon": -72.17,
+  "geo_display": "coordenadas manuales (configs/viaje.toml)"
+ },
+ {
+  "nombre": "Comodoro Rivadavia",
+  "slug": "comodoro-rivadavia",
+  "dias": [
+   17,
+   18
+  ],
+  "roles": [
+   "noche",
+   "tramo"
+  ],
+  "tipo": "lugar",
+  "lat": -45.8632024,
+  "lon": -67.4752615,
+  "geo_display": "Municipio de Comodoro Rivadavia, Departamento Escalante, Chubut, U9000, Argentina"
+ },
+ {
+  "nombre": "Ruta Estancia La Oriental – Comodoro Rivadavia",
+  "slug": "ruta-estancia-la-oriental-comodoro-rivadavia",
+  "dias": [
+   17
+  ],
+  "roles": [
+   "ruta"
+  ],
+  "tipo": "tramo",
+  "extremos": [
+   "estancia-la-oriental",
+   "comodoro-rivadavia"
+  ],
+  "lat": -46.851601200000005,
+  "lon": -69.82263075,
+  "geo_display": "punto medio de Estancia La Oriental – Comodoro Rivadavia"
+ },
+ {
+  "nombre": "Isla Pingüino",
+  "slug": "isla-pinguino",
+  "dias": [
+   6
+  ],
+  "roles": [
+   "extra"
+  ],
+  "tipo": "lugar",
+  "lat": -47.91,
+  "lon": -65.72,
+  "geo_display": "coordenadas manuales (configs/viaje.toml)"
+ },
+ {
+  "nombre": "Ría Deseado",
+  "slug": "ria-deseado",
+  "dias": [
+   7
+  ],
+  "roles": [
+   "extra"
+  ],
+  "tipo": "lugar",
+  "lat": -47.7976975,
+  "lon": -66.0772987,
+  "geo_display": "Reserva Natural Provincial Ría de Puerto Deseado, Municipio de Puerto Deseado, Deseado, Santa Cruz, Argentina"
+ },
+ {
+  "nombre": "Cabo Blanco",
+  "slug": "cabo-blanco",
+  "dias": [
+   7
+  ],
+  "roles": [
+   "extra"
+  ],
+  "tipo": "lugar",
+  "lat": -47.2065894,
+  "lon": -65.7431228,
+  "geo_display": "Cabo Blanco, Deseado, Santa Cruz, Argentina"
+ },
+ {
+  "nombre": "Parque Nacional Monte León",
+  "slug": "parque-nacional-monte-leon",
+  "dias": [
+   10
+  ],
+  "roles": [
+   "extra"
+  ],
+  "tipo": "lugar",
+  "lat": -50.3371638,
+  "lon": -69.0171803,
+  "geo_display": "Parque Nacional Monte León, Corpen Aike, Santa Cruz, Argentina"
+ },
+ {
+  "nombre": "Península San Julián",
+  "slug": "peninsula-san-julian",
+  "dias": [
+   9
+  ],
+  "roles": [
+   "extra"
+  ],
+  "tipo": "lugar",
+  "lat": -49.3272897,
+  "lon": -67.6547998,
+  "geo_display": "Península San Julián, Magallanes, Santa Cruz, Argentina"
+ },
+ {
+  "nombre": "Isla Leones",
+  "slug": "isla-leones",
+  "dias": [
+   3
+  ],
+  "roles": [
+   "extra"
+  ],
+  "tipo": "lugar",
+  "lat": -45.0516927,
+  "lon": -65.6044497,
+  "geo_display": "Isla Leones, Departamento Atlántico, Chubut, Argentina"
+ },
+ {
+  "nombre": "Puerto Madryn",
+  "slug": "puerto-madryn",
+  "dias": [
+   2
+  ],
+  "roles": [
+   "extra"
+  ],
+  "tipo": "lugar",
+  "lat": -42.7673414,
+  "lon": -65.0365942,
+  "geo_display": "Municipio de Puerto Madryn, Departamento Biedma, Chubut, U9120, Argentina"
+ },
+ {
+  "nombre": "Trelew",
+  "slug": "trelew",
+  "dias": [
+   2
+  ],
+  "roles": [
+   "extra"
+  ],
+  "tipo": "lugar",
+  "lat": -43.2531242,
+  "lon": -65.3094407,
+  "geo_display": "Trelew, Municipio de Trelew, Departamento Rawson, Chubut, U9100, Argentina"
+ },
+ {
+  "nombre": "Viedma",
+  "slug": "viedma",
+  "dias": [
+   2,
+   18
+  ],
+  "roles": [
+   "extra"
+  ],
+  "tipo": "lugar",
+  "lat": -40.8084274,
+  "lon": -62.994722,
+  "geo_display": "Municipio de Viedma, Departamento Adolfo Alsina, Río Negro, Argentina"
+ },
+ {
+  "nombre": "Bahía Blanca",
+  "slug": "bahia-blanca",
+  "dias": [
+   1,
+   18
+  ],
+  "roles": [
+   "extra"
+  ],
+  "tipo": "lugar",
+  "lat": -38.7176522,
+  "lon": -62.2654871,
+  "geo_display": "Bahía Blanca, Cuartel I, Partido de Bahía Blanca, Buenos Aires, Argentina"
+ },
+ {
+  "nombre": "Caleta Olivia",
+  "slug": "caleta-olivia",
+  "dias": [
+   5
+  ],
+  "roles": [
+   "extra"
+  ],
+  "tipo": "lugar",
+  "lat": -46.442117,
+  "lon": -67.5175069,
+  "geo_display": "Caleta Olivia, Mercado de la Ciudad, Caleta Olivia, Deseado, Santa Cruz, 9011, Argentina"
+ },
+ {
+  "nombre": "Sarmiento",
+  "slug": "sarmiento",
+  "dias": [
+   17
+  ],
+  "roles": [
+   "extra"
+  ],
+  "tipo": "lugar",
+  "lat": -45.5867861,
+  "lon": -69.0687743,
+  "geo_display": "Sarmiento, Municipio de Sarmiento, Departamento Sarmiento, Chubut, U9020, Argentina"
+ },
+ {
+  "nombre": "Bosque Petrificado Sarmiento",
+  "slug": "bosque-petrificado-sarmiento",
+  "dias": [
+   17
+  ],
+  "roles": [
+   "extra"
+  ],
+  "tipo": "lugar",
+  "lat": -45.86,
+  "lon": -69.12,
+  "geo_display": "coordenadas manuales (configs/viaje.toml)"
+ }
+]
