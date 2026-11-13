@@ -86,6 +86,7 @@ dias = [17]
 # Coordenadas manuales para lo que el geocoder no encuentra.
 [geo_fix]
 "estancia-la-oriental" = { lat = -47.84, lon = -72.17 }
+"isla-pinguino" = { lat = -47.91, lon = -65.72 }
 "bosque-petrificado-sarmiento" = { lat = -45.86, lon = -69.12 }  # ~30 km al sur de Sarmiento, José Ormachea  # costa norte del Lago Belgrano, pie del Cerro León
 
 # Consultas de geocoding por lugar (cuando el nombre solo es ambiguo).
