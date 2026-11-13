@@ -21,13 +21,13 @@ itinerario real en 2-3 días (meta: 2026-11-15/16).
 - [x] 1.5 Empaquetador: data/relatos/*.json → app/content/relatos.json.
 
 ## Fase 2 — App (app/)
-- [ ] 2.1 Menú lugares → temas → relatos; reproducción con
+- [x] 2.1 Menú lugares → temas → relatos; reproducción con
       speechSynthesis (pausa/continuar/detener, selección de voz es-AR).
-- [ ] 2.2 Geolocalización + lugar más cercano + "¿qué hay para contar
+- [x] 2.2 Geolocalización + lugar más cercano + "¿qué hay para contar
       de acá?".
-- [ ] 2.3 Comando de voz: reconocimiento, matching, lista de candidatos
+- [x] 2.3 Comando de voz: reconocimiento, matching, lista de candidatos
       si hay varios, reproducción.
-- [ ] 2.4 PWA: manifest, service worker, instalación en el celular.
+- [x] 2.4 PWA: manifest, service worker, instalación en el celular.
 
 ## Fase 3 — Contenido real y prueba en ruta
 - [ ] 3.1 Cargar el itinerario real y generar los relatos de todos los
