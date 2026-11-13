@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import hashlib
 import json
 import re
 from datetime import date
@@ -106,9 +107,27 @@ def pack(places: list[dict], relatos_dir: Path, out: Path, nombre_viaje: str) ->
         "lugares": bundle_places,
     }
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(json.dumps(bundle, ensure_ascii=False, indent=1), encoding="utf-8")
+    payload = json.dumps(bundle, ensure_ascii=False, indent=1)
+    out.write_text(payload, encoding="utf-8")
+    bump_sw_version(out.parent.parent / "sw.js", payload)
     total = sum(len(p["relatos"]) for p in bundle_places)
     print(f"packed {total} relatos for {len(bundle_places)} places -> {out}")
     if without:
         print(f"WARNING: {len(without)} place(s) without relatos: {without}")
     return bundle
+
+
+_SW_VERSION = re.compile(r'const VERSION = "[^"]*";')
+
+
+def bump_sw_version(sw: Path, content: str) -> str | None:
+    """Rewrite the service worker's VERSION with a content hash so phones refetch
+    the bundle after a republish. Returns the new version, or None if sw.js is absent."""
+    if not sw.exists():
+        return None
+    version = f"v{date.today():%Y%m%d}-{hashlib.sha1(content.encode()).hexdigest()[:8]}"
+    sw.write_text(
+        _SW_VERSION.sub(f'const VERSION = "{version}";', sw.read_text(encoding="utf-8")),
+        encoding="utf-8",
+    )
+    return version

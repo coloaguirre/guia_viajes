@@ -64,8 +64,13 @@ def test_pack_builds_bundle_and_keeps_places_without_relatos(tmp_path, capsys):
         {"slug": "tandil", "nombre": "Tandil", "dias": [2], "lat": None, "lon": None},
     ]
     out = tmp_path / "app" / "content" / "relatos.json"
+    out.parent.mkdir(parents=True)
+    sw = tmp_path / "app" / "sw.js"
+    sw.write_text('const VERSION = "v1";\nconst X = 1;', encoding="utf-8")
     bundle = pack(places, rel, out, "Prueba")
     assert out.exists()
+    assert sw.read_text(encoding="utf-8").startswith('const VERSION = "v2')
+    assert "const X = 1;" in sw.read_text(encoding="utf-8")
     assert [p["slug"] for p in bundle["lugares"]] == ["azul", "tandil"]
     r = bundle["lugares"][0]["relatos"][0]
     assert r["id"] == "azul-fundacion-0"
