@@ -82,10 +82,44 @@ def cmd_validate(args) -> int:
     return 1 if errs else 0
 
 
+def audio_cfg(cfg: dict) -> dict | None:
+    a = cfg.get("audio")
+    if not a:
+        return None
+    return {
+        "dir": (ROOT / a["carpeta"]).resolve(),
+        "voice": a["voz"],
+        "rate": a.get("velocidad", "+0%"),
+        "base_url": a["base_url"],
+        "bitrate": a.get("bitrate", "24k"),
+    }
+
+
 def cmd_pack(args) -> None:
     if cmd_validate(args):
         sys.exit("fix validation problems before packing")
-    pack(load_places(), RELATOS, BUNDLE, load_cfg()["viaje"]["nombre"])
+    cfg = load_cfg()
+    pack(load_places(), RELATOS, BUNDLE, cfg["viaje"]["nombre"], audio=audio_cfg(cfg))
+
+
+def cmd_audio(args) -> None:
+    from guia.audio import prune, render
+
+    a = audio_cfg(load_cfg())
+    if not a:
+        sys.exit("no [audio] section in configs/viaje.toml")
+    stats = render(
+        RELATOS,
+        a["dir"],
+        a["voice"],
+        a["rate"],
+        a["bitrate"],
+        concurrency=args.jobs,
+        only_slug=args.slug,
+    )
+    if args.prune:
+        stats["pruned"] = prune(RELATOS, a["dir"], a["voice"], a["rate"])
+    print(stats)
 
 
 def main(argv=None) -> int:
@@ -96,6 +130,10 @@ def main(argv=None) -> int:
     sub.add_parser("prompts")
     sub.add_parser("validate")
     sub.add_parser("pack")
+    au = sub.add_parser("audio", help="render Opus audio per relato (edge-tts + ffmpeg)")
+    au.add_argument("--slug", help="only this place")
+    au.add_argument("--jobs", type=int, default=4)
+    au.add_argument("--prune", action="store_true", help="delete audio of removed relatos")
     a = sub.add_parser("all", help="parse + geocode + prompts")
     a.add_argument("itinerary")
     args = ap.parse_args(argv)
@@ -110,6 +148,7 @@ def main(argv=None) -> int:
         "prompts": cmd_prompts,
         "validate": cmd_validate,
         "pack": cmd_pack,
+        "audio": cmd_audio,
     }[args.cmd](args) or 0
 
 

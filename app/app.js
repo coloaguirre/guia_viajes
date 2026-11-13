@@ -76,8 +76,40 @@ function showPlace(slug) {
   const items = temas
     .map((t) => `<button class="item" data-tema="${t}">${t}<small>${l.relatos.filter((r) => r.tema === t).length} relatos</small></button>`)
     .join("");
-  render(l.nombre, `<div class="list">${items || "<div class='hint'>Todavía no hay relatos de este lugar.</div>"}</div>`);
+  const urls = l.relatos.map(audioUrl).filter(Boolean);
+  const dl = urls.length ? `<button class="item" id="dl">⬇ Guardar audio para usar sin señal<small id="dl-info">${urls.length} relatos</small></button>` : "";
+  render(l.nombre, `<div class="list">${dl}${items || "<div class='hint'>Todavía no hay relatos de este lugar.</div>"}</div>`);
   $("screen").querySelectorAll("[data-tema]").forEach((b) => (b.onclick = () => push(() => showTema(l, b.dataset.tema))));
+  if (urls.length) { updateDlInfo(urls); $("dl").onclick = () => downloadAll(urls); }
+}
+
+const AUDIO_CACHE = "audio-v1";
+async function cachedCount(urls) {
+  if (!("caches" in window)) return 0;
+  const c = await caches.open(AUDIO_CACHE);
+  let n = 0;
+  for (const u of urls) if (await c.match(u)) n++;
+  return n;
+}
+async function updateDlInfo(urls) {
+  const n = await cachedCount(urls);
+  const el = $("dl-info");
+  if (el) el.textContent = n === urls.length ? `${urls.length} relatos guardados ✓` : `${n} de ${urls.length} guardados`;
+}
+async function downloadAll(urls) {
+  if (!("caches" in window)) return setStatus("Este navegador no permite guardar audio.");
+  if (navigator.storage && navigator.storage.persist) navigator.storage.persist().catch(() => {});
+  const c = await caches.open(AUDIO_CACHE);
+  let n = 0;
+  for (const u of urls) {
+    if (!(await c.match(u))) {
+      try { await c.add(u); } catch (e) { setStatus("Falló la descarga: " + e.message); return; }
+    }
+    n++;
+    const el = $("dl-info");
+    if (el) el.textContent = `${n} de ${urls.length} guardados`;
+  }
+  setStatus("Audio guardado para usar sin señal.");
 }
 
 function showTema(l, tema) {
@@ -119,18 +151,55 @@ function sentences(text) {
   return text.replace(/\s+/g, " ").match(/[^.!?…]+[.!?…]+["»)]?|[^.!?…]+$/g).map((s) => s.trim()).filter(Boolean);
 }
 
+const audioEl = $("audio");
+const audioUrl = (r) => (r.audio && state.data.audio_base ? state.data.audio_base + r.audio : null);
+
+function showPlayer(relato, how) {
+  $("player").hidden = false;
+  $("player-title").textContent = relato.titulo;
+  $("player-meta").textContent = `${relato.lugar.nombre} · ${relato.tema} · ${relato.subtema} · ${relato.minutos} min · ${how}` + (state.queue.length ? ` · quedan ${state.queue.length}` : "");
+  $("p-next").disabled = !state.queue.length;
+  $("p-toggle").textContent = "❚❚";
+  $("p-back").disabled = how.startsWith("voz del");
+  if ("mediaSession" in navigator) {
+    navigator.mediaSession.metadata = new MediaMetadata({ title: relato.titulo, artist: relato.lugar.nombre, album: state.data.viaje, artwork: [{ src: "icon.svg", sizes: "128x128", type: "image/svg+xml" }] });
+  }
+}
+
 function play(relato) {
   stop();
+  const url = audioUrl(relato);
+  if (url) {
+    const job = { relato, audio: true, canceled: false };
+    state.speaking = job;
+    showPlayer(relato, "audio");
+    audioEl.src = url;
+    audioEl.play().catch((e) => { setStatus("No pude reproducir el audio (" + e.message + "); uso la voz del celular."); playTts(relato); });
+    return;
+  }
+  playTts(relato);
+}
+
+function playTts(relato) {
   if (!voice) voice = pickVoice();
   const parts = sentences(relato.texto);
   const job = { relato, parts, i: 0, paused: false, canceled: false };
   state.speaking = job;
-  $("player").hidden = false;
-  $("player-title").textContent = relato.titulo;
-  $("player-meta").textContent = `${relato.lugar.nombre} · ${relato.tema} · ${relato.subtema} · ${relato.minutos} min` + (voice ? ` · voz ${voice.name}` : " · sin voz en español") + (state.queue.length ? ` · quedan ${state.queue.length}` : "");
-  $("p-next").disabled = !state.queue.length;
-  $("p-toggle").textContent = "❚❚";
+  showPlayer(relato, voice ? `voz del celular (${voice.name})` : "voz del celular (sin español)");
   speakNext(job);
+}
+
+audioEl.ontimeupdate = () => { if (audioEl.duration) $("p-progress").value = audioEl.currentTime / audioEl.duration; };
+audioEl.onended = () => { $("p-toggle").textContent = "▶"; if (state.queue.length) playNext(); };
+audioEl.onpause = () => { if (state.speaking && state.speaking.audio && !audioEl.ended) $("p-toggle").textContent = "▶"; };
+audioEl.onplay = () => { $("p-toggle").textContent = "❚❚"; };
+if ("mediaSession" in navigator) {
+  const ms = navigator.mediaSession;
+  ms.setActionHandler("play", () => audioEl.play());
+  ms.setActionHandler("pause", () => audioEl.pause());
+  ms.setActionHandler("nexttrack", () => playNext());
+  ms.setActionHandler("seekbackward", (d) => { audioEl.currentTime = Math.max(0, audioEl.currentTime - (d.seekOffset || 15)); });
+  ms.setActionHandler("seekforward", (d) => { audioEl.currentTime = Math.min(audioEl.duration || 0, audioEl.currentTime + (d.seekOffset || 15)); });
 }
 function speakNext(job) {
   if (job.canceled) return;
@@ -152,17 +221,22 @@ function speakNext(job) {
 function stop() {
   if (state.speaking) state.speaking.canceled = true;
   synth.cancel();
+  audioEl.pause();
+  audioEl.removeAttribute("src");
+  audioEl.load();
 }
+$("p-back").onclick = () => { if (state.speaking && state.speaking.audio) audioEl.currentTime = Math.max(0, audioEl.currentTime - 15); };
 function playNext() {
   const next = state.queue.shift();
   if (next) play(next);
 }
 $("p-next").onclick = playNext;
 $("p-stop").onclick = () => { stop(); state.queue = []; $("player").hidden = true; };
-$("p-restart").onclick = () => state.speaking && play(state.speaking.relato);
+$("p-restart").onclick = () => { const j = state.speaking; if (!j) return; if (j.audio) { audioEl.currentTime = 0; audioEl.play(); } else play(j.relato); };
 $("p-toggle").onclick = () => {
   const job = state.speaking;
   if (!job) return;
+  if (job.audio) { if (audioEl.paused) audioEl.play(); else audioEl.pause(); return; }
   if (job.i >= job.parts.length) return play(job.relato);
   // pause()/resume() es poco confiable en Android: cancelamos y retomamos en la frase actual.
   if (job.paused) { job.paused = false; job.canceled = false; $("p-toggle").textContent = "❚❚"; speakNext(job); }

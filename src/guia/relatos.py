@@ -62,9 +62,21 @@ def validate_file(path: Path, min_words: int, max_words: int) -> list[str]:
     return errs
 
 
-def pack(places: list[dict], relatos_dir: Path, out: Path, nombre_viaje: str) -> dict:
+def pack(
+    places: list[dict],
+    relatos_dir: Path,
+    out: Path,
+    nombre_viaje: str,
+    audio: dict | None = None,
+) -> dict:
     """Join geocoded places with their relatos into app/content/relatos.json.
-    Places without relatos are kept (menu shows them empty) and counted."""
+    Places without relatos are kept (menu shows them empty) and counted.
+    `audio` = {'dir': Path, 'voice': str, 'rate': str, 'base_url': str}: when given,
+    each relato whose rendered file exists gets an 'audio' filename."""
+    from guia.audio import audio_key
+
+    audio_dir = Path(audio["dir"]) if audio else None
+    with_audio = 0
     by_slug = {p["slug"]: p for p in places}
     bundle_places = []
     without = []
@@ -74,9 +86,16 @@ def pack(places: list[dict], relatos_dir: Path, out: Path, nombre_viaje: str) ->
         if f.exists():
             doc = json.loads(f.read_text(encoding="utf-8"))
             for i, r in enumerate(doc["relatos"]):
+                item_audio = None
+                if audio_dir:
+                    key = audio_key(r["texto"], audio["voice"], audio["rate"])
+                    if (audio_dir / f"{key}.opus").exists():
+                        item_audio = f"{key}.opus"
+                        with_audio += 1
                 relatos.append(
                     {
                         "id": f"{p['slug']}-{slugify(r['subtema'])}-{i}",
+                        "audio": item_audio,
                         "tema": r["tema"],
                         "subtema": r["subtema"],
                         "titulo": r["titulo"],
@@ -104,6 +123,7 @@ def pack(places: list[dict], relatos_dir: Path, out: Path, nombre_viaje: str) ->
     bundle = {
         "viaje": nombre_viaje,
         "generado": date.today().isoformat(),
+        "audio_base": audio["base_url"] if audio else None,
         "lugares": bundle_places,
     }
     out.parent.mkdir(parents=True, exist_ok=True)
@@ -111,7 +131,9 @@ def pack(places: list[dict], relatos_dir: Path, out: Path, nombre_viaje: str) ->
     out.write_text(payload, encoding="utf-8")
     bump_sw_version(out.parent.parent / "sw.js", payload)
     total = sum(len(p["relatos"]) for p in bundle_places)
-    print(f"packed {total} relatos for {len(bundle_places)} places -> {out}")
+    print(
+        f"packed {total} relatos for {len(bundle_places)} places -> {out} ({with_audio} with audio)"
+    )
     if without:
         print(f"WARNING: {len(without)} place(s) without relatos: {without}")
     return bundle

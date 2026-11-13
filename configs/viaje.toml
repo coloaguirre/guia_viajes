@@ -107,3 +107,15 @@ temas = [
   "Costumbres y gente",
   "Qué ver y qué hacer",
 ]
+
+[audio]
+# Voz neural (edge-tts). Opciones rioplatenses: es-AR-ElenaNeural, es-AR-TomasNeural,
+# es-UY-ValentinaNeural, es-UY-MateoNeural.
+voz = "es-AR-ElenaNeural"
+velocidad = "-5%"
+# Dónde se publican los archivos de audio (carpeta local, fuera del repo principal).
+carpeta = "../guia_viajes_audio"
+# URL pública desde la que la app los descarga.
+base_url = "https://coloaguirre.github.io/guia_viajes_audio/"
+# Bitrate Opus mono (24k suena bien para voz y pesa ~11 MB por hora).
+bitrate = "24k"
