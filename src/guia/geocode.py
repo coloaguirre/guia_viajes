@@ -40,16 +40,30 @@ def geocode_places(
     hint: str,
     session: requests.Session | None = None,
     pause: float = 1.1,
+    queries: dict[str, str] | None = None,
+    fixes: dict[str, dict] | None = None,
 ) -> list[dict]:
     """Add lat/lon to each place dict (in place). Misses are kept with lat/lon None
-    and reported, never dropped."""
+    and reported, never dropped. Tramos (with 'extremos') get the midpoint of their
+    endpoints instead of a lookup. `queries` overrides the query text per slug."""
     cache = _load(cache_path)
     s = session or requests.Session()
+    queries = queries or {}
+    fixes = fixes or {}
     misses = []
+    by_slug = {p["slug"]: p for p in places}
+    tramos = [p for p in places if p.get("extremos")]
     for p in places:
+        if p.get("extremos"):
+            continue
         key = p["slug"]
+        if key in fixes:
+            p["lat"], p["lon"] = fixes[key]["lat"], fixes[key]["lon"]
+            p["geo_display"] = "coordenadas manuales (configs/viaje.toml)"
+            continue
         if key not in cache:
-            cache[key] = lookup(p["nombre"], hint, s)
+            q = queries.get(key)
+            cache[key] = lookup(q, "", s) if q else lookup(p["nombre"], hint, s)
             cache_path.parent.mkdir(parents=True, exist_ok=True)
             cache_path.write_text(json.dumps(cache, ensure_ascii=False, indent=1), encoding="utf-8")
             time.sleep(pause)  # Nominatim usage policy: max 1 req/s
@@ -59,6 +73,15 @@ def geocode_places(
         p["geo_display"] = hit["display"] if hit else None
         if not hit:
             misses.append(p["nombre"])
+    for t in tramos:
+        ends = [by_slug.get(e) for e in t["extremos"]]
+        if all(e and e.get("lat") is not None for e in ends):
+            t["lat"] = sum(e["lat"] for e in ends) / len(ends)
+            t["lon"] = sum(e["lon"] for e in ends) / len(ends)
+            t["geo_display"] = "punto medio de " + " – ".join(e["nombre"] for e in ends)
+        else:
+            t["lat"] = t["lon"] = t["geo_display"] = None
+            misses.append(t["nombre"])
     if misses:
         print(f"WARNING: {len(misses)} place(s) not geocoded: {misses}")
     return places

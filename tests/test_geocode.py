@@ -42,3 +42,26 @@ def test_geocode_uses_cache_and_keeps_misses(tmp_path, capsys):
     # Second run: cache hit, no new requests.
     geocode_places(places, cache, "Argentina", session=s, pause=0)
     assert len(s.calls) == 2
+
+
+def test_geocode_query_override_and_tramo_midpoint(tmp_path):
+    s = FakeSession()
+    places = [
+        {"slug": "a", "nombre": "A"},
+        {"slug": "b", "nombre": "B"},
+        {"slug": "ruta-a-b", "nombre": "Ruta A – B", "extremos": ["a", "b"]},
+    ]
+    geocode_places(
+        places, tmp_path / "c.json", "Argentina", session=s, pause=0, queries={"b": "B, Chubut"}
+    )
+    assert s.calls == ["A, Argentina", "B, Chubut"]
+    assert places[2]["lat"] == -41.1 and places[2]["geo_display"].startswith("punto medio")
+
+
+def test_geocode_manual_fix_skips_lookup(tmp_path):
+    s = FakeSession()
+    places = [{"slug": "x", "nombre": "X"}]
+    geocode_places(
+        places, tmp_path / "c.json", "", session=s, pause=0, fixes={"x": {"lat": 1.0, "lon": 2.0}}
+    )
+    assert s.calls == [] and places[0]["lat"] == 1.0

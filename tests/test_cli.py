@@ -8,6 +8,14 @@ def test_cli_parse_and_prompts_end_to_end(tmp_path, monkeypatch, capsys):
     monkeypatch.setattr(cli, "DATA", tmp_path)
     monkeypatch.setattr(cli, "PLACES", tmp_path / "lugares.json")
     monkeypatch.setattr(cli, "PROMPTS", tmp_path / "prompts")
+    monkeypatch.setattr(
+        cli,
+        "load_cfg",
+        lambda: {
+            "viaje": {"nombre": "T"},
+            "relato": {"min_palabras": 500, "max_palabras": 780, "temas": ["Historia"]},
+        },
+    )
     it = tmp_path / "it.csv"
     with it.open("w", newline="", encoding="utf-8") as f:
         csv.writer(f).writerows(
@@ -15,7 +23,7 @@ def test_cli_parse_and_prompts_end_to_end(tmp_path, monkeypatch, capsys):
         )
     assert cli.main(["parse", str(it)]) == 0
     places = json.loads((tmp_path / "lugares.json").read_text(encoding="utf-8"))
-    assert [p["slug"] for p in places] == ["azul", "tandil"]
+    assert [p["slug"] for p in places] == ["azul", "tandil", "ruta-azul-tandil"]
 
     assert cli.main(["prompts"]) == 0
     prompt = (tmp_path / "prompts" / "tandil.md").read_text(encoding="utf-8")

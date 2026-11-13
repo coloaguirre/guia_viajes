@@ -37,17 +37,26 @@ def save_places(places: list[dict]) -> None:
 
 
 def cmd_parse(args) -> None:
-    places = [p.to_dict() for p in parse_itinerary(args.itinerary)]
+    places = [p.to_dict() for p in parse_itinerary(args.itinerary, load_cfg())]
     save_places(places)
     print(f"{len(places)} places -> {PLACES}")
     for p in places:
-        print(f"  día {p['dias']}: {p['nombre']} ({'/'.join(p['roles'])})")
+        print(f"  día {p['dias']}: {p['nombre']} [{p['tipo']}: {'/'.join(p['roles'])}]")
 
 
 def cmd_geocode(args) -> None:
-    cfg = load_cfg()["viaje"]
-    hint = ", ".join(x for x in (cfg.get("region"), cfg.get("pais")) if x)
-    save_places(geocode_places(load_places(), DATA / "geocache.json", hint))
+    cfg = load_cfg()
+    v = cfg["viaje"]
+    hint = ", ".join(x for x in (v.get("region"), v.get("pais")) if x)
+    save_places(
+        geocode_places(
+            load_places(),
+            DATA / "geocache.json",
+            hint,
+            queries=cfg.get("geo_query"),
+            fixes=cfg.get("geo_fix"),
+        )
+    )
     print(f"geocoded -> {PLACES}")
 
 

@@ -1,15 +1,96 @@
 # Parámetros del viaje y del contenido. Se versiona.
+# (Las claves sueltas van ANTES de la primera tabla [..].)
+# Celdas o fragmentos que no son lugares.
+ignorar = ["casa", "excursion", "excursión", "dia de reserva", "día de reserva", "isla pinguino", "total viaje"]
+
 [viaje]
-nombre = "Viaje"
+nombre = "Patagonia nov 2026"
+# Hoja del Excel con el itinerario (si no se indica, la primera que
+# tenga una columna "Tramo / Base").
+hoja = "Plan B (+Pla San Julian)"
 # Pista para el geocoder: país y, si ayuda, región (en texto libre).
 pais = "Argentina"
 region = ""
 
+# Nombres como aparecen en el Excel (en minúsculas, sin acentos) -> nombre canónico.
+[alias]
+"bs as" = "Buenos Aires"
+"rio colorado" = "Río Colorado"
+"comodoro riv" = "Comodoro Rivadavia"
+"gdor. gregores" = "Gobernador Gregores"
+"gregores" = "Gobernador Gregores"
+"l.piedrabuena" = "Comandante Luis Piedrabuena"
+"piedrabuena" = "Comandante Luis Piedrabuena"
+"pto san julian" = "Puerto San Julián"
+"puerto san julian" = "Puerto San Julián"
+"pn perito moreno" = "Parque Nacional Perito Moreno"
+"p.n. perito moreno" = "Parque Nacional Perito Moreno"
+"ea. la oriental" = "Estancia La Oriental"
+"ea la oriental" = "Estancia La Oriental"
+"la oriental" = "Estancia La Oriental"
+"cabo dos bahias" = "Cabo Dos Bahías"
+"bahia bustamante" = "Bahía Bustamante"
+
+# Lugares que no están en las columnas del itinerario pero sí en el viaje
+# (excursiones, paradas de ruta). Día = cuándo se visitan.
+[[extra]]
+nombre = "Isla Pingüino"
+dias = [6]
+geo = "Isla Pingüino, Puerto Deseado, Santa Cruz, Argentina"
+[[extra]]
+nombre = "Ría Deseado"
+dias = [7]
+[[extra]]
+nombre = "Cabo Blanco"
+dias = [7]
+geo = "Reserva Natural Cabo Blanco, Santa Cruz, Argentina"
+[[extra]]
+nombre = "Parque Nacional Monte León"
+dias = [10]
+[[extra]]
+nombre = "Península San Julián"
+dias = [9]
+geo = "Península San Julián, Santa Cruz, Argentina"
+[[extra]]
+nombre = "Isla Leones"
+dias = [3]
+geo = "Isla Leones, Chubut, Argentina"
+[[extra]]
+nombre = "Puerto Madryn"
+dias = [2]
+[[extra]]
+nombre = "Trelew"
+dias = [2]
+[[extra]]
+nombre = "Viedma"
+dias = [2, 18]
+[[extra]]
+nombre = "Bahía Blanca"
+dias = [1, 18]
+[[extra]]
+nombre = "Caleta Olivia"
+dias = [5, 17]
+
+# Rutas de vuelta que son el mismo camino que una de ida: se fusionan
+# (slug a fusionar -> slug que queda).
+[fusionar]
+"ruta-rio-colorado-buenos-aires" = "ruta-buenos-aires-rio-colorado"
+"ruta-comodoro-rivadavia-rio-colorado" = "ruta-rio-colorado-camarones"
+
+# Coordenadas manuales para lo que el geocoder no encuentra.
+[geo_fix]
+"estancia-la-oriental" = { lat = -47.84, lon = -72.17 }  # costa norte del Lago Belgrano, pie del Cerro León
+
+# Consultas de geocoding por lugar (cuando el nombre solo es ambiguo).
+[geo_query]
+"rio-colorado" = "Río Colorado, Río Negro, Argentina"
+"camarones" = "Camarones, Chubut, Argentina"
+"estancia-la-oriental" = "Estancia La Oriental, Parque Nacional Perito Moreno, Santa Cruz, Argentina"
+"cabo-raso" = "Cabo Raso, Chubut, Argentina"
+
 [relato]
 min_palabras = 500
 max_palabras = 780
-# Temas que se piden por lugar. El redactor puede omitir los que no
-# tengan sustancia para ese lugar y agregar subtemas propios.
 temas = [
   "Historia",
   "Naturaleza y biología",
