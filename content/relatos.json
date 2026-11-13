@@ -1,6 +1,7 @@
 {
  "viaje": "Patagonia nov 2026",
  "generado": "2026-11-13",
+ "audio_base": "https://coloaguirre.github.io/guia_viajes_audio/",
  "lugares": [
   {
    "slug": "buenos-aires",
@@ -27,6 +28,7 @@
    "relatos": [
     {
      "id": "rio-colorado-de-buena-parada-a-la-ciudad-actual-expedicion-tren-crecida-y-bombardeo-0",
+     "audio": null,
      "tema": "Historia",
      "subtema": "De Buena Parada a la ciudad actual: expedición, tren, crecida y bombardeo",
      "titulo": "Buena Parada, la crecida y las bombas",
@@ -45,6 +47,7 @@
     },
     {
      "id": "rio-colorado-el-rio-colorado-origen-caudal-color-y-frontera-de-la-patagonia-1",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "El río Colorado: origen, caudal, color y frontera de la Patagonia",
      "titulo": "El río que dibuja la frontera",
@@ -63,6 +66,7 @@
     },
     {
      "id": "rio-colorado-chacras-cebolla-fruta-y-sidra-que-comer-y-que-hacer-en-la-noche-de-paso-2",
+     "audio": null,
      "tema": "Comidas y bebidas",
      "subtema": "Chacras, cebolla, fruta y sidra: qué comer y qué hacer en la noche de paso",
      "titulo": "Cebolla, sidra vasca y una noche junto al río",
@@ -81,6 +85,7 @@
     },
     {
      "id": "rio-colorado-el-vaciamiento-de-la-laguna-carri-lauquen-y-la-gran-crecida-de-mil-novecientos-catorce-3",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "El vaciamiento de la laguna Carri Lauquen y la gran crecida de mil novecientos catorce",
      "titulo": "El día que se vació una laguna de montaña",
@@ -101,6 +106,7 @@
     },
     {
      "id": "rio-colorado-el-rio-colorado-como-sistema-cuenca-regimen-de-deshielo-el-comite-interjurisdiccional-y-la-presa-de-casa-de-piedra-4",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "El río Colorado como sistema: cuenca, régimen de deshielo, el Comité Interjurisdiccional y la presa de Casa de Piedra",
      "titulo": "Un río, cinco provincias y una válvula",
@@ -121,6 +127,7 @@
     },
     {
      "id": "rio-colorado-el-riego-del-valle-salto-andersen-las-colonias-el-valle-bonaerense-y-el-cultivo-de-la-cebolla-5",
+     "audio": null,
      "tema": "Costumbres y gente",
      "subtema": "El riego del valle: Salto Andersen, las colonias, el valle bonaerense y el cultivo de la cebolla",
      "titulo": "Agua tomada al río, cebolla para el Brasil",
@@ -141,6 +148,7 @@
     },
     {
      "id": "rio-colorado-fauna-del-rio-y-las-barrancas-loro-barranquero-aves-acuaticas-y-peces-patagonicos-6",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Fauna del río y las barrancas: loro barranquero, aves acuáticas y peces patagónicos",
      "titulo": "Loros en la barranca, peces antiguos en el agua",
@@ -161,6 +169,7 @@
     },
     {
      "id": "rio-colorado-el-monte-jarillas-alpatacos-y-chanares-sus-aves-y-mamiferos-y-las-fronteras-que-se-cruzan-en-el-rio-7",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El monte: jarillas, alpatacos y chañares, sus aves y mamíferos, y las fronteras que se cruzan en el río",
      "titulo": "Donde termina la pampa y empieza el monte",
@@ -193,6 +202,7 @@
    "relatos": [
     {
      "id": "ruta-buenos-aires-rio-colorado-fuertes-postas-y-pueblos-de-frontera-en-orden-de-fundacion-0",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Fuertes, postas y pueblos de frontera en orden de fundación",
      "titulo": "La ruta que sigue la frontera",
@@ -211,6 +221,7 @@
     },
     {
      "id": "ruta-buenos-aires-rio-colorado-del-ferrocarril-del-sud-a-la-ruta-nacional-tres-como-se-trazo-el-camino-1",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Del ferrocarril del Sud a la ruta nacional tres: cómo se trazó el camino",
      "titulo": "Rieles primero, asfalto después",
@@ -229,6 +240,7 @@
     },
     {
      "id": "ruta-buenos-aires-rio-colorado-el-gradiente-de-lluvia-de-la-pampa-deprimida-al-monte-2",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "El gradiente de lluvia: de la pampa deprimida al monte",
      "titulo": "De la pampa mojada al monte seco",
@@ -247,6 +259,7 @@
     },
     {
      "id": "ruta-buenos-aires-rio-colorado-canuelas-el-pacto-de-mil-ochocientos-veintinueve-la-caledonia-y-la-martona-3",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Cañuelas: el Pacto de mil ochocientos veintinueve, La Caledonia y La Martona",
      "titulo": "Un pacto, un toro y una lechería en Cañuelas",
@@ -266,6 +279,7 @@
     },
     {
      "id": "ruta-buenos-aires-rio-colorado-la-pampa-deprimida-y-la-cuenca-del-salado-geologia-suelos-e-inundaciones-4",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "La pampa deprimida y la cuenca del Salado: geología, suelos e inundaciones",
      "titulo": "La llanura donde el agua no sabe adónde ir",
@@ -285,6 +299,7 @@
     },
     {
      "id": "ruta-buenos-aires-rio-colorado-aves-de-las-lagunas-pampeanas-cisnes-coscorobas-flamencos-ciguenas-y-chajaes-5",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Aves de las lagunas pampeanas: cisnes, coscorobas, flamencos, cigüeñas y chajáes",
      "titulo": "Cisnes y flamencos en las lagunas de la llanura",
@@ -304,6 +319,7 @@
     },
     {
      "id": "ruta-buenos-aires-rio-colorado-las-flores-y-la-historia-agraria-del-salado-enfiteusis-estancias-de-rosas-fiebre-del-lanar-6",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Las Flores y la historia agraria del Salado: enfiteusis, estancias de Rosas, fiebre del lanar",
      "titulo": "Las Flores, tierra de Rosas y de ovejas",
@@ -323,6 +339,7 @@
     },
     {
      "id": "ruta-buenos-aires-rio-colorado-el-sistema-de-tandilia-y-las-sierras-de-azul-el-basamento-mas-antiguo-del-pais-7",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "El sistema de Tandilia y las sierras de Azul: el basamento más antiguo del país",
      "titulo": "Las piedras más viejas de la Argentina",
@@ -342,6 +359,7 @@
     },
     {
      "id": "ruta-buenos-aires-rio-colorado-fortines-malones-catriel-la-zanja-de-alsina-y-la-campana-de-roca-8",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Fortines, malones, Catriel, la zanja de Alsina y la campaña de Roca",
      "titulo": "La frontera de los fortines y los malones",
@@ -362,6 +380,7 @@
     },
     {
      "id": "ruta-buenos-aires-rio-colorado-azul-francisco-salamone-la-biblioteca-ronco-y-la-ciudad-cervantina-9",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "Azul: Francisco Salamone, la biblioteca Ronco y la ciudad cervantina",
      "titulo": "Ángeles de hormigón y Quijotes de papel",
@@ -381,6 +400,7 @@
     },
     {
      "id": "ruta-buenos-aires-rio-colorado-fauna-que-se-ve-desde-el-auto-en-noviembre-10",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Fauna que se ve desde el auto en noviembre",
      "titulo": "Lo que vive en la banquina",
@@ -399,6 +419,7 @@
     },
     {
      "id": "ruta-buenos-aires-rio-colorado-mamiferos-de-la-llanura-vizcacha-zorro-pampeano-peludo-liebre-europea-y-otros-11",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Mamíferos de la llanura: vizcacha, zorro pampeano, peludo, liebre europea y otros",
      "titulo": "Vizcachas, zorros y peludos: los mamíferos de la banquina",
@@ -419,6 +440,7 @@
     },
     {
      "id": "ruta-buenos-aires-rio-colorado-tres-arroyos-holandeses-daneses-trigo-y-el-sitio-arqueologico-arroyo-seco-12",
+     "audio": null,
      "tema": "Costumbres y gente",
      "subtema": "Tres Arroyos: holandeses, daneses, trigo y el sitio arqueológico Arroyo Seco",
      "titulo": "Tres Arroyos, holandeses y daneses en la pampa triguera",
@@ -438,6 +460,7 @@
     },
     {
      "id": "ruta-buenos-aires-rio-colorado-aves-de-pastizal-nandu-perdices-o-inambues-y-la-loica-pampeana-13",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Aves de pastizal: ñandú, perdices o inambúes y la loica pampeana",
      "titulo": "Los machos que incuban y el pájaro que se queda sin pastizal",
@@ -457,6 +480,7 @@
     },
     {
      "id": "ruta-buenos-aires-rio-colorado-la-agricultura-del-camino-trigo-soja-girasol-cria-vacuna-ajo-y-cebolla-14",
+     "audio": null,
      "tema": "Comidas y bebidas",
      "subtema": "La agricultura del camino: trigo, soja, girasol, cría vacuna, ajo y cebolla",
      "titulo": "Ochocientos kilómetros de campo, cultivo por cultivo",
@@ -477,6 +501,7 @@
     },
     {
      "id": "ruta-buenos-aires-rio-colorado-que-se-produce-y-que-se-come-a-lo-largo-del-camino-15",
+     "audio": null,
      "tema": "Comidas y bebidas",
      "subtema": "Qué se produce y qué se come a lo largo del camino",
      "titulo": "Dulce de leche, trigo, ajo y cebolla",
@@ -495,6 +520,7 @@
     },
     {
      "id": "ruta-buenos-aires-rio-colorado-el-espinal-y-el-calden-ecologia-de-prosopis-caldenia-al-oeste-de-bahia-blanca-16",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El espinal y el caldén: ecología de Prosopis caldenia al oeste de Bahía Blanca",
      "titulo": "El caldén, un algarrobo que solo existe acá",
@@ -515,6 +541,7 @@
     },
     {
      "id": "ruta-buenos-aires-rio-colorado-el-rio-colorado-como-sistema-cuenca-riego-casa-de-piedra-y-la-distribucion-del-agua-entre-provincias-17",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "El río Colorado como sistema: cuenca, riego, Casa de Piedra y la distribución del agua entre provincias",
      "titulo": "Un río compartido por cinco provincias",
@@ -534,6 +561,7 @@
     },
     {
      "id": "ruta-buenos-aires-rio-colorado-paradas-que-valen-la-pena-y-detalles-de-la-ruta-18",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "Paradas que valen la pena y detalles de la ruta",
      "titulo": "Salamone, holandeses y la vuelta por el mismo camino",
@@ -566,6 +594,7 @@
    "relatos": [
     {
      "id": "camarones-de-la-expedicion-de-alcazaba-al-decreto-de-mil-novecientos-0",
+     "audio": null,
      "tema": "Historia",
      "subtema": "De la expedición de Alcazaba al decreto de mil novecientos",
      "titulo": "El pueblo más viejo del Chubut",
@@ -584,6 +613,7 @@
     },
     {
      "id": "camarones-tehuelches-y-arqueologia-seis-mil-anos-de-gente-en-esta-costa-1",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Tehuelches y arqueología: seis mil años de gente en esta costa",
      "titulo": "Concheros, obsidiana y un entierro de hace dos mil años en Cabo Dos Bahías",
@@ -605,6 +635,7 @@
     },
     {
      "id": "camarones-alcazaba-y-la-nueva-leon-de-mil-quinientos-treinta-y-cinco-2",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Alcazaba y la Nueva León de mil quinientos treinta y cinco",
      "titulo": "Un gobernador portugués, doscientos cincuenta hombres y un motín en la estepa",
@@ -625,6 +656,7 @@
     },
     {
      "id": "camarones-el-puerto-de-la-lana-y-el-naufragio-del-villarino-3",
+     "audio": null,
      "tema": "Historia",
      "subtema": "El puerto de la lana y el naufragio del Villarino",
      "titulo": "Fardos, lanchones y el barco que trajo a San Martín",
@@ -646,6 +678,7 @@
     },
     {
      "id": "camarones-la-infancia-de-peron-en-camarones-4",
+     "audio": null,
      "tema": "Historia",
      "subtema": "La infancia de Perón en Camarones",
      "titulo": "El chico de la estancia La Maciega",
@@ -663,6 +696,7 @@
     },
     {
      "id": "camarones-de-la-lana-a-la-pesca-el-siglo-veinte-y-el-despoblamiento-de-la-costa-5",
+     "audio": null,
      "tema": "Historia",
      "subtema": "De la lana a la pesca: el siglo veinte y el despoblamiento de la costa",
      "titulo": "Cuando la ruta se fue tierra adentro y el pueblo se quedó mirando al mar",
@@ -684,6 +718,7 @@
     },
     {
      "id": "camarones-patagonia-azul-el-mar-protegido-frente-al-pueblo-6",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Patagonia Azul: el mar protegido frente al pueblo",
      "titulo": "El parque que empieza en la puerta",
@@ -701,6 +736,7 @@
     },
     {
      "id": "camarones-patagonia-azul-como-se-crearon-y-como-se-manejan-las-areas-protegidas-7",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Patagonia Azul: cómo se crearon y cómo se manejan las áreas protegidas",
      "titulo": "Tres figuras de protección y una fundación que compra estancias",
@@ -722,6 +758,7 @@
     },
     {
      "id": "camarones-el-pinguino-de-magallanes-biologia-colonias-y-que-pasa-en-noviembre-8",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El pingüino de Magallanes: biología, colonias y qué pasa en noviembre",
      "titulo": "Un millón de parejas y pichones de una semana en los nidos",
@@ -743,6 +780,7 @@
     },
     {
      "id": "camarones-cormoranes-imperial-cuello-negro-y-bigua-9",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Cormoranes: imperial, cuello negro y biguá",
      "titulo": "Los buceadores de las islas y el guano que se vendía por toneladas",
@@ -764,6 +802,7 @@
     },
     {
      "id": "camarones-gaviotas-gaviotines-escuas-y-petrel-gigante-10",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Gaviotas, gaviotines, escúas y petrel gigante",
      "titulo": "Los oportunistas, los pescadores finos y los piratas del aire",
@@ -786,6 +825,7 @@
     },
     {
      "id": "camarones-el-pato-vapor-cabeza-blanca-endemico-y-no-volador-11",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El pato vapor cabeza blanca, endémico y no volador",
      "titulo": "Un pato que no vuela y que no existe en ningún otro lugar del mundo",
@@ -806,6 +846,7 @@
     },
     {
      "id": "camarones-aves-playeras-migratorias-del-artico-a-bahia-bustamante-12",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Aves playeras migratorias: del Ártico a Bahía Bustamante",
      "titulo": "Los viajeros del Ártico y el playero que dejó de venir",
@@ -827,6 +868,7 @@
     },
     {
      "id": "camarones-lobos-marinos-de-uno-y-dos-pelos-y-elefante-marino-13",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Lobos marinos de uno y dos pelos y elefante marino",
      "titulo": "Del matadero de cueros a la gripe aviar: los pinnípedos del golfo",
@@ -849,6 +891,7 @@
     },
     {
      "id": "camarones-tonina-overa-delfin-oscuro-y-orca-14",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Tonina overa, delfín oscuro y orca",
      "titulo": "El delfín blanco y negro de la bahía y sus parientes del golfo",
@@ -870,6 +913,7 @@
     },
     {
      "id": "camarones-ballenas-del-golfo-san-jorge-sei-jorobada-franca-y-minke-15",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Ballenas del golfo San Jorge: sei, jorobada, franca y minke",
      "titulo": "Un santuario de ballenas descubierto hace cinco años",
@@ -891,6 +935,7 @@
     },
     {
      "id": "camarones-mamiferos-de-la-estepa-guanaco-mara-zorros-piche-y-puma-16",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Mamíferos de la estepa: guanaco, mara, zorros, piche y puma",
      "titulo": "La estepa que se ve desde el auto y lo que camina en ella",
@@ -913,6 +958,7 @@
     },
     {
      "id": "camarones-aves-de-la-estepa-y-de-la-costa-rocosa-choique-martineta-rapaces-y-pajaros-17",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Aves de la estepa y de la costa rocosa: choique, martineta, rapaces y pájaros",
      "titulo": "Lo que canta, corre y planea sobre el arbustal",
@@ -935,6 +981,7 @@
     },
     {
      "id": "camarones-el-intermareal-rocoso-mareas-mejillines-pulpito-tehuelche-e-invasores-18",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El intermareal rocoso: mareas, mejillines, pulpito tehuelche e invasores",
      "titulo": "Lo que queda al descubierto cuando baja el mar",
@@ -957,6 +1004,7 @@
     },
     {
      "id": "camarones-bosques-de-macroalgas-cachiyuyo-gracilaria-y-wakame-19",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Bosques de macroalgas: cachiyuyo, gracilaria y wakame",
      "titulo": "El bosque sumergido que se cosechó, se perdió y se intenta replantar",
@@ -979,6 +1027,7 @@
     },
     {
      "id": "camarones-flora-de-la-estepa-arbustiva-y-de-la-costa-20",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Flora de la estepa arbustiva y de la costa",
      "titulo": "Quilembai, duraznillo, calafate y las plantas que los tehuelches usaban",
@@ -1001,6 +1050,7 @@
     },
     {
      "id": "camarones-el-complejo-marifil-el-vulcanismo-jurasico-que-hizo-los-cabos-21",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "El Complejo Marifil: el vulcanismo jurásico que hizo los cabos",
      "titulo": "Cuando la Patagonia explotó: las rocas rojas de Gondwana",
@@ -1022,6 +1072,7 @@
     },
     {
      "id": "camarones-rodados-terrazas-y-cordones-el-cuaternario-que-modelo-la-costa-22",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Rodados, terrazas y cordones: el Cuaternario que modeló la costa",
      "titulo": "Lo que el mar y el hielo dejaron apilado en los últimos millones de años",
@@ -1043,6 +1094,7 @@
     },
     {
      "id": "camarones-langostino-salmon-de-mar-pulpito-y-algas-23",
+     "audio": null,
      "tema": "Comidas y bebidas",
      "subtema": "Langostino, salmón de mar, pulpito y algas",
      "titulo": "Lo que se come frente al golfo",
@@ -1061,6 +1113,7 @@
     },
     {
      "id": "camarones-el-langostino-patagonico-biologia-y-pesqueria-del-golfo-24",
+     "audio": null,
      "tema": "Comidas y bebidas",
      "subtema": "El langostino patagónico: biología y pesquería del golfo",
      "titulo": "El crustáceo rojo que sostiene al golfo San Jorge",
@@ -1081,6 +1134,7 @@
     },
     {
      "id": "camarones-la-fiesta-nacional-del-salmon-25",
+     "audio": null,
      "tema": "Costumbres y gente",
      "subtema": "La Fiesta Nacional del Salmón",
      "titulo": "Un salmón que no es salmón",
@@ -1098,6 +1152,7 @@
     },
     {
      "id": "camarones-oficios-y-calendario-esquila-pulperos-pescadores-y-el-viento-26",
+     "audio": null,
      "tema": "Costumbres y gente",
      "subtema": "Oficios y calendario: esquila, pulperos, pescadores y el viento",
      "titulo": "Vivir en un pueblo de mil seiscientos habitantes al borde del golfo",
@@ -1120,6 +1175,7 @@
     },
     {
      "id": "camarones-playas-costanera-museo-y-salidas-al-mar-27",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "Playas, costanera, museo y salidas al mar",
      "titulo": "Camarones en tres o cuatro días",
@@ -1150,6 +1206,7 @@
    "relatos": [
     {
      "id": "ruta-rio-colorado-camarones-el-rio-negro-y-su-valle-inferior-0",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "El río Negro y su valle inferior",
      "titulo": "El río más caudaloso de la Patagonia, visto desde el puente",
@@ -1170,6 +1227,7 @@
     },
     {
      "id": "ruta-rio-colorado-camarones-el-cruce-del-rio-negro-carmen-de-patagones-y-viedma-1",
+     "audio": null,
      "tema": "Historia",
      "subtema": "El cruce del río Negro: Carmen de Patagones y Viedma",
      "titulo": "Dos orillas y un fuerte de mil setecientos setenta y nueve",
@@ -1189,6 +1247,7 @@
     },
     {
      "id": "ruta-rio-colorado-camarones-el-monte-patagonico-y-su-flora-jarilla-zampa-y-alpataco-2",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El monte patagónico y su flora: jarilla, zampa y alpataco",
      "titulo": "Un bosque enano que huele a resina",
@@ -1209,6 +1268,7 @@
     },
     {
      "id": "ruta-rio-colorado-camarones-el-golfo-san-matias-san-antonio-oeste-y-las-grutas-3",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "El golfo San Matías: San Antonio Oeste y Las Grutas",
      "titulo": "Un bajo que el mar inundó",
@@ -1228,6 +1288,7 @@
     },
     {
      "id": "ruta-rio-colorado-camarones-el-golfo-san-matias-por-dentro-mareas-pesca-y-sal-4",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El golfo San Matías por dentro: mareas, pesca y sal",
      "titulo": "Un mar casi cerrado que fabrica merluzas, pulpitos y sal",
@@ -1248,6 +1309,7 @@
     },
     {
      "id": "ruta-rio-colorado-camarones-historia-de-la-ruta-tres-y-del-poblamiento-de-la-costa-5",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Historia de la ruta tres y del poblamiento de la costa",
      "titulo": "Antes del asfalto: barcos, rastrilladas y un tren que iba al oeste",
@@ -1268,6 +1330,7 @@
     },
     {
      "id": "ruta-rio-colorado-camarones-la-meseta-de-somuncura-volcanes-y-endemismos-6",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "La meseta de Somuncurá: volcanes y endemismos",
      "titulo": "La piedra que habla y sus peces sin escamas",
@@ -1288,6 +1351,7 @@
     },
     {
      "id": "ruta-rio-colorado-camarones-sierra-grande-y-la-mina-de-hierro-7",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Sierra Grande y la mina de hierro",
      "titulo": "El hierro que durmió cuatrocientos millones de años",
@@ -1307,6 +1371,7 @@
     },
     {
      "id": "ruta-rio-colorado-camarones-el-limite-con-chubut-los-rodados-patagonicos-y-los-bajos-sin-salida-8",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "El límite con Chubut, los rodados patagónicos y los bajos sin salida",
      "titulo": "Piedras redondas en lo alto y huecos bajo el nivel del mar",
@@ -1327,6 +1392,7 @@
     },
     {
      "id": "ruta-rio-colorado-camarones-mamiferos-de-banquina-guanaco-mara-zorro-gris-y-piche-9",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Mamíferos de banquina: guanaco, mara, zorro gris y piche",
      "titulo": "Guanacos, maras y armadillos: la vida al costado del asfalto",
@@ -1347,6 +1413,7 @@
     },
     {
      "id": "ruta-rio-colorado-camarones-aves-de-banquina-choique-aguila-mora-carancho-y-loro-barranquero-10",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Aves de banquina: choique, águila mora, carancho y loro barranquero",
      "titulo": "Un avestruz que cría solo y un águila que vigila desde los postes",
@@ -1367,6 +1434,7 @@
     },
     {
      "id": "ruta-rio-colorado-camarones-peninsula-valdes-a-lo-lejos-y-las-ballenas-de-noviembre-11",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Península Valdés a lo lejos y las ballenas de noviembre",
      "titulo": "Las últimas ballenas de la temporada",
@@ -1387,6 +1455,7 @@
     },
     {
      "id": "ruta-rio-colorado-camarones-puerto-madryn-y-trelew-desde-la-ruta-los-galeses-el-valle-y-el-ferrocarril-12",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Puerto Madryn y Trelew desde la ruta: los galeses, el valle y el ferrocarril",
      "titulo": "Ciento cincuenta y tres galeses y un tren que le dio nombre a una ciudad",
@@ -1407,6 +1476,7 @@
     },
     {
      "id": "ruta-rio-colorado-camarones-la-estepa-de-chubut-al-sur-de-trelew-y-el-viento-13",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "La estepa de Chubut al sur de Trelew y el viento",
      "titulo": "El viento que dibuja la estepa",
@@ -1427,6 +1497,7 @@
     },
     {
      "id": "ruta-rio-colorado-camarones-de-trelew-a-garayalde-y-el-desvio-a-camarones-14",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "De Trelew a Garayalde y el desvío a Camarones",
      "titulo": "Garayalde, el parador de la nada, y la bajada al mar",
@@ -1447,6 +1518,7 @@
     },
     {
      "id": "ruta-rio-colorado-camarones-logistica-del-tramo-combustible-comidas-y-tiempos-15",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "Logística del tramo: combustible, comidas y tiempos",
      "titulo": "Dónde cargar, dónde comer y cuándo llegar",
@@ -1478,6 +1550,7 @@
    "relatos": [
     {
      "id": "cabo-dos-bahias-caleta-hornos-nueva-leon-y-la-reserva-de-mil-novecientos-setenta-y-tres-0",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Caleta Hornos, Nueva León y la reserva de mil novecientos setenta y tres",
      "titulo": "Un cabo entre dos bahías y una ciudad que no fue",
@@ -1495,6 +1568,7 @@
     },
     {
      "id": "cabo-dos-bahias-la-pinguinera-en-noviembre-1",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "La pingüinera en noviembre",
      "titulo": "Pichones bajo el quilembai",
@@ -1512,6 +1586,7 @@
     },
     {
      "id": "cabo-dos-bahias-guanacos-choiques-y-lobos-marinos-2",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Guanacos, choiques y lobos marinos",
      "titulo": "Guanacos entre pingüinos",
@@ -1529,6 +1604,7 @@
     },
     {
      "id": "cabo-dos-bahias-rocas-volcanicas-jurasicas-y-bahias-de-grava-3",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Rocas volcánicas jurásicas y bahías de grava",
      "titulo": "Rojo volcánico sobre mar turquesa",
@@ -1546,6 +1622,7 @@
     },
     {
      "id": "cabo-dos-bahias-el-pinguino-de-magallanes-taxonomia-cuerpo-dieta-y-viajes-4",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El pingüino de Magallanes: taxonomía, cuerpo, dieta y viajes",
      "titulo": "Un ave que cambió el cielo por el agua",
@@ -1566,6 +1643,7 @@
     },
     {
      "id": "cabo-dos-bahias-investigacion-cientifica-en-la-colonia-y-la-reserva-5",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Investigación científica en la colonia y la reserva",
      "titulo": "Cuarenta años de ciencia detrás del alambrado",
@@ -1586,6 +1664,7 @@
     },
     {
      "id": "cabo-dos-bahias-cormoranes-petrel-gigante-y-gaviotines-las-aves-marinas-que-nidifican-en-las-islas-6",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Cormoranes, petrel gigante y gaviotines: las aves marinas que nidifican en las islas",
      "titulo": "Los otros buceadores del cabo",
@@ -1605,6 +1684,7 @@
     },
     {
      "id": "cabo-dos-bahias-gaviotas-y-skuas-los-depredadores-de-la-pinguinera-7",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Gaviotas y skúas: los depredadores de la pingüinera",
      "titulo": "Los que viven de los nidos ajenos",
@@ -1625,6 +1705,7 @@
     },
     {
      "id": "cabo-dos-bahias-aves-playeras-y-de-costa-ostreros-chorlos-playeritos-y-el-pato-vapor-endemico-8",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Aves playeras y de costa: ostreros, chorlos, playeritos y el pato vapor endémico",
      "titulo": "La línea de la marea y sus especialistas",
@@ -1645,6 +1726,7 @@
     },
     {
      "id": "cabo-dos-bahias-el-guanaco-biologia-chulengos-y-la-mortandad-del-ano-dos-mil-9",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El guanaco: biología, chulengos y la mortandad del año dos mil",
      "titulo": "El camélido que hizo famosa a la reserva",
@@ -1665,6 +1747,7 @@
     },
     {
      "id": "cabo-dos-bahias-el-choique-y-las-aves-de-la-estepa-10",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El choique y las aves de la estepa",
      "titulo": "El avestruz que confundió a Darwin",
@@ -1685,6 +1768,7 @@
     },
     {
      "id": "cabo-dos-bahias-los-lobos-marinos-de-isla-moreno-11",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Los lobos marinos de isla Moreno",
      "titulo": "Leones con melena en una isla de roca",
@@ -1704,6 +1788,7 @@
     },
     {
      "id": "cabo-dos-bahias-mara-zorro-gris-armadillos-huron-y-reptiles-de-la-estepa-12",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Mara, zorro gris, armadillos, hurón y reptiles de la estepa",
      "titulo": "Los que se esconden entre las matas",
@@ -1725,6 +1810,7 @@
     },
     {
      "id": "cabo-dos-bahias-flora-de-la-estepa-costera-y-bosques-de-algas-13",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Flora de la estepa costera y bosques de algas",
      "titulo": "Quilembai, yaoyín y cachiyuyo",
@@ -1745,6 +1831,7 @@
     },
     {
      "id": "cabo-dos-bahias-el-volcanismo-de-chon-aike-el-complejo-marifil-y-las-terrazas-marinas-14",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "El volcanismo de Chon Aike, el Complejo Marifil y las terrazas marinas",
      "titulo": "Ciento ochenta millones de años en una pared de roca",
@@ -1765,6 +1852,7 @@
     },
     {
      "id": "cabo-dos-bahias-la-expedicion-de-alcazaba-y-el-puerto-de-los-leones-fuentes-y-controversias-15",
+     "audio": null,
      "tema": "Historia",
      "subtema": "La expedición de Alcazaba y el Puerto de los Leones: fuentes y controversias",
      "titulo": "El primer asentamiento europeo de la Patagonia",
@@ -1785,6 +1873,7 @@
     },
     {
      "id": "cabo-dos-bahias-de-cuadro-de-estancia-a-puerta-de-patagonia-azul-la-reserva-y-su-manejo-16",
+     "audio": null,
      "tema": "Historia",
      "subtema": "De cuadro de estancia a puerta de Patagonia Azul: la reserva y su manejo",
      "titulo": "Cincuenta años de un área protegida",
@@ -1805,6 +1894,7 @@
     },
     {
      "id": "cabo-dos-bahias-como-recorrer-la-reserva-el-camino-la-pasarela-los-miradores-y-caleta-sara-17",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "Cómo recorrer la reserva: el camino, la pasarela, los miradores y Caleta Sara",
      "titulo": "Una mañana en Cabo Dos Bahías, paso a paso",
@@ -1836,6 +1926,7 @@
    "relatos": [
     {
      "id": "cabo-raso-el-telegrafo-la-fundacion-y-la-colonia-pastoril-de-mil-novecientos-veintiuno-0",
+     "audio": null,
      "tema": "Historia",
      "subtema": "El telégrafo, la fundación y la colonia pastoril de mil novecientos veintiuno",
      "titulo": "Un pueblo que nació de un telegrama",
@@ -1854,6 +1945,7 @@
     },
     {
      "id": "cabo-raso-el-puerto-de-lanchones-la-escuela-de-piedra-y-la-vida-en-el-pueblo-en-su-auge-1",
+     "audio": null,
      "tema": "Historia",
      "subtema": "El puerto de lanchones, la escuela de piedra y la vida en el pueblo en su auge",
      "titulo": "Fardos en la playa, ginebra en el palenque",
@@ -1872,6 +1964,7 @@
     },
     {
      "id": "cabo-raso-mercedes-finat-el-vaciamiento-del-pueblo-y-las-leyendas-del-cementerio-2",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Mercedes Finat, el vaciamiento del pueblo y las leyendas del cementerio",
      "titulo": "La guardiana del faro y la defensora de Cabo Raso",
@@ -1890,6 +1983,7 @@
     },
     {
      "id": "cabo-raso-el-programa-condor-y-la-base-de-lanzamiento-de-cabo-raso-3",
+     "audio": null,
      "tema": "Historia",
      "subtema": "El programa Cóndor y la base de lanzamiento de Cabo Raso",
      "titulo": "El misil que nunca despegó de esta playa",
@@ -1908,6 +2002,7 @@
     },
     {
      "id": "cabo-raso-del-abandono-a-la-recuperacion-el-refugio-la-asociacion-de-amigos-y-la-tercera-vida-del-pueblo-4",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Del abandono a la recuperación: el refugio, la asociación de amigos y la tercera vida del pueblo",
      "titulo": "La última habitante, el búnker y los que volvieron",
@@ -1926,6 +2021,7 @@
     },
     {
      "id": "cabo-raso-de-las-ignimbritas-jurasicas-a-los-roedores-fosiles-del-mioceno-la-geologia-de-cabo-raso-5",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "De las ignimbritas jurásicas a los roedores fósiles del Mioceno: la geología de Cabo Raso",
      "titulo": "Ciento noventa millones de años en veinte kilómetros",
@@ -1944,6 +2040,7 @@
     },
     {
      "id": "cabo-raso-la-playa-el-surf-la-marea-y-la-sal-el-mar-de-cabo-raso-visto-como-sistema-6",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "La playa, el surf, la marea y la sal: el mar de Cabo Raso visto como sistema",
      "titulo": "Olas peinadas por el viento de la meseta",
@@ -1963,6 +2060,7 @@
     },
     {
      "id": "cabo-raso-la-loberia-de-leones-y-elefantes-lobo-marino-de-un-pelo-elefante-marino-y-la-gripe-aviar-7",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "La lobería de Leones y Elefantes: lobo marino de un pelo, elefante marino y la gripe aviar",
      "titulo": "Leones con melena y elefantes que cambian de piel",
@@ -1981,6 +2079,7 @@
     },
     {
      "id": "cabo-raso-aves-marinas-y-costeras-del-cabo-ostreros-gaviotas-petreles-cormoranes-y-playeros-8",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Aves marinas y costeras del cabo: ostreros, gaviotas, petreles, cormoranes y playeros",
      "titulo": "Nidos entre los cantos rodados",
@@ -1999,6 +2098,7 @@
     },
     {
      "id": "cabo-raso-fauna-de-la-estepa-alrededor-del-pueblo-mamiferos-chicos-reptiles-y-los-habitantes-de-las-ruinas-9",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Fauna de la estepa alrededor del pueblo: mamíferos chicos, reptiles y los habitantes de las ruinas",
      "titulo": "Los que se quedaron a vivir en las paredes",
@@ -2018,6 +2118,7 @@
     },
     {
      "id": "cabo-raso-flora-del-ecotono-el-monte-y-la-estepa-patagonica-se-encuentran-en-cabo-raso-10",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Flora del ecotono: el monte y la estepa patagónica se encuentran en Cabo Raso",
      "titulo": "Donde termina el monte y empieza el golfo",
@@ -2037,6 +2138,7 @@
     },
     {
      "id": "cabo-raso-olas-lobos-sal-y-ruinas-como-organizar-la-visita-11",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "Olas, lobos, sal y ruinas: cómo organizar la visita",
      "titulo": "Qué hacer en un pueblo sin señal",
@@ -2067,6 +2169,7 @@
    "relatos": [
     {
      "id": "ruta-camarones-cabo-raso-como-manejar-en-ripio-tecnica-seguridad-y-que-llevar-antes-de-salir-de-camarones-0",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "Cómo manejar en ripio: técnica, seguridad y qué llevar antes de salir de Camarones",
      "titulo": "El ripio se maneja con las manos sueltas",
@@ -2085,6 +2188,7 @@
     },
     {
      "id": "ruta-camarones-cabo-raso-el-camino-de-la-costa-telegrafo-omnibus-de-la-estepa-y-la-vieja-ruta-tres-1",
+     "audio": null,
      "tema": "Historia",
      "subtema": "El camino de la costa: telégrafo, ómnibus de la estepa y la vieja ruta tres",
      "titulo": "La ruta que se quedó sin pueblos",
@@ -2103,6 +2207,7 @@
     },
     {
      "id": "ruta-camarones-cabo-raso-la-ruta-azul-la-reserva-de-biosfera-patagonia-azul-y-las-areas-protegidas-que-atraviesa-el-camino-2",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "La Ruta Azul, la Reserva de Biosfera Patagonia Azul y las áreas protegidas que atraviesa el camino",
      "titulo": "Una ruta de ripio dentro de una reserva de biosfera",
@@ -2121,6 +2226,7 @@
     },
     {
      "id": "ruta-camarones-cabo-raso-por-la-ventanilla-de-camarones-a-cabo-raso-el-tramo-completo-en-orden-3",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "Por la ventanilla, de Camarones a Cabo Raso: el tramo completo en orden",
      "titulo": "Ochenta kilómetros de estepa y mar",
@@ -2139,6 +2245,7 @@
     },
     {
      "id": "ruta-camarones-cabo-raso-kilometros-cero-a-quince-la-orilla-occidental-de-la-bahia-de-camarones-y-sus-cordones-litorales-4",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Kilómetros cero a quince: la orilla occidental de la bahía de Camarones y sus cordones litorales",
      "titulo": "Doce kilómetros pegados a la bahía",
@@ -2157,6 +2264,7 @@
     },
     {
      "id": "ruta-camarones-cabo-raso-aves-de-costa-que-se-ven-desde-el-camino-como-reconocerlas-desde-el-auto-5",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Aves de costa que se ven desde el camino: cómo reconocerlas desde el auto",
      "titulo": "Siluetas sobre la bahía",
@@ -2176,6 +2284,7 @@
     },
     {
      "id": "ruta-camarones-cabo-raso-kilometros-quince-a-cuarenta-y-cinco-la-subida-a-la-meseta-los-rodados-patagonicos-y-los-cerros-volcanicos-6",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Kilómetros quince a cuarenta y cinco: la subida a la meseta, los Rodados Patagónicos y los cerros volcánicos",
      "titulo": "Un piso de piedras pulidas por el viento",
@@ -2194,6 +2303,7 @@
     },
     {
      "id": "ruta-camarones-cabo-raso-flora-de-la-estepa-costera-a-lo-largo-del-camino-del-distrito-del-golfo-san-jorge-al-monte-7",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Flora de la estepa costera a lo largo del camino: del distrito del golfo San Jorge al monte",
      "titulo": "Ochenta kilómetros de transición vegetal",
@@ -2212,6 +2322,7 @@
     },
     {
      "id": "ruta-camarones-cabo-raso-fauna-de-banquina-en-noviembre-guanaco-mara-choique-piche-y-zorro-8",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Fauna de banquina en noviembre: guanaco, mara, choique, piche y zorro",
      "titulo": "Guanacos, maras y choiques al costado del camino",
@@ -2231,6 +2342,7 @@
     },
     {
      "id": "ruta-camarones-cabo-raso-rapaces-del-camino-aguilas-aguiluchos-caranchos-halcones-jotes-y-lechuzas-9",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Rapaces del camino: águilas, aguiluchos, caranchos, halcones, jotes y lechuzas",
      "titulo": "Los que miran desde los postes",
@@ -2249,6 +2361,7 @@
     },
     {
      "id": "ruta-camarones-cabo-raso-kilometros-cuarenta-a-sesenta-estancias-pobladores-y-la-esquila-con-la-maciega-y-la-infancia-de-peron-10",
+     "audio": null,
      "tema": "Costumbres y gente",
      "subtema": "Kilómetros cuarenta a sesenta: estancias, pobladores y la esquila, con La Maciega y la infancia de Perón",
      "titulo": "Casco, galpón, molino y alambre",
@@ -2268,6 +2381,7 @@
     },
     {
      "id": "ruta-camarones-cabo-raso-kilometros-sesenta-a-setenta-y-seis-la-bajada-al-mar-entre-cabo-san-jose-punta-descubierta-punta-atrevida-y-el-faro-11",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Kilómetros sesenta a setenta y seis: la bajada al mar entre Cabo San José, Punta Descubierta, Punta Atrevida y el faro",
      "titulo": "Dos corbetas en el mapa",
@@ -2298,6 +2412,7 @@
    "relatos": [
     {
      "id": "bahia-bustamante-los-nombres-de-la-bahia-marinos-espanoles-de-fines-del-siglo-dieciocho-0",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Los nombres de la bahía: marinos españoles de fines del siglo dieciocho",
      "titulo": "Bustamante, Malaspina, Vernaci, Gravina: la bahía bautizada por una armada",
@@ -2319,6 +2434,7 @@
     },
     {
      "id": "bahia-bustamante-el-pueblo-alguero-de-lorenzo-soriano-1",
+     "audio": null,
      "tema": "Historia",
      "subtema": "El pueblo alguero de Lorenzo Soriano",
      "titulo": "El pueblo que nació de una bahía podrida",
@@ -2339,6 +2455,7 @@
     },
     {
      "id": "bahia-bustamante-la-industria-del-agar-quimica-cosecha-y-la-planta-de-gaiman-2",
+     "audio": null,
      "tema": "Historia",
      "subtema": "La industria del agar: química, cosecha y la planta de Gaiman",
      "titulo": "Oro rojo: el agar y la cosecha de algas",
@@ -2360,6 +2477,7 @@
     },
     {
      "id": "bahia-bustamante-la-vida-cotidiana-en-el-pueblo-alguero-3",
+     "audio": null,
      "tema": "Historia",
      "subtema": "La vida cotidiana en el pueblo alguero",
      "titulo": "Radio, acueducto y calles con nombre de alga: cómo se vivía en Bustamante",
@@ -2381,6 +2499,7 @@
     },
     {
      "id": "bahia-bustamante-decadencia-del-pueblo-alguero-y-reconversion-turistica-4",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Decadencia del pueblo alguero y reconversión turística",
      "titulo": "Dos derrames, un nieto y un hotel: la segunda vida de Bustamante",
@@ -2401,6 +2520,7 @@
     },
     {
      "id": "bahia-bustamante-las-areas-protegidas-parque-interjurisdiccional-reserva-de-biosfera-y-parque-patagonia-azul-5",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Las áreas protegidas: parque interjurisdiccional, reserva de biosfera y Parque Patagonia Azul",
      "titulo": "De un tratado entre Nación y Chubut a casi trescientas mil hectáreas: la historia del parque",
@@ -2421,6 +2541,7 @@
     },
     {
      "id": "bahia-bustamante-panorama-de-la-fauna-marina-e-islas-vernaci-6",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Panorama de la fauna marina e islas Vernaci",
      "titulo": "Islas Vernaci: lobos, pingüinos y un pato que no vuela",
@@ -2442,6 +2563,7 @@
     },
     {
      "id": "bahia-bustamante-el-pinguino-de-magallanes-en-las-islas-vernaci-7",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El pingüino de Magallanes en las islas Vernaci",
      "titulo": "Treinta mil parejas y pichones de dos semanas: los pingüinos de Vernaci",
@@ -2462,6 +2584,7 @@
     },
     {
      "id": "bahia-bustamante-el-pato-vapor-cabeza-blanca-endemico-de-chubut-8",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El pato vapor cabeza blanca, endémico de Chubut",
      "titulo": "Un pato que no vuela y que solo existe en esta costa",
@@ -2483,6 +2606,7 @@
     },
     {
      "id": "bahia-bustamante-los-cormoranes-imperial-cuello-negro-y-bigua-9",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Los cormoranes: imperial, cuello negro y biguá",
      "titulo": "Tres cormoranes y una isla: quién bucea a qué profundidad",
@@ -2503,6 +2627,7 @@
     },
     {
      "id": "bahia-bustamante-gaviotas-gaviotines-skuas-y-el-petrel-gigante-10",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Gaviotas, gaviotines, skúas y el petrel gigante",
      "titulo": "La gaviota que come cangrejos y el petrel que vuela seiscientos kilómetros",
@@ -2523,6 +2648,7 @@
     },
     {
      "id": "bahia-bustamante-ostreros-y-aves-playeras-migratorias-11",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Ostreros y aves playeras migratorias",
      "titulo": "Ostreros de pico rojo y playeros que vienen del Ártico",
@@ -2545,6 +2671,7 @@
     },
     {
      "id": "bahia-bustamante-lobos-marinos-de-un-pelo-y-de-dos-pelos-y-el-elefante-marino-12",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Lobos marinos de un pelo y de dos pelos, y el elefante marino",
      "titulo": "Melena, harén y una colonia de miles: los lobos marinos de las islas",
@@ -2565,6 +2692,7 @@
     },
     {
      "id": "bahia-bustamante-ballenas-y-delfines-del-golfo-san-jorge-13",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Ballenas y delfines del golfo San Jorge",
      "titulo": "Sei, franca, jorobada, orca y tonina: los cetáceos del golfo",
@@ -2586,6 +2714,7 @@
     },
     {
      "id": "bahia-bustamante-mamiferos-de-la-estepa-guanaco-mara-piche-zorro-y-puma-14",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Mamíferos de la estepa: guanaco, mara, piche, zorro y puma",
      "titulo": "Chulengos, guarderías de maras y un armadillo que hiberna",
@@ -2608,6 +2737,7 @@
     },
     {
      "id": "bahia-bustamante-aves-de-la-estepa-choique-keu-loro-barranquero-y-rapaces-15",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Aves de la estepa: choique, keú, loro barranquero y rapaces",
      "titulo": "El padre que incuba cincuenta huevos: las aves de la estepa",
@@ -2630,6 +2760,7 @@
     },
     {
      "id": "bahia-bustamante-flora-de-la-estepa-del-golfo-san-jorge-16",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Flora de la estepa del golfo San Jorge",
      "titulo": "Quilembai, neneo, duraznillo y calafate: leer los arbustos de la estepa",
@@ -2652,6 +2783,7 @@
     },
     {
      "id": "bahia-bustamante-los-bosques-de-macroalgas-cachiyuyo-y-la-selva-sumergida-del-golfo-17",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Los bosques de macroalgas: cachiyuyo y la selva sumergida del golfo",
      "titulo": "Cachiyuyo: el bosque que crece medio metro por día bajo el agua",
@@ -2673,6 +2805,7 @@
     },
     {
      "id": "bahia-bustamante-las-algas-de-la-bahia-gracilaria-gigartina-lessonia-y-las-especies-comestibles-18",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Las algas de la bahía: Gracilaria, Gigartina, Lessonia y las especies comestibles",
      "titulo": "Rojas, pardas y verdes: las algas que dieron nombre a las calles",
@@ -2695,6 +2828,7 @@
     },
     {
      "id": "bahia-bustamante-el-intermareal-mejillines-lapas-pulpitos-y-la-vida-entre-dos-mareas-19",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El intermareal: mejillines, lapas, pulpitos y la vida entre dos mareas",
      "titulo": "Un tapiz de mejillines: la vida en las rocas que la marea descubre",
@@ -2717,6 +2851,7 @@
     },
     {
      "id": "bahia-bustamante-el-bosque-petrificado-de-la-estancia-las-mercedes-20",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "El bosque petrificado de la estancia Las Mercedes",
      "titulo": "Troncos de piedra: un bosque del Paleoceno en una ladera de colores",
@@ -2738,6 +2873,7 @@
     },
     {
      "id": "bahia-bustamante-la-peninsula-gravina-las-terrazas-marinas-y-la-cuenca-del-golfo-san-jorge-21",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "La península Graviña, las terrazas marinas y la cuenca del golfo San Jorge",
      "titulo": "Un rift, un mar que subió y bajó, y las terrazas que lo cuentan",
@@ -2759,6 +2895,7 @@
     },
     {
      "id": "bahia-bustamante-misterios-la-obra-de-christian-boltanski-en-cabo-aristizabal-22",
+     "audio": null,
      "tema": "Costumbres y gente",
      "subtema": "Misterios, la obra de Christian Boltanski en cabo Aristizábal",
      "titulo": "Tres trompetas para hablar con las ballenas: Boltanski en la Patagonia",
@@ -2780,6 +2917,7 @@
     },
     {
      "id": "bahia-bustamante-cocina-con-algas-cordero-a-la-estaca-y-un-vinedo-frente-al-mar-23",
+     "audio": null,
      "tema": "Comidas y bebidas",
      "subtema": "Cocina con algas, cordero a la estaca y un viñedo frente al mar",
      "titulo": "Nori, salicornia y un vino con sal: la mesa de Bahía Bustamante",
@@ -2802,6 +2940,7 @@
     },
     {
      "id": "bahia-bustamante-un-dia-completo-en-bahia-bustamante-24",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "Un día completo en Bahía Bustamante",
      "titulo": "Un día entero en Bahía Bustamante",
@@ -2838,6 +2977,7 @@
    "relatos": [
     {
      "id": "puerto-deseado-cavendish-y-el-origen-del-nombre-0",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Cavendish y el origen del nombre",
      "titulo": "Port Desire, el puerto del Deseo",
@@ -2856,6 +2996,7 @@
     },
     {
      "id": "puerto-deseado-darwin-y-el-beagle-en-1833-1",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Darwin y el Beagle en 1833",
      "titulo": "La Navidad de Darwin en la ría",
@@ -2874,6 +3015,7 @@
     },
     {
      "id": "puerto-deseado-la-corbeta-swift-y-el-museo-brozoski-2",
+     "audio": null,
      "tema": "Historia",
      "subtema": "La corbeta Swift y el Museo Brozoski",
      "titulo": "Dos botellas de vino a dieciocho metros",
@@ -2892,6 +3034,7 @@
     },
     {
      "id": "puerto-deseado-el-ferrocarril-patagonico-y-las-huelgas-de-1921-3",
+     "audio": null,
      "tema": "Historia",
      "subtema": "El ferrocarril patagónico y las huelgas de 1921",
      "titulo": "La estación de un tren que no llegó a la cordillera",
@@ -2910,6 +3053,7 @@
     },
     {
      "id": "puerto-deseado-la-tonina-overa-4",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "La tonina overa",
      "titulo": "La tonina overa, el delfín blanco y negro",
@@ -2928,6 +3072,7 @@
     },
     {
      "id": "puerto-deseado-gastronomia-de-mar-5",
+     "audio": null,
      "tema": "Comidas y bebidas",
      "subtema": "Gastronomía de mar",
      "titulo": "Langostino, calamar y un puerto que huele a mar",
@@ -2946,6 +3091,7 @@
     },
     {
      "id": "puerto-deseado-magallanes-1520-y-la-bahia-de-los-trabajos-6",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Magallanes 1520 y la bahía de los Trabajos",
      "titulo": "Marzo de mil quinientos veinte: cinco naves buscan un paso",
@@ -2965,6 +3111,7 @@
     },
     {
      "id": "puerto-deseado-john-davis-1592-pinguinos-salados-y-las-malvinas-7",
+     "audio": null,
      "tema": "Historia",
      "subtema": "John Davis 1592: pingüinos salados y las Malvinas",
      "titulo": "El navegante que salió de acá y vio las Malvinas",
@@ -2985,6 +3132,7 @@
     },
     {
      "id": "puerto-deseado-narborough-1670-y-la-toma-de-posesion-inglesa-8",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Narborough 1670 y la toma de posesión inglesa",
      "titulo": "Una bandera inglesa en la ría, por orden de Carlos segundo",
@@ -3004,6 +3152,7 @@
     },
     {
      "id": "puerto-deseado-antonio-de-viedma-1780-la-invernada-del-escorbuto-9",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Antonio de Viedma 1780: la invernada del escorbuto",
      "titulo": "Trece cruces y el primer trigo de la Patagonia",
@@ -3024,6 +3173,7 @@
     },
     {
      "id": "puerto-deseado-la-real-compania-maritima-y-el-fuerte-de-san-carlos-1790-1807-10",
+     "audio": null,
      "tema": "Historia",
      "subtema": "La Real Compañía Marítima y el fuerte de San Carlos, 1790-1807",
      "titulo": "Aceite de lobo, cueros y una fragata inglesa",
@@ -3044,6 +3194,7 @@
     },
     {
      "id": "puerto-deseado-la-arqueologia-submarina-de-la-swift-11",
+     "audio": null,
      "tema": "Historia",
      "subtema": "La arqueología submarina de la Swift",
      "titulo": "Excavar con las manos en agua de cinco grados",
@@ -3064,6 +3215,7 @@
     },
     {
      "id": "puerto-deseado-oneto-y-la-colonia-deseado-de-1884-12",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Oneto y la Colonia Deseado de 1884",
      "titulo": "Veinte personas, cinco familias y un pueblo que se negó a irse",
@@ -3084,6 +3236,7 @@
     },
     {
      "id": "puerto-deseado-el-pueblo-del-siglo-veinte-13",
+     "audio": null,
      "tema": "Historia",
      "subtema": "El pueblo del siglo veinte",
      "titulo": "De la Comisión de Fomento al puerto pesquero",
@@ -3104,6 +3257,7 @@
     },
     {
      "id": "puerto-deseado-ramos-mejia-y-el-plan-de-ferrocarriles-patagonicos-14",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Ramos Mejía y el plan de ferrocarriles patagónicos",
      "titulo": "La ley que quiso cruzar la Patagonia con rieles",
@@ -3124,6 +3278,7 @@
     },
     {
      "id": "puerto-deseado-facon-grande-y-las-huelgas-de-1921-en-la-zona-del-ferrocarril-15",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Facón Grande y las huelgas de 1921 en la zona del ferrocarril",
      "titulo": "Cañadón del Carro: el único combate de la Patagonia Rebelde",
@@ -3144,6 +3299,7 @@
     },
     {
      "id": "puerto-deseado-el-cormoran-gris-16",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El cormorán gris",
      "titulo": "El cormorán de patas rojas que anida en los paredones de la ría",
@@ -3164,6 +3320,7 @@
     },
     {
      "id": "puerto-deseado-el-pinguino-de-magallanes-en-la-ria-17",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El pingüino de Magallanes en la ría",
      "titulo": "Pichones de dos semanas en la isla de los Pájaros",
@@ -3184,6 +3341,7 @@
     },
     {
      "id": "puerto-deseado-el-pinguino-de-penacho-amarillo-18",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El pingüino de penacho amarillo",
      "titulo": "El pingüino de ojos rojos que solo anida en la isla Pingüino",
@@ -3204,6 +3362,7 @@
     },
     {
      "id": "puerto-deseado-las-aves-de-la-ria-gaviotines-gaviotas-ostreros-patos-vapor-y-skuas-19",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Las aves de la ría: gaviotines, gaviotas, ostreros, patos vapor y skúas",
      "titulo": "Treinta y cuatro especies en cuarenta kilómetros de agua salada",
@@ -3225,6 +3384,7 @@
     },
     {
      "id": "puerto-deseado-la-flora-de-la-estepa-del-deseado-20",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "La flora de la estepa del Deseado",
      "titulo": "Quilembay, colapiche y mata negra: leer la estepa desde la ruta",
@@ -3246,6 +3406,7 @@
     },
     {
      "id": "puerto-deseado-el-macizo-del-deseado-y-el-vulcanismo-jurasico-del-grupo-bahia-laura-21",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "El Macizo del Deseado y el vulcanismo jurásico del Grupo Bahía Laura",
      "titulo": "Las rocas rojas de la ría son ceniza de hace ciento sesenta millones de años",
@@ -3267,6 +3428,7 @@
     },
     {
      "id": "puerto-deseado-oro-y-plata-epitermales-cerro-vanguardia-y-las-minas-del-macizo-22",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Oro y plata epitermales: Cerro Vanguardia y las minas del macizo",
      "titulo": "El oro que dejaron las aguas termales del Jurásico",
@@ -3287,6 +3449,7 @@
     },
     {
      "id": "puerto-deseado-la-ria-un-valle-sin-rio-y-las-terrazas-marinas-23",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "La ría: un valle sin río y las terrazas marinas",
      "titulo": "El río que perdió su agua y el mar que ocupó su lugar",
@@ -3308,6 +3471,7 @@
     },
     {
      "id": "puerto-deseado-los-primeros-pobladores-del-macizo-piedra-museo-y-los-toldos-24",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Los primeros pobladores del Macizo: Piedra Museo y Los Toldos",
      "titulo": "Trece mil años de gente en la meseta",
@@ -3328,6 +3492,7 @@
     },
     {
      "id": "puerto-deseado-los-aonikenk-en-la-costa-concheros-y-encuentros-25",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Los aonikenk en la costa: concheros y encuentros",
      "titulo": "Gente de la costa antes de Port Desire",
@@ -3348,6 +3513,7 @@
     },
     {
      "id": "puerto-deseado-el-puerto-pesquero-y-la-flota-potera-26",
+     "audio": null,
      "tema": "Comidas y bebidas",
      "subtema": "El puerto pesquero y la flota potera",
      "titulo": "Luces en el horizonte: cómo se pesca el calamar",
@@ -3369,6 +3535,7 @@
     },
     {
      "id": "puerto-deseado-langostino-merluza-negra-y-centolla-la-biologia-de-lo-que-comes-27",
+     "audio": null,
      "tema": "Comidas y bebidas",
      "subtema": "Langostino, merluza negra y centolla: la biología de lo que comés",
      "titulo": "Tres animales de aguas frías en un plato",
@@ -3389,6 +3556,7 @@
     },
     {
      "id": "puerto-deseado-circuito-urbano-museos-estacion-vagon-faro-y-muelle-28",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "Circuito urbano: museos, estación, vagón, faro y muelle",
      "titulo": "Diez cuadras y cuatro siglos",
@@ -3410,6 +3578,7 @@
     },
     {
      "id": "puerto-deseado-la-gruta-de-lourdes-las-fiestas-y-los-oficios-del-pueblo-29",
+     "audio": null,
      "tema": "Costumbres y gente",
      "subtema": "La Gruta de Lourdes, las fiestas y los oficios del pueblo",
      "titulo": "Una virgen en un cañadón, un tiburón en la ría y un día de julio",
@@ -3441,6 +3610,7 @@
    "relatos": [
     {
      "id": "ruta-camarones-puerto-deseado-kilometro-cero-el-plan-del-dia-la-nafta-y-el-ripio-de-la-provincial-treinta-0",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "Kilómetro cero: el plan del día, la nafta y el ripio de la provincial treinta",
      "titulo": "Quinientos cincuenta kilómetros y un solo tramo de ripio",
@@ -3461,6 +3631,7 @@
     },
     {
      "id": "ruta-camarones-puerto-deseado-estancias-lana-ceniza-y-gas-la-meseta-entre-camarones-y-comodoro-1",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Estancias, lana, ceniza y gas: la meseta entre Camarones y Comodoro",
      "titulo": "La meseta de las ovejas que se fueron",
@@ -3481,6 +3652,7 @@
     },
     {
      "id": "ruta-camarones-puerto-deseado-la-pampa-de-salamanca-la-pampa-del-castillo-y-el-debate-sobre-los-rodados-patagonicos-desde-darwin-2",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "La Pampa de Salamanca, la Pampa del Castillo y el debate sobre los Rodados Patagónicos desde Darwin",
      "titulo": "Un siglo y medio discutiendo unas piedras redondas",
@@ -3500,6 +3672,7 @@
     },
     {
      "id": "ruta-camarones-puerto-deseado-la-cuenca-del-golfo-san-jorge-formaciones-roca-madre-migracion-y-trampas-3",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "La cuenca del golfo San Jorge: formaciones, roca madre, migración y trampas",
      "titulo": "Cómo se esconde el petróleo en un laberinto de ríos fósiles",
@@ -3520,6 +3693,7 @@
     },
     {
      "id": "ruta-camarones-puerto-deseado-la-bajada-a-comodoro-rivadavia-y-el-paso-al-pie-del-cerro-chenque-4",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "La bajada a Comodoro Rivadavia y el paso al pie del cerro Chenque",
      "titulo": "Seiscientos metros de bajada y un cerro que se mueve",
@@ -3540,6 +3714,7 @@
     },
     {
      "id": "ruta-camarones-puerto-deseado-el-petroleo-entre-comodoro-y-caleta-olivia-del-pozo-de-mil-novecientos-siete-a-la-cuenca-madura-5",
+     "audio": null,
      "tema": "Historia",
      "subtema": "El petróleo entre Comodoro y Caleta Olivia: del pozo de mil novecientos siete a la cuenca madura",
      "titulo": "Del agua que no salió al pueblo que se llenó de ypefianos",
@@ -3560,6 +3735,7 @@
     },
     {
      "id": "ruta-camarones-puerto-deseado-rada-tilly-y-la-reserva-de-punta-del-marques-6",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "Rada Tilly y la reserva de Punta del Marqués",
      "titulo": "El marqués que nunca vino y los lobos que volvieron",
@@ -3580,6 +3756,7 @@
     },
     {
      "id": "ruta-camarones-puerto-deseado-el-mar-del-golfo-san-jorge-oceanografia-frentes-de-marea-y-la-pesca-de-langostino-y-merluza-7",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El mar del golfo San Jorge: oceanografía, frentes de marea y la pesca de langostino y merluza",
      "titulo": "Un golfo que respira con la marea",
@@ -3600,6 +3777,7 @@
     },
     {
      "id": "ruta-camarones-puerto-deseado-aves-marinas-y-cetaceos-que-se-ven-desde-la-costa-entre-comodoro-y-caleta-olivia-8",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Aves marinas y cetáceos que se ven desde la costa entre Comodoro y Caleta Olivia",
      "titulo": "Gaviotas que comen descartes y petreles que vuelan seiscientos kilómetros",
@@ -3620,6 +3798,7 @@
     },
     {
      "id": "ruta-camarones-puerto-deseado-el-paralelo-cuarenta-y-seis-el-limite-chubut-santa-cruz-y-la-ciudad-de-caleta-olivia-9",
+     "audio": null,
      "tema": "Historia",
      "subtema": "El paralelo cuarenta y seis, el límite Chubut–Santa Cruz y la ciudad de Caleta Olivia",
      "titulo": "Una línea recta en la estepa y un obrero de trece metros",
@@ -3640,6 +3819,7 @@
     },
     {
      "id": "ruta-camarones-puerto-deseado-el-viento-del-oeste-en-la-estepa-abierta-fisica-manejo-y-paisaje-10",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "El viento del oeste en la estepa abierta: física, manejo y paisaje",
      "titulo": "Manejar de costado: el viento que esculpe la estepa",
@@ -3660,6 +3840,7 @@
     },
     {
      "id": "ruta-camarones-puerto-deseado-la-flora-de-la-estepa-del-norte-de-santa-cruz-y-los-distritos-fitogeograficos-11",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "La flora de la estepa del norte de Santa Cruz y los distritos fitogeográficos",
      "titulo": "Leer los arbustos: del duraznillo del golfo a la mata negra",
@@ -3681,6 +3862,7 @@
     },
     {
      "id": "ruta-camarones-puerto-deseado-la-fauna-de-banquina-entre-caleta-olivia-fitz-roy-y-la-ria-guanaco-choique-mara-zorros-piche-y-rapaces-12",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "La fauna de banquina entre Caleta Olivia, Fitz Roy y la ría: guanaco, choique, mara, zorros, piche y rapaces",
      "titulo": "Lo que vive en la estepa que parece vacía",
@@ -3703,6 +3885,7 @@
     },
     {
      "id": "ruta-camarones-puerto-deseado-fitz-roy-jaramillo-y-el-ferrocarril-de-puerto-deseado-a-las-heras-13",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Fitz Roy, Jaramillo y el ferrocarril de Puerto Deseado a Las Heras",
      "titulo": "El tren que no llegó al lago y los pueblos que dejó",
@@ -3723,6 +3906,7 @@
     },
     {
      "id": "ruta-camarones-puerto-deseado-la-ruta-doscientos-ochenta-y-uno-los-canadones-y-el-macizo-del-deseado-hasta-la-ria-14",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "La ruta doscientos ochenta y uno, los cañadones y el Macizo del Deseado hasta la ría",
      "titulo": "Ciento veinte kilómetros sobre un continente viejo",
@@ -3756,6 +3940,7 @@
    "relatos": [
     {
      "id": "puerto-san-julian-magallanes-llega-a-san-julian-y-la-misa-del-domingo-de-ramos-de-mil-quinientos-veinte-0",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Magallanes llega a San Julián y la misa del Domingo de Ramos de mil quinientos veinte",
      "titulo": "Víspera del Domingo de Ramos: cinco naves, una misa y una cruz en el Monte Cristo",
@@ -3776,6 +3961,7 @@
     },
     {
      "id": "puerto-san-julian-el-motin-de-abril-de-mil-quinientos-veinte-las-ejecuciones-y-el-invierno-de-la-flota-1",
+     "audio": null,
      "tema": "Historia",
      "subtema": "El motín de abril de mil quinientos veinte, las ejecuciones y el invierno de la flota",
      "titulo": "No conocemos, padre, al profeta Daniel: el motín de San Julián",
@@ -3797,6 +3983,7 @@
     },
     {
      "id": "puerto-san-julian-el-encuentro-con-los-aonikenk-y-el-origen-del-nombre-patagonia-2",
+     "audio": null,
      "tema": "Historia",
      "subtema": "El encuentro con los aonikenk y el origen del nombre Patagonia",
      "titulo": "Le llegábamos a la cintura: los gigantes de Pigafetta y el nombre de Patagonia",
@@ -3818,6 +4005,7 @@
     },
     {
      "id": "puerto-san-julian-francis-drake-y-la-ejecucion-de-thomas-doughty-mil-quinientos-setenta-y-ocho-3",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Francis Drake y la ejecución de Thomas Doughty, mil quinientos setenta y ocho",
      "titulo": "Este es el fin de los traidores: Drake, Doughty y la isla de la Verdadera Justicia",
@@ -3838,6 +4026,7 @@
     },
     {
      "id": "puerto-san-julian-corsarios-exploradores-y-jesuitas-entre-drake-y-floridablanca-4",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Corsarios, exploradores y jesuitas entre Drake y Floridablanca",
      "titulo": "Un puerto maldito: Narborough, Anson, los jesuitas y la tumba de un oficial del Beagle",
@@ -3859,6 +4048,7 @@
     },
     {
      "id": "puerto-san-julian-la-colonia-de-floridablanca-y-antonio-de-viedma-mil-setecientos-ochenta-a-mil-setecientos-ochenta-y-cuatro-5",
+     "audio": null,
      "tema": "Historia",
      "subtema": "La colonia de Floridablanca y Antonio de Viedma, mil setecientos ochenta a mil setecientos ochenta y cuatro",
      "titulo": "Floridablanca: cuatro años de trigo, escorbuto y tehuelches",
@@ -3880,6 +4070,7 @@
     },
     {
      "id": "puerto-san-julian-la-arqueologia-de-floridablanca-y-el-equipo-de-maria-ximena-senatore-6",
+     "audio": null,
      "tema": "Historia",
      "subtema": "La arqueología de Floridablanca y el equipo de María Ximena Senatore",
      "titulo": "Gato por liebre: lo que la arqueología encontró en Floridablanca",
@@ -3900,6 +4091,7 @@
     },
     {
      "id": "puerto-san-julian-darwin-y-el-beagle-en-san-julian-mil-ochocientos-treinta-y-cuatro-y-la-macrauchenia-7",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Darwin y el Beagle en San Julián, mil ochocientos treinta y cuatro, y la Macrauchenia",
      "titulo": "Medio esqueleto en el barro rojo: Darwin, FitzRoy y la Macrauchenia",
@@ -3921,6 +4113,7 @@
     },
     {
      "id": "puerto-san-julian-los-pioneros-malvinenses-la-fundacion-de-mil-novecientos-uno-la-lana-y-el-frigorifico-swift-8",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Los pioneros malvinenses, la fundación de mil novecientos uno, la lana y el frigorífico Swift",
      "titulo": "Un galpón, un decreto y un frigorífico: el siglo de la lana en San Julián",
@@ -3942,6 +4135,7 @@
     },
     {
      "id": "puerto-san-julian-las-huelgas-de-mil-novecientos-veinte-y-veintiuno-en-san-julian-y-albino-arguelles-9",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Las huelgas de mil novecientos veinte y veintiuno en San Julián y Albino Argüelles",
      "titulo": "El herrero socialista: Albino Argüelles y las huelgas del puerto",
@@ -3963,6 +4157,7 @@
     },
     {
      "id": "puerto-san-julian-la-rebelion-de-las-mujeres-de-la-catalana-diecisiete-de-febrero-de-mil-novecientos-veintidos-10",
+     "audio": null,
      "tema": "Historia",
      "subtema": "La rebelión de las mujeres de La Catalana, diecisiete de febrero de mil novecientos veintidós",
      "titulo": "Con asesinos no nos acostamos: las cinco mujeres de La Catalana",
@@ -3983,6 +4178,7 @@
     },
     {
      "id": "puerto-san-julian-saint-exupery-y-la-aeroposta-11",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Saint-Exupéry y la Aeroposta",
      "titulo": "Saint-Exupéry, el correo aéreo y una escala en Vuelo nocturno",
@@ -4001,6 +4197,7 @@
     },
     {
      "id": "puerto-san-julian-la-base-aerea-de-malvinas-12",
+     "audio": null,
      "tema": "Historia",
      "subtema": "La base aérea de Malvinas",
      "titulo": "Mil novecientos ochenta y dos: los Skyhawk de San Julián",
@@ -4021,6 +4218,7 @@
     },
     {
      "id": "puerto-san-julian-cerro-vanguardia-y-la-mineria-de-oro-y-plata-del-macizo-del-deseado-13",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Cerro Vanguardia y la minería de oro y plata del Macizo del Deseado",
      "titulo": "Oro en las cenizas del Jurásico: la mina Cerro Vanguardia",
@@ -4042,6 +4240,7 @@
     },
     {
      "id": "puerto-san-julian-toninas-overas-y-la-navegacion-por-la-bahia-14",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Toninas overas y la navegación por la bahía",
      "titulo": "Toninas overas: los delfines blancos y negros de la bahía",
@@ -4062,6 +4261,7 @@
     },
     {
      "id": "puerto-san-julian-pinguinos-biguas-y-cormoran-imperial-en-las-islas-cormoran-y-justicia-15",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Pingüinos, biguás y cormorán imperial en las islas Cormorán y Justicia",
      "titulo": "Dos islas en medio de la bahía: pingüinos bajo los arbustos y cormoranes en el banco",
@@ -4082,6 +4282,7 @@
     },
     {
      "id": "puerto-san-julian-cormoran-gris-y-cormoran-cuello-negro-de-los-acantilados-16",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Cormorán gris y cormorán cuello negro de los acantilados",
      "titulo": "El cormorán de patas rojas: la colonia de La Mina",
@@ -4102,6 +4303,7 @@
     },
     {
      "id": "puerto-san-julian-aves-playeras-migratorias-y-aves-de-la-marisma-17",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Aves playeras migratorias y aves de la marisma",
      "titulo": "Los que llegan del Ártico: playeros, chorlos y flamencos en la bajamar",
@@ -4123,6 +4325,7 @@
     },
     {
      "id": "puerto-san-julian-lobos-marinos-elefantes-marinos-y-cetaceos-del-parque-marino-makenke-18",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Lobos marinos, elefantes marinos y cetáceos del parque marino Makenke",
      "titulo": "Makenke: lobos, elefantes y ballenas frente a la bahía",
@@ -4143,6 +4346,7 @@
     },
     {
      "id": "puerto-san-julian-flora-de-la-marisma-la-costa-y-la-estepa-19",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Flora de la marisma, la costa y la estepa",
      "titulo": "Plantas que beben sal: la marisma, el cachiyuyo y la estepa del Distrito Central",
@@ -4165,6 +4369,7 @@
     },
     {
      "id": "puerto-san-julian-formacion-san-julian-y-formacion-monte-leon-en-los-acantilados-20",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Formación San Julián y Formación Monte León en los acantilados",
      "titulo": "Ostras de un pie de diámetro: el mar del Oligoceno en los acantilados de Punta Cuevas",
@@ -4186,6 +4391,7 @@
     },
     {
      "id": "puerto-san-julian-terrazas-marinas-rodados-patagonicos-y-el-levantamiento-de-la-costa-21",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Terrazas marinas, rodados patagónicos y el levantamiento de la costa",
      "titulo": "Escalones que suben del mar: Darwin y las terrazas de San Julián",
@@ -4206,6 +4412,7 @@
     },
     {
      "id": "puerto-san-julian-gran-bajo-de-san-julian-y-laguna-del-carbon-22",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Gran Bajo de San Julián y Laguna del Carbón",
      "titulo": "Ciento cinco metros bajo el mar: el Gran Bajo y la Laguna del Carbón",
@@ -4226,6 +4433,7 @@
     },
     {
      "id": "puerto-san-julian-la-replica-de-la-nao-victoria-los-museos-y-los-monumentos-de-la-costanera-23",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "La réplica de la nao Victoria, los museos y los monumentos de la costanera",
      "titulo": "Veintiocho metros de madera: la nao Victoria, el Punto Cero y los museos",
@@ -4246,6 +4454,7 @@
     },
     {
      "id": "puerto-san-julian-el-circuito-costero-el-monte-wood-y-la-via-lucis-24",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "El circuito costero, el Monte Wood y la Vía Lucis",
      "titulo": "Veintinueve kilómetros de ripio: del frigorífico a la playa La Mina",
@@ -4266,6 +4475,7 @@
     },
     {
      "id": "puerto-san-julian-fiestas-calendario-pesca-y-cocina-de-san-julian-25",
+     "audio": null,
      "tema": "Comidas y bebidas",
      "subtema": "Fiestas, calendario, pesca y cocina de San Julián",
      "titulo": "Del primero de abril al festival de noviembre: calendario, puerto y mesa de San Julián",
@@ -4298,6 +4508,7 @@
    "relatos": [
     {
      "id": "ruta-puerto-deseado-puerto-san-julian-el-ferrocarril-puerto-deseado-las-heras-y-sus-estaciones-0",
+     "audio": null,
      "tema": "Historia",
      "subtema": "El ferrocarril Puerto Deseado – Las Heras y sus estaciones",
      "titulo": "El tren que quería llegar al Nahuel Huapi",
@@ -4317,6 +4528,7 @@
     },
     {
      "id": "ruta-puerto-deseado-puerto-san-julian-el-macizo-del-deseado-y-el-grupo-bahia-laura-vistos-desde-la-ruta-doscientos-ochenta-y-uno-1",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "El Macizo del Deseado y el Grupo Bahía Laura vistos desde la ruta doscientos ochenta y uno",
      "titulo": "Lluvia de fuego entre Tellier y Jaramillo",
@@ -4337,6 +4549,7 @@
     },
     {
      "id": "ruta-puerto-deseado-puerto-san-julian-la-patagonia-rebelde-en-tehuelches-y-jaramillo-2",
+     "audio": null,
      "tema": "Historia",
      "subtema": "La Patagonia rebelde en Tehuelches y Jaramillo",
      "titulo": "Jaramillo y el fusilamiento de Facón Grande",
@@ -4356,6 +4569,7 @@
     },
     {
      "id": "ruta-puerto-deseado-puerto-san-julian-historiografia-de-la-patagonia-rebelde-borrero-bayer-y-la-discusion-de-las-cifras-3",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Historiografía de la Patagonia rebelde: Borrero, Bayer y la discusión de las cifras",
      "titulo": "Quién contó las huelgas y cómo",
@@ -4375,6 +4589,7 @@
     },
     {
      "id": "ruta-puerto-deseado-puerto-san-julian-fauna-de-banquina-en-la-meseta-4",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Fauna de banquina en la meseta",
      "titulo": "Choiques, guanacos y chulengos al borde del asfalto",
@@ -4394,6 +4609,7 @@
     },
     {
      "id": "ruta-puerto-deseado-puerto-san-julian-rapaces-y-carroneros-de-los-postes-y-la-banquina-5",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Rapaces y carroñeros de los postes y la banquina",
      "titulo": "Quién está parado en el poste",
@@ -4414,6 +4630,7 @@
     },
     {
      "id": "ruta-puerto-deseado-puerto-san-julian-los-bosques-petrificados-de-jaramillo-a-lo-lejos-6",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Los bosques petrificados de Jaramillo, a lo lejos",
      "titulo": "Araucarias de ciento cincuenta millones de años",
@@ -4434,6 +4651,7 @@
     },
     {
      "id": "ruta-puerto-deseado-puerto-san-julian-las-estancias-laneras-y-la-oveja-en-la-meseta-santacrucena-7",
+     "audio": null,
      "tema": "Costumbres y gente",
      "subtema": "Las estancias laneras y la oveja en la meseta santacruceña",
      "titulo": "El siglo de la oveja",
@@ -4454,6 +4672,7 @@
     },
     {
      "id": "ruta-puerto-deseado-puerto-san-julian-el-viento-patagonico-y-la-parada-en-tres-cerros-8",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "El viento patagónico y la parada en Tres Cerros",
      "titulo": "El viento que no para y el parador de Tres Cerros",
@@ -4474,6 +4693,7 @@
     },
     {
      "id": "ruta-puerto-deseado-puerto-san-julian-flora-de-la-estepa-santacrucena-coirones-mata-negra-neneo-y-calafate-9",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Flora de la estepa santacruceña: coirones, mata negra, neneo y calafate",
      "titulo": "La estepa en flor de noviembre",
@@ -4494,6 +4714,7 @@
     },
     {
      "id": "ruta-puerto-deseado-puerto-san-julian-lagunas-temporarias-de-la-meseta-flamencos-cauquenes-y-patos-10",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Lagunas temporarias de la meseta: flamencos, cauquenes y patos",
      "titulo": "Espejos de agua en la meseta",
@@ -4514,6 +4735,7 @@
     },
     {
      "id": "ruta-puerto-deseado-puerto-san-julian-la-meseta-de-rodados-la-bajada-a-san-julian-y-el-gran-bajo-11",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "La meseta de rodados, la bajada a San Julián y el Gran Bajo",
      "titulo": "De la meseta de rodados al punto más bajo de América",
@@ -4545,6 +4767,7 @@
    "relatos": [
     {
      "id": "comandante-luis-piedrabuena-luis-piedrabuena-infancia-en-carmen-de-patagones-y-aprendizaje-en-los-balleneros-0",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Luis Piedrabuena: infancia en Carmen de Patagones y aprendizaje en los balleneros",
      "titulo": "Un chico de Patagones en los mares del sur",
@@ -4563,6 +4786,7 @@
     },
     {
      "id": "comandante-luis-piedrabuena-luis-piedrabuena-y-la-factoria-de-la-isla-pavon-1",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Luis Piedrabuena y la factoría de la isla Pavón",
      "titulo": "El marino que plantó bandera en el río",
@@ -4582,6 +4806,7 @@
     },
     {
      "id": "comandante-luis-piedrabuena-casimiro-bigua-y-la-diplomacia-de-piedrabuena-con-los-aonikenk-2",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Casimiro Biguá y la diplomacia de Piedrabuena con los aonikenk",
      "titulo": "Casimiro, el cacique de dos banderas",
@@ -4601,6 +4826,7 @@
     },
     {
      "id": "comandante-luis-piedrabuena-piedrabuena-en-la-isla-de-los-estados-refugios-naufragios-y-rescates-3",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Piedrabuena en la isla de los Estados: refugios, naufragios y rescates",
      "titulo": "El salvador de náufragos del cabo de Hornos",
@@ -4620,6 +4846,7 @@
     },
     {
      "id": "comandante-luis-piedrabuena-piedrabuena-punta-arenas-su-familia-la-crisis-con-chile-y-su-muerte-4",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Piedrabuena: Punta Arenas, su familia, la crisis con Chile y su muerte",
      "titulo": "Los últimos años del comandante",
@@ -4639,6 +4866,7 @@
     },
     {
      "id": "comandante-luis-piedrabuena-del-paso-ibanez-a-comandante-luis-piedra-buena-el-pueblo-el-cambio-de-nombre-de-mil-novecientos-treinta-y-tres-y-la-guarnicion-5",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Del Paso Ibáñez a Comandante Luis Piedra Buena: el pueblo, el cambio de nombre de mil novecientos treinta y tres y la guarnición",
      "titulo": "Un pueblo que nació de un vado",
@@ -4659,6 +4887,7 @@
     },
     {
      "id": "comandante-luis-piedrabuena-la-expedicion-de-fitzroy-y-darwin-rio-arriba-en-mil-ochocientos-treinta-y-cuatro-6",
+     "audio": null,
      "tema": "Historia",
      "subtema": "La expedición de FitzRoy y Darwin río arriba en mil ochocientos treinta y cuatro",
      "titulo": "Veintiún días tirando de una soga",
@@ -4679,6 +4908,7 @@
     },
     {
      "id": "comandante-luis-piedrabuena-francisco-moreno-y-carlos-moyano-remontan-el-santa-cruz-hasta-el-lago-argentino-en-mil-ochocientos-setenta-y-siete-7",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Francisco Moreno y Carlos Moyano remontan el Santa Cruz hasta el lago Argentino en mil ochocientos setenta y siete",
      "titulo": "Moreno y el bautismo del lago Argentino",
@@ -4698,6 +4928,7 @@
     },
     {
      "id": "comandante-luis-piedrabuena-el-rio-santa-cruz-de-los-glaciares-al-atlantico-8",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El río Santa Cruz, de los glaciares al Atlántico",
      "titulo": "Un río de agua de glaciar",
@@ -4718,6 +4949,7 @@
     },
     {
      "id": "comandante-luis-piedrabuena-las-represas-condor-cliff-y-la-barrancosa-antes-nestor-kirchner-y-jorge-cepernic-9",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Las represas Cóndor Cliff y La Barrancosa, antes Néstor Kirchner y Jorge Cepernic",
      "titulo": "Dos represas para el último río libre",
@@ -4738,6 +4970,7 @@
     },
     {
      "id": "comandante-luis-piedrabuena-geologia-del-valle-formacion-santa-cruz-rodados-terrazas-basaltos-y-glaciaciones-10",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Geología del valle: Formación Santa Cruz, rodados, terrazas, basaltos y glaciaciones",
      "titulo": "Un valle demasiado grande para su río",
@@ -4758,6 +4991,7 @@
     },
     {
      "id": "comandante-luis-piedrabuena-la-trucha-steelhead-biologia-de-una-trucha-arcoiris-anadroma-introducida-11",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "La trucha steelhead: biología de una trucha arcoíris anádroma introducida",
      "titulo": "Una trucha que aprendió a ir al mar",
@@ -4777,6 +5011,7 @@
     },
     {
      "id": "comandante-luis-piedrabuena-pesca-deportiva-de-la-steelhead-el-chinook-y-la-fiesta-del-pueblo-12",
+     "audio": null,
      "tema": "Costumbres y gente",
      "subtema": "Pesca deportiva de la steelhead, el chinook y la fiesta del pueblo",
      "titulo": "Capital de la trucha de cabeza de acero",
@@ -4797,6 +5032,7 @@
     },
     {
      "id": "comandante-luis-piedrabuena-aves-acuaticas-del-rio-y-del-estuario-cisnes-macaes-patos-cauquenes-y-garzas-13",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Aves acuáticas del río y del estuario: cisnes, macáes, patos, cauquenes y garzas",
      "titulo": "Lo que Darwin no vio en el río",
@@ -4817,6 +5053,7 @@
     },
     {
      "id": "comandante-luis-piedrabuena-peces-nativos-el-estuario-compartido-con-el-rio-chico-y-los-lobos-marinos-de-la-desembocadura-14",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Peces nativos, el estuario compartido con el río Chico y los lobos marinos de la desembocadura",
      "titulo": "Las truchas que pescó Moreno",
@@ -4837,6 +5074,7 @@
     },
     {
      "id": "comandante-luis-piedrabuena-flora-y-fauna-de-la-estepa-y-del-valle-del-santa-cruz-15",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Flora y fauna de la estepa y del valle del Santa Cruz",
      "titulo": "La estepa que rodea al oasis",
@@ -4859,6 +5097,7 @@
     },
     {
      "id": "comandante-luis-piedrabuena-cordero-patagonico-calafate-trucha-robalo-y-la-gente-del-pueblo-16",
+     "audio": null,
      "tema": "Comidas y bebidas",
      "subtema": "Cordero patagónico, calafate, trucha, róbalo y la gente del pueblo",
      "titulo": "La mesa del valle",
@@ -4880,6 +5119,7 @@
     },
     {
      "id": "comandante-luis-piedrabuena-isla-pavon-la-costanera-y-el-puente-sobre-el-rio-17",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "Isla Pavón, la costanera y el puente sobre el río",
      "titulo": "Una tarde de oasis antes de Monte León",
@@ -4911,6 +5151,7 @@
    "relatos": [
     {
      "id": "ruta-puerto-san-julian-comandante-luis-piedrabuena-el-camino-por-la-ventanilla-de-san-julian-al-rio-santa-cruz-0",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "El camino por la ventanilla, de San Julián al río Santa Cruz",
      "titulo": "Ciento veinticinco kilómetros de meseta",
@@ -4929,6 +5170,7 @@
     },
     {
      "id": "ruta-puerto-san-julian-comandante-luis-piedrabuena-el-gran-bajo-de-san-julian-y-la-laguna-del-carbon-1",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "El Gran Bajo de San Julián y la laguna del Carbón",
      "titulo": "Un pozo cavado por el viento",
@@ -4948,6 +5190,7 @@
     },
     {
      "id": "ruta-puerto-san-julian-comandante-luis-piedrabuena-formaciones-monte-leon-y-santa-cruz-en-los-cortes-de-la-ruta-2",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Formaciones Monte León y Santa Cruz en los cortes de la ruta",
      "titulo": "El mar patagoniano y los mamíferos de Ameghino",
@@ -4968,6 +5211,7 @@
     },
     {
      "id": "ruta-puerto-san-julian-comandante-luis-piedrabuena-fauna-de-banquina-en-noviembre-y-la-vida-en-las-estancias-3",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Fauna de banquina en noviembre y la vida en las estancias",
      "titulo": "Guanacos, choiques y alambrados",
@@ -4987,6 +5231,7 @@
     },
     {
      "id": "ruta-puerto-san-julian-comandante-luis-piedrabuena-el-rio-chico-de-santa-cruz-y-su-valle-4",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "El río Chico de Santa Cruz y su valle",
      "titulo": "El río que llega cansado",
@@ -5006,6 +5251,7 @@
     },
     {
      "id": "ruta-puerto-san-julian-comandante-luis-piedrabuena-la-huelga-de-mil-novecientos-veintiuno-en-paso-ibanez-y-el-rio-chico-5",
+     "audio": null,
      "tema": "Historia",
      "subtema": "La huelga de mil novecientos veintiuno en Paso Ibáñez y el río Chico",
      "titulo": "Paso Ibáñez, noviembre de mil novecientos veintiuno",
@@ -5025,6 +5271,7 @@
     },
     {
      "id": "ruta-puerto-san-julian-comandante-luis-piedrabuena-la-bajada-al-valle-del-santa-cruz-geologia-glaciar-y-terrazas-6",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "La bajada al valle del Santa Cruz: geología glaciar y terrazas",
      "titulo": "La escalera de Darwin",
@@ -5057,6 +5304,7 @@
    "relatos": [
     {
      "id": "gobernador-gregores-fundacion-canadon-leon-y-los-primeros-pobladores-0",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Fundación, Cañadón León y los primeros pobladores",
      "titulo": "La herrería del austríaco",
@@ -5077,6 +5325,7 @@
     },
     {
      "id": "gobernador-gregores-juan-manuel-gregores-el-gobernador-y-el-cambio-de-nombre-1",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Juan Manuel Gregores, el gobernador, y el cambio de nombre",
      "titulo": "Un marino de la radio y un avión en pleno invierno",
@@ -5095,6 +5344,7 @@
     },
     {
      "id": "gobernador-gregores-la-patagonia-rebelde-y-el-canadon-de-los-muertos-2",
+     "audio": null,
      "tema": "Historia",
      "subtema": "La Patagonia Rebelde y el Cañadón de los Muertos",
      "titulo": "El Cañadón de los Muertos",
@@ -5115,6 +5365,7 @@
     },
     {
      "id": "gobernador-gregores-historiografia-de-las-huelgas-borrero-bayer-y-las-controversias-la-mata-y-arguelles-3",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Historiografía de las huelgas: Borrero, Bayer y las controversias; La Mata y Argüelles",
      "titulo": "Cañadón Font: la pelea por la memoria",
@@ -5135,6 +5386,7 @@
     },
     {
      "id": "gobernador-gregores-la-oveja-en-santa-cruz-llegada-estancias-razas-y-esquila-4",
+     "audio": null,
      "tema": "Costumbres y gente",
      "subtema": "La oveja en Santa Cruz: llegada, estancias, razas y esquila",
      "titulo": "Trescientas ovejas de las Malvinas",
@@ -5155,6 +5407,7 @@
     },
     {
      "id": "gobernador-gregores-la-crisis-de-la-lana-desertificacion-precios-y-el-volcan-hudson-5",
+     "audio": null,
      "tema": "Costumbres y gente",
      "subtema": "La crisis de la lana: desertificación, precios y el volcán Hudson",
      "titulo": "Ceniza sobre la meseta",
@@ -5174,6 +5427,7 @@
     },
     {
      "id": "gobernador-gregores-la-meseta-central-formacion-santa-cruz-rodados-patagonicos-y-basaltos-6",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "La meseta central: Formación Santa Cruz, rodados patagónicos y basaltos",
      "titulo": "Veinte millones de años en una barranca",
@@ -5193,6 +5447,7 @@
     },
     {
      "id": "gobernador-gregores-lago-cardiel-cuenca-cerrada-paleocostas-y-paleoclima-7",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Lago Cardiel: cuenca cerrada, paleocostas y paleoclima",
      "titulo": "Las playas de hace once mil años",
@@ -5212,6 +5467,7 @@
     },
     {
      "id": "gobernador-gregores-lago-strobel-su-meseta-de-lagunas-las-truchas-gigantes-y-el-maca-tobiano-8",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Lago Strobel, su meseta de lagunas, las truchas gigantes y el macá tobiano",
      "titulo": "El lago de las truchas gigantes y el ave que baila",
@@ -5231,6 +5487,7 @@
     },
     {
      "id": "gobernador-gregores-el-rio-chico-sus-mallines-y-las-aves-acuaticas-del-valle-9",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El río Chico, sus mallines y las aves acuáticas del valle",
      "titulo": "Un oasis de seiscientos kilómetros",
@@ -5251,6 +5508,7 @@
     },
     {
      "id": "gobernador-gregores-flora-de-la-estepa-mata-negra-coirones-neneo-mata-guanaco-y-calafate-10",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Flora de la estepa: mata negra, coirones, neneo, mata guanaco y calafate",
      "titulo": "El tapiz gris que florece en noviembre",
@@ -5271,6 +5529,7 @@
     },
     {
      "id": "gobernador-gregores-el-guanaco-biologia-pariciones-conflicto-con-la-ganaderia-y-plan-de-manejo-11",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El guanaco: biología, pariciones, conflicto con la ganadería y plan de manejo",
      "titulo": "Chulengos en noviembre",
@@ -5290,6 +5549,7 @@
     },
     {
      "id": "gobernador-gregores-fauna-de-la-estepa-choique-martineta-zorros-puma-piche-y-aves-menores-12",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Fauna de la estepa: choique, martineta, zorros, puma, piche y aves menores",
      "titulo": "El padre que incuba cincuenta huevos",
@@ -5310,6 +5570,7 @@
     },
     {
      "id": "gobernador-gregores-el-clima-y-el-viento-de-la-meseta-13",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "El clima y el viento de la meseta",
      "titulo": "Cuando el viento cierra las rutas",
@@ -5329,6 +5590,7 @@
     },
     {
      "id": "gobernador-gregores-cordero-al-asador-carne-de-guanaco-y-dulces-caseros-14",
+     "audio": null,
      "tema": "Comidas y bebidas",
      "subtema": "Cordero al asador, carne de guanaco y dulces caseros",
      "titulo": "Cordero, guanaco y dulce de guindas",
@@ -5349,6 +5611,7 @@
     },
     {
      "id": "gobernador-gregores-la-vida-en-un-pueblo-de-la-meseta-hoy-poblacion-escuelas-y-fiestas-15",
+     "audio": null,
      "tema": "Costumbres y gente",
      "subtema": "La vida en un pueblo de la meseta hoy: población, escuelas y fiestas",
      "titulo": "Un pueblo que creció mientras el campo se vaciaba",
@@ -5369,6 +5632,7 @@
     },
     {
      "id": "gobernador-gregores-servicios-logistica-y-salidas-antes-del-parque-16",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "Servicios, logística y salidas antes del parque",
      "titulo": "Última nafta antes del parque",
@@ -5400,6 +5664,7 @@
    "relatos": [
     {
      "id": "ruta-comandante-luis-piedrabuena-gobernador-gregores-dos-caminos-a-gregores-por-el-valle-del-rio-chico-o-por-la-costa-y-san-julian-0",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "Dos caminos a Gregores: por el valle del río Chico o por la costa y San Julián",
      "titulo": "Dos caminos a la meseta",
@@ -5420,6 +5685,7 @@
     },
     {
      "id": "ruta-comandante-luis-piedrabuena-gobernador-gregores-kilometro-cero-a-veinte-el-valle-del-santa-cruz-y-la-expedicion-de-fitzroy-y-darwin-de-mil-ochocientos-treinta-y-cuatro-1",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Kilómetro cero a veinte: el valle del Santa Cruz y la expedición de FitzRoy y Darwin de mil ochocientos treinta y cuatro",
      "titulo": "Darwin remando contra la corriente",
@@ -5440,6 +5706,7 @@
     },
     {
      "id": "ruta-comandante-luis-piedrabuena-gobernador-gregores-kilometro-cincuenta-a-ochenta-los-rios-chico-y-chalia-su-confluencia-y-los-canadones-2",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Kilómetro cincuenta a ochenta: los ríos Chico y Chalía, su confluencia y los cañadones",
      "titulo": "Donde el Chalía le entrega el agua al Chico",
@@ -5460,6 +5727,7 @@
     },
     {
      "id": "ruta-comandante-luis-piedrabuena-gobernador-gregores-musters-y-la-caravana-de-orkeke-y-casimiro-por-el-valle-del-rio-chico-mil-ochocientos-sesenta-y-nueve-3",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Musters y la caravana de Orkeke y Casimiro por el valle del río Chico, mil ochocientos sesenta y nueve",
      "titulo": "Un inglés entre los aónikenk",
@@ -5480,6 +5748,7 @@
     },
     {
      "id": "ruta-comandante-luis-piedrabuena-gobernador-gregores-la-estepa-de-mata-negra-los-parches-de-vegetacion-y-la-desertificacion-de-la-meseta-central-4",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "La estepa de mata negra, los parches de vegetación y la desertificación de la meseta central",
      "titulo": "Islas de vida en un mar de piedra",
@@ -5499,6 +5768,7 @@
     },
     {
      "id": "ruta-comandante-luis-piedrabuena-gobernador-gregores-fauna-de-la-estepa-en-primavera-5",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Fauna de la estepa en primavera",
      "titulo": "Chulengos y charitos",
@@ -5518,6 +5788,7 @@
     },
     {
      "id": "ruta-comandante-luis-piedrabuena-gobernador-gregores-mamiferos-de-banquina-mara-piche-peludo-zorros-gris-y-colorado-zorrino-huron-y-liebre-6",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Mamíferos de banquina: mara, piche, peludo, zorros gris y colorado, zorrino, hurón y liebre",
      "titulo": "Lo que cruza la ruta",
@@ -5538,6 +5809,7 @@
     },
     {
      "id": "ruta-comandante-luis-piedrabuena-gobernador-gregores-cauquenes-los-gansos-de-la-estepa-su-migracion-su-persecucion-y-el-cauquen-colorado-en-peligro-7",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Cauquenes: los gansos de la estepa, su migración, su persecución y el cauquén colorado en peligro",
      "titulo": "Los gansos que fueron plaga",
@@ -5558,6 +5830,7 @@
     },
     {
      "id": "ruta-comandante-luis-piedrabuena-gobernador-gregores-la-esquila-comparsas-galpones-razas-de-oveja-y-el-viaje-de-la-lana-8",
+     "audio": null,
      "tema": "Costumbres y gente",
      "subtema": "La esquila: comparsas, galpones, razas de oveja y el viaje de la lana",
      "titulo": "La temporada de la tijera",
@@ -5578,6 +5851,7 @@
     },
     {
      "id": "ruta-comandante-luis-piedrabuena-gobernador-gregores-kilometro-ciento-ochenta-a-ciento-noventa-el-monumento-a-los-obreros-rurales-y-la-llegada-a-gregores-9",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Kilómetro ciento ochenta a ciento noventa: el monumento a los obreros rurales y la llegada a Gregores",
      "titulo": "Una cruz antes del pueblo",
@@ -5598,6 +5872,7 @@
     },
     {
      "id": "ruta-comandante-luis-piedrabuena-gobernador-gregores-variante-por-san-julian-el-gran-bajo-de-san-julian-10",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Variante por San Julián: el Gran Bajo de San Julián",
      "titulo": "El fondo de América",
@@ -5616,6 +5891,7 @@
     },
     {
      "id": "ruta-comandante-luis-piedrabuena-gobernador-gregores-variante-por-san-julian-jesuitas-exploradores-y-carreros-en-la-ruta-veinticinco-11",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Variante por San Julián: jesuitas, exploradores y carreros en la ruta veinticinco",
      "titulo": "Por el camino de los carros",
@@ -5650,6 +5926,7 @@
    "relatos": [
     {
      "id": "parque-nacional-perito-moreno-el-perito-moreno-y-la-creacion-del-parque-de-mil-novecientos-treinta-y-siete-0",
+     "audio": null,
      "tema": "Historia",
      "subtema": "El perito Moreno y la creación del parque de mil novecientos treinta y siete",
      "titulo": "El hombre que regaló tierras y el parque que lleva su nombre",
@@ -5667,6 +5944,7 @@
     },
     {
      "id": "parque-nacional-perito-moreno-pinturas-rupestres-de-casa-de-piedra-y-los-pueblos-cazadores-1",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Pinturas rupestres de Casa de Piedra y los pueblos cazadores",
      "titulo": "Diez mil años de manos en la piedra",
@@ -5685,6 +5963,7 @@
     },
     {
      "id": "parque-nacional-perito-moreno-arqueologia-la-secuencia-de-cerro-casa-de-piedra-y-el-modelo-de-aschero-2",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Arqueología: la secuencia de Cerro Casa de Piedra y el modelo de Aschero",
      "titulo": "Una costilla de guanaco con marcas de cuchillo de hace diez mil seiscientos años",
@@ -5705,6 +5984,7 @@
     },
     {
      "id": "parque-nacional-perito-moreno-tehuelches-exploradores-y-la-cuestion-de-limites-3",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Tehuelches, exploradores y la cuestión de límites",
      "titulo": "Un valle vacío, una cabaña de un año y una frontera por una línea de agua",
@@ -5726,6 +6006,7 @@
     },
     {
      "id": "parque-nacional-perito-moreno-colonia-general-paz-las-cuatro-estancias-y-los-pobladores-de-los-lagos-4",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Colonia General Paz, las cuatro estancias y los pobladores de los lagos",
      "titulo": "Ocho mil ovejas, cuatro cascos y una familia que cruzaba el Nansen en bote",
@@ -5747,6 +6028,7 @@
     },
     {
      "id": "parque-nacional-perito-moreno-decretos-intendencia-visitantes-y-la-donacion-de-el-rincon-5",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Decretos, intendencia, visitantes y la donación de El Rincón",
      "titulo": "Un parque de papel durante cincuenta años",
@@ -5767,6 +6049,7 @@
     },
     {
      "id": "parque-nacional-perito-moreno-lagos-divisoria-de-aguas-y-cerro-san-lorenzo-6",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Lagos, divisoria de aguas y cerro San Lorenzo",
      "titulo": "Dos lagos vecinos, dos océanos",
@@ -5785,6 +6068,7 @@
     },
     {
      "id": "parque-nacional-perito-moreno-estratigrafia-y-vulcanismo-del-fondo-marino-paleozoico-a-las-mesetas-de-basalto-7",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Estratigrafía y vulcanismo: del fondo marino paleozoico a las mesetas de basalto",
      "titulo": "Cuatrocientos millones de años apilados en las laderas",
@@ -5806,6 +6090,7 @@
     },
     {
      "id": "parque-nacional-perito-moreno-fosiles-amonites-belemnites-ostras-un-pterosaurio-y-las-bonigas-de-un-perezoso-gigante-8",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Fósiles: amonites, belemnites, ostras, un pterosaurio y las boñigas de un perezoso gigante",
      "titulo": "Una playa con amonites y dos huesos de un reptil volador",
@@ -5826,6 +6111,7 @@
     },
     {
      "id": "parque-nacional-perito-moreno-glaciaciones-el-paleolago-caldenius-y-la-geografia-de-los-ocho-lagos-9",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Glaciaciones, el paleolago Caldenius y la geografía de los ocho lagos",
      "titulo": "Cuando los ocho lagos eran uno solo",
@@ -5847,6 +6133,7 @@
     },
     {
      "id": "parque-nacional-perito-moreno-cerro-san-lorenzo-granito-glaciares-y-la-historia-de-sus-escaladas-10",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Cerro San Lorenzo: granito, glaciares y la historia de sus escaladas",
      "titulo": "Un cura de sesenta años en la cumbre más alta de Santa Cruz",
@@ -5867,6 +6154,7 @@
     },
     {
      "id": "parque-nacional-perito-moreno-huemul-guanaco-puma-y-otros-mamiferos-11",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Huemul, guanaco, puma y otros mamíferos",
      "titulo": "El ciervo que no huye",
@@ -5885,6 +6173,7 @@
     },
     {
      "id": "parque-nacional-perito-moreno-aves-maca-tobiano-condor-y-aves-de-laguna-12",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Aves: macá tobiano, cóndor y aves de laguna",
      "titulo": "Un zambullidor que baila tango y un planeador de tres metros",
@@ -5903,6 +6192,7 @@
     },
     {
      "id": "parque-nacional-perito-moreno-bosque-de-lenga-y-nire-estepa-y-flora-13",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Bosque de lenga y ñire, estepa y flora",
      "titulo": "De la estepa al bosque en cuarenta kilómetros",
@@ -5921,6 +6211,7 @@
     },
     {
      "id": "parque-nacional-perito-moreno-huemul-biologia-de-la-especie-y-su-conservacion-14",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Huemul: biología de la especie y su conservación",
      "titulo": "Un ciervo de patas cortas para un mundo vertical",
@@ -5940,6 +6231,7 @@
     },
     {
      "id": "parque-nacional-perito-moreno-el-huemul-en-el-parque-registros-plan-de-accion-y-factores-limitantes-15",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El huemul en el parque: registros, plan de acción y factores limitantes",
      "titulo": "Cuarenta años buscando huellas entre el Nansen y el Azara",
@@ -5959,6 +6251,7 @@
     },
     {
      "id": "parque-nacional-perito-moreno-guanaco-ecologia-sociedad-y-las-cifras-de-santa-cruz-16",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Guanaco: ecología, sociedad y las cifras de Santa Cruz",
      "titulo": "El relincho que te avisa que ya te vieron",
@@ -5978,6 +6271,7 @@
     },
     {
      "id": "parque-nacional-perito-moreno-puma-ecologia-del-gran-depredador-y-su-conflicto-con-la-ganaderia-17",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Puma: ecología del gran depredador y su conflicto con la ganadería",
      "titulo": "El que estructura todo y nunca se deja ver",
@@ -5997,6 +6291,7 @@
     },
     {
      "id": "parque-nacional-perito-moreno-carnivoros-menores-zorros-colorado-y-gris-gatos-silvestres-huron-y-zorrino-18",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Carnívoros menores: zorros colorado y gris, gatos silvestres, hurón y zorrino",
      "titulo": "Dos zorros, dos gatos, un hurón y un zorrino",
@@ -6017,6 +6312,7 @@
     },
     {
      "id": "parque-nacional-perito-moreno-chinchillon-anaranjado-tuco-tuco-magallanico-piche-y-micromamiferos-19",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Chinchillón anaranjado, tuco-tuco magallánico, piche y micromamíferos",
      "titulo": "El roedor que nadie conoce y el armadillo que duerme todo el invierno",
@@ -6037,6 +6333,7 @@
     },
     {
      "id": "parque-nacional-perito-moreno-especies-invasoras-liebre-vison-truchas-abejorros-avispa-y-vellosilla-20",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Especies invasoras: liebre, visón, truchas, abejorros, avispa y vellosilla",
      "titulo": "Los seis que no deberían estar acá",
@@ -6057,6 +6354,7 @@
     },
     {
      "id": "parque-nacional-perito-moreno-maca-tobiano-descubrimiento-biologia-amenazas-y-programa-de-conservacion-21",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Macá tobiano: descubrimiento, biología, amenazas y programa de conservación",
      "titulo": "Un ave descubierta en mil novecientos setenta y cuatro que ya casi no está",
@@ -6077,6 +6375,7 @@
     },
     {
      "id": "parque-nacional-perito-moreno-condor-andino-biologia-vuelo-reproduccion-y-amenazas-22",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Cóndor andino: biología, vuelo, reproducción y amenazas",
      "titulo": "Once kilos que aletean uno de cada cien segundos",
@@ -6096,6 +6395,7 @@
     },
     {
      "id": "parque-nacional-perito-moreno-otras-rapaces-y-buhos-aguila-mora-aguilucho-carancho-matamico-halcon-peregrino-y-tucuquere-23",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Otras rapaces y búhos: águila mora, aguilucho, carancho, matamico, halcón peregrino y tucúquere",
      "titulo": "El halcón que cae a trescientos y el búho que dice su nombre",
@@ -6117,6 +6417,7 @@
     },
     {
      "id": "parque-nacional-perito-moreno-aves-de-lago-y-laguna-cisnes-cauquenes-patos-flamencos-macaes-y-chorlito-ceniciento-24",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Aves de lago y laguna: cisnes, cauquenes, patos, flamencos, macáes y chorlito ceniciento",
      "titulo": "Lo que flota en las lagunas del Mié",
@@ -6138,6 +6439,7 @@
     },
     {
      "id": "parque-nacional-perito-moreno-aves-de-bosque-carpintero-gigante-cachana-rayadito-picolezna-fio-fio-y-otros-25",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Aves de bosque: carpintero gigante, cachaña, rayadito, picolezna, fío-fío y otros",
      "titulo": "Un tamborileo en la lenga vieja",
@@ -6159,6 +6461,7 @@
     },
     {
      "id": "parque-nacional-perito-moreno-aves-de-estepa-choique-keu-patagonico-agachonas-yal-austral-y-las-que-caminan-26",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Aves de estepa: choique, keú patagónico, agachonas, yal austral y las que caminan",
      "titulo": "El macho que incuba cincuenta huevos",
@@ -6180,6 +6483,7 @@
     },
     {
      "id": "parque-nacional-perito-moreno-peces-nativos-anfibios-y-lagartijas-el-agua-sin-truchas-y-los-endemismos-27",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Peces nativos, anfibios y lagartijas: el agua sin truchas y los endemismos",
      "titulo": "El único pez y la rana que lleva el nombre del lago",
@@ -6200,6 +6504,7 @@
     },
     {
      "id": "parque-nacional-perito-moreno-insectos-e-invertebrados-el-abejorro-gigante-la-tucura-sapo-y-los-pobladores-del-agua-28",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Insectos e invertebrados: el abejorro gigante, la tucura sapo y los pobladores del agua",
      "titulo": "Un abejorro anaranjado del tamaño de un pulgar",
@@ -6220,6 +6525,7 @@
     },
     {
      "id": "parque-nacional-perito-moreno-el-bosque-lenga-nire-y-guindo-la-linea-arborea-los-incendios-y-los-parasitos-del-arbol-29",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El bosque: lenga, ñire y guindo, la línea arbórea, los incendios y los parásitos del árbol",
      "titulo": "Tres hayas falsas y una línea que sube",
@@ -6241,6 +6547,7 @@
     },
     {
      "id": "parque-nacional-perito-moreno-estepa-flores-de-primavera-zona-altoandina-y-liquenes-30",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Estepa, flores de primavera, zona altoandina y líquenes",
      "titulo": "Doscientas seis plantas donde parece que no hay nada",
@@ -6265,6 +6572,7 @@
     },
     {
      "id": "parque-nacional-perito-moreno-que-esta-pasando-a-fines-de-noviembre-fenologia-del-parque-semana-por-semana-31",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Qué está pasando a fines de noviembre: fenología del parque semana por semana",
      "titulo": "Lo que nace, florece y se derrite en la última semana de noviembre",
@@ -6286,6 +6594,7 @@
     },
     {
      "id": "parque-nacional-perito-moreno-senderos-circuitos-y-refugios-32",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "Senderos, circuitos y refugios",
      "titulo": "Diez refugios abiertos y cien kilómetros de senda",
@@ -6305,6 +6614,7 @@
     },
     {
      "id": "parque-nacional-perito-moreno-la-red-de-refugios-su-historia-la-peninsula-belgrano-y-el-circuito-azara-en-detalle-33",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "La red de refugios: su historia, la península Belgrano y el circuito Azara en detalle",
      "titulo": "Noventa kilómetros de senda construidos en tres veranos",
@@ -6325,6 +6635,7 @@
     },
     {
      "id": "parque-nacional-perito-moreno-los-senderos-del-norte-y-del-sur-rio-lacteo-cerro-leon-la-condorera-rio-volcan-burmeister-y-mie-34",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "Los senderos del norte y del sur: río Lácteo, cerro León, La Condorera, río Volcán, Burmeister y Mié",
      "titulo": "Veinte kilómetros al pie del gigante y seiscientos metros hasta el agua más clara",
@@ -6346,6 +6657,7 @@
     },
     {
      "id": "parque-nacional-perito-moreno-clima-viento-y-consejos-practicos-35",
+     "audio": null,
      "tema": "Costumbres y gente",
      "subtema": "Clima, viento y consejos prácticos",
      "titulo": "Nieve en cualquier mes y viento de cien kilómetros",
@@ -6376,6 +6688,7 @@
    "relatos": [
     {
      "id": "ruta-gobernador-gregores-parque-nacional-perito-moreno-la-ruta-cuarenta-vieja-y-el-hotel-de-piedra-0",
+     "audio": null,
      "tema": "Historia",
      "subtema": "La ruta cuarenta vieja y el hotel de piedra",
      "titulo": "La cuarenta vieja y el hotel de piedra",
@@ -6394,6 +6707,7 @@
     },
     {
      "id": "ruta-gobernador-gregores-parque-nacional-perito-moreno-kilometro-cero-a-cuarenta-el-valle-del-rio-chico-como-oasis-mallines-y-aves-de-banado-1",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Kilómetro cero a cuarenta: el valle del río Chico como oasis, mallines y aves de bañado",
      "titulo": "El oasis del río Chico",
@@ -6413,6 +6727,7 @@
     },
     {
      "id": "ruta-gobernador-gregores-parque-nacional-perito-moreno-kilometro-cuarenta-a-ciento-diez-barrancas-de-la-formacion-santa-cruz-rodados-patagonicos-y-basaltos-2",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Kilómetro cuarenta a ciento diez: barrancas de la Formación Santa Cruz, Rodados Patagónicos y basaltos",
      "titulo": "Leer las barrancas desde la ventanilla",
@@ -6432,6 +6747,7 @@
     },
     {
      "id": "ruta-gobernador-gregores-parque-nacional-perito-moreno-depresiones-endorreicas-el-lago-cardiel-y-las-lagunas-de-la-meseta-3",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Depresiones endorreicas, el lago Cardiel y las lagunas de la meseta",
      "titulo": "Agua que no llega al mar",
@@ -6451,6 +6767,7 @@
     },
     {
      "id": "ruta-gobernador-gregores-parque-nacional-perito-moreno-flora-de-la-estepa-coirones-neneo-calafate-mata-guanaco-y-la-floracion-de-noviembre-4",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Flora de la estepa: coirones, neneo, calafate, mata guanaco y la floración de noviembre",
      "titulo": "La estepa en flor, a ras del suelo",
@@ -6471,6 +6788,7 @@
     },
     {
      "id": "ruta-gobernador-gregores-parque-nacional-perito-moreno-rapaces-y-carroneros-de-los-postes-aguila-mora-aguilucho-carancho-chimango-y-halcones-5",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Rapaces y carroñeros de los postes: águila mora, aguilucho, carancho, chimango y halcones",
      "titulo": "Quién vigila desde los postes",
@@ -6491,6 +6809,7 @@
     },
     {
      "id": "ruta-gobernador-gregores-parque-nacional-perito-moreno-las-horquetas-tamel-aike-y-la-ruta-treinta-y-siete-hoteles-de-ruta-carreros-y-la-vida-del-camino-6",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Las Horquetas, Tamel Aike y la ruta treinta y siete: hoteles de ruta, carreros y la vida del camino",
      "titulo": "Una posada donde el río se divide",
@@ -6510,6 +6829,7 @@
     },
     {
      "id": "ruta-gobernador-gregores-parque-nacional-perito-moreno-pueblos-originarios-en-el-paisaje-aonikenk-paraderos-chenques-y-la-obsidiana-de-las-mesetas-7",
+     "audio": null,
      "tema": "Costumbres y gente",
      "subtema": "Pueblos originarios en el paisaje: aónikenk, paraderos, chenques y la obsidiana de las mesetas",
      "titulo": "Cien siglos de caminantes",
@@ -6529,6 +6849,7 @@
     },
     {
      "id": "ruta-gobernador-gregores-parque-nacional-perito-moreno-las-estancias-del-tramo-lana-crisis-la-ceniza-del-hudson-y-los-campos-abandonados-8",
+     "audio": null,
      "tema": "Costumbres y gente",
      "subtema": "Las estancias del tramo: lana, crisis, la ceniza del Hudson y los campos abandonados",
      "titulo": "Cascos, galpones y campos vacíos",
@@ -6548,6 +6869,7 @@
     },
     {
      "id": "ruta-gobernador-gregores-parque-nacional-perito-moreno-de-la-meseta-a-la-precordillera-9",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "De la meseta a la precordillera",
      "titulo": "De la meseta a los lagos de hielo",
@@ -6567,6 +6889,7 @@
     },
     {
      "id": "ruta-gobernador-gregores-parque-nacional-perito-moreno-kilometro-ciento-veinticinco-a-doscientos-aves-de-las-lagunas-de-la-ruta-treinta-y-siete-10",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Kilómetro ciento veinticinco a doscientos: aves de las lagunas de la ruta treinta y siete",
      "titulo": "Flamencos en el ripio",
@@ -6587,6 +6910,7 @@
     },
     {
      "id": "ruta-gobernador-gregores-parque-nacional-perito-moreno-aves-que-caminan-la-estepa-martineta-keu-agachonas-chorlo-cabezon-dormilonas-y-loica-11",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Aves que caminan la estepa: martineta, keú, agachonas, chorlo cabezón, dormilonas y loica",
      "titulo": "Los que no se levantan del suelo",
@@ -6606,6 +6930,7 @@
     },
     {
      "id": "ruta-gobernador-gregores-parque-nacional-perito-moreno-el-viento-del-oeste-y-el-manejo-en-ripio-fisica-rafagas-y-tecnica-12",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "El viento del oeste y el manejo en ripio: física, ráfagas y técnica",
      "titulo": "Manejar con el viento de costado",
@@ -6625,6 +6950,7 @@
     },
     {
      "id": "ruta-gobernador-gregores-parque-nacional-perito-moreno-fauna-del-camino-y-consejos-para-el-ripio-13",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "Fauna del camino y consejos para el ripio",
      "titulo": "Noventa kilómetros de ripio",
@@ -6660,6 +6986,7 @@
    "relatos": [
     {
      "id": "estancia-la-oriental-la-estancia-los-lada-y-el-colectivo-celeste-0",
+     "audio": null,
      "tema": "Historia",
      "subtema": "La estancia, los Lada y el colectivo celeste",
      "titulo": "El colectivo celeste frente al galpón",
@@ -6679,6 +7006,7 @@
     },
     {
      "id": "estancia-la-oriental-tierra-fiscal-lotes-y-leguas-como-se-poblo-el-noroeste-de-santa-cruz-1",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Tierra fiscal, lotes y leguas: cómo se pobló el noroeste de Santa Cruz",
      "titulo": "Un dibujo de Buenos Aires apoyado sobre la estepa",
@@ -6699,6 +7027,7 @@
     },
     {
      "id": "estancia-la-oriental-la-patagonia-rebelde-en-el-valle-del-rio-chico-mil-novecientos-veintiuno-2",
+     "audio": null,
      "tema": "Historia",
      "subtema": "La Patagonia rebelde en el valle del río Chico, mil novecientos veintiuno",
      "titulo": "Dieciséis metros cuadrados y un paquete de velas",
@@ -6719,6 +7048,7 @@
     },
     {
      "id": "estancia-la-oriental-estancias-dentro-de-parques-nacionales-ley-permisos-y-convivencia-3",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Estancias dentro de parques nacionales: ley, permisos y convivencia",
      "titulo": "Una casa que la ley no permite",
@@ -6738,6 +7068,7 @@
     },
     {
      "id": "estancia-la-oriental-el-galpon-de-esquila-la-comparsa-y-los-puesteros-4",
+     "audio": null,
      "tema": "Costumbres y gente",
      "subtema": "El galpón de esquila, la comparsa y los puesteros",
      "titulo": "El galpón de esquila y los que vivían de la lana",
@@ -6757,6 +7088,7 @@
     },
     {
      "id": "estancia-la-oriental-el-ciclo-anual-de-la-estancia-ovejera-encarnerada-paricion-senalada-esquila-y-bano-5",
+     "audio": null,
      "tema": "Costumbres y gente",
      "subtema": "El ciclo anual de la estancia ovejera: encarnerada, parición, señalada, esquila y baño",
      "titulo": "Un año que se cuenta en corderos",
@@ -6777,6 +7109,7 @@
     },
     {
      "id": "estancia-la-oriental-razas-lana-y-crisis-merino-corriedale-y-el-derrumbe-de-los-noventa-6",
+     "audio": null,
      "tema": "Costumbres y gente",
      "subtema": "Razas, lana y crisis: merino, corriedale y el derrumbe de los noventa",
      "titulo": "Diecinueve micrones",
@@ -6796,6 +7129,7 @@
     },
     {
      "id": "estancia-la-oriental-el-caballo-criollo-y-la-cabalgata-historia-pelajes-recado-y-tecnica-7",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "El caballo criollo y la cabalgata: historia, pelajes, recado y técnica",
      "titulo": "Un gateado como el de Gato y Mancha",
@@ -6816,6 +7150,7 @@
     },
     {
      "id": "estancia-la-oriental-el-cerro-leon-sendero-rocas-y-lo-que-se-ve-desde-arriba-8",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "El cerro León: sendero, rocas y lo que se ve desde arriba",
      "titulo": "Subir al cerro León",
@@ -6835,6 +7170,7 @@
     },
     {
      "id": "estancia-la-oriental-el-lago-belgrano-y-la-peninsula-origen-glaciar-color-limnologia-y-fauna-9",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "El lago Belgrano y la península: origen glaciar, color, limnología y fauna",
      "titulo": "Tres colores para un mismo lago",
@@ -6854,6 +7190,7 @@
     },
     {
      "id": "estancia-la-oriental-el-viento-y-el-clima-de-montana-vientos-del-oeste-efecto-foehn-y-nubes-lenticulares-10",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "El viento y el clima de montaña: vientos del oeste, efecto foehn y nubes lenticulares",
      "titulo": "Cuarenta y ocho grados sur, en el medio de los bramadores",
@@ -6873,6 +7210,7 @@
     },
     {
      "id": "estancia-la-oriental-fauna-desde-el-casco-guanacos-condores-de-la-condorera-zorros-y-aves-de-la-costa-11",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Fauna desde el casco: guanacos, cóndores de La Condorera, zorros y aves de la costa",
      "titulo": "El guion del día desde la galería",
@@ -6894,6 +7232,7 @@
     },
     {
      "id": "estancia-la-oriental-el-cielo-nocturno-austral-a-principios-de-diciembre-12",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "El cielo nocturno austral a principios de diciembre",
      "titulo": "La Cruz cabeza abajo y dos galaxias sobre el lago",
@@ -6914,6 +7253,7 @@
     },
     {
      "id": "estancia-la-oriental-comida-de-estancia-cordero-al-asador-pan-casero-y-dulces-13",
+     "audio": null,
      "tema": "Comidas y bebidas",
      "subtema": "Comida de estancia: cordero al asador, pan casero y dulces",
      "titulo": "Cordero a la cruz bajo las estrellas",
@@ -6934,6 +7274,7 @@
     },
     {
      "id": "estancia-la-oriental-el-mate-botanica-historia-y-tecnica-de-cebar-14",
+     "audio": null,
      "tema": "Comidas y bebidas",
      "subtema": "El mate: botánica, historia y técnica de cebar",
      "titulo": "El vaso que le dio nombre a la bebida",
@@ -6965,6 +7306,7 @@
    "relatos": [
     {
      "id": "comodoro-rivadavia-pietrobelli-y-la-fundacion-de-mil-novecientos-uno-0",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Pietrobelli y la fundación de mil novecientos uno",
      "titulo": "Un puerto para la lana de Sarmiento",
@@ -6984,6 +7326,7 @@
     },
     {
      "id": "comodoro-rivadavia-el-pozo-del-trece-de-diciembre-de-mil-novecientos-siete-1",
+     "audio": null,
      "tema": "Historia",
      "subtema": "El pozo del trece de diciembre de mil novecientos siete",
      "titulo": "Buscaban agua y salió petróleo",
@@ -7003,6 +7346,7 @@
     },
     {
      "id": "comodoro-rivadavia-del-yacimiento-fiscal-a-yacimientos-petroliferos-fiscales-y-mosconi-2",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Del yacimiento fiscal a Yacimientos Petrolíferos Fiscales y Mosconi",
      "titulo": "El Estado aprende a ser petrolero",
@@ -7022,6 +7366,7 @@
     },
     {
      "id": "comodoro-rivadavia-los-campamentos-petroleros-el-kilometro-tres-y-las-companias-privadas-3",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Los campamentos petroleros: el kilómetro tres y las compañías privadas",
      "titulo": "Una ciudad hecha de kilómetros",
@@ -7042,6 +7387,7 @@
     },
     {
      "id": "comodoro-rivadavia-las-huelgas-petroleras-de-mil-novecientos-diecisiete-a-mil-novecientos-treinta-y-dos-4",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Las huelgas petroleras de mil novecientos diecisiete a mil novecientos treinta y dos",
      "titulo": "Anarquistas en el yacimiento",
@@ -7062,6 +7408,7 @@
     },
     {
      "id": "comodoro-rivadavia-la-gobernacion-militar-de-comodoro-rivadavia-mil-novecientos-cuarenta-y-cuatro-a-mil-novecientos-cincuenta-y-cinco-5",
+     "audio": null,
      "tema": "Historia",
      "subtema": "La Gobernación Militar de Comodoro Rivadavia, mil novecientos cuarenta y cuatro a mil novecientos cincuenta y cinco",
      "titulo": "La provincia que duró once años",
@@ -7082,6 +7429,7 @@
     },
     {
      "id": "comodoro-rivadavia-la-privatizacion-de-los-noventa-y-la-ciudad-de-hoy-6",
+     "audio": null,
      "tema": "Historia",
      "subtema": "La privatización de los noventa y la ciudad de hoy",
      "titulo": "Del ypefiano al emprendedor",
@@ -7102,6 +7450,7 @@
     },
     {
      "id": "comodoro-rivadavia-los-colonos-boers-7",
+     "audio": null,
      "tema": "Costumbres y gente",
      "subtema": "Los colonos bóers",
      "titulo": "Afrikáans en la estepa",
@@ -7121,6 +7470,7 @@
     },
     {
      "id": "comodoro-rivadavia-las-colectividades-chilenos-italianos-espanoles-croatas-portugueses-y-mas-8",
+     "audio": null,
      "tema": "Costumbres y gente",
      "subtema": "Las colectividades: chilenos, italianos, españoles, croatas, portugueses y más",
      "titulo": "La capital de las colectividades",
@@ -7141,6 +7491,7 @@
     },
     {
      "id": "comodoro-rivadavia-la-geologia-del-petroleo-de-la-cuenca-del-golfo-san-jorge-9",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "La geología del petróleo de la cuenca del golfo San Jorge",
      "titulo": "Un lago cretácico debajo de la meseta",
@@ -7161,6 +7512,7 @@
     },
     {
      "id": "comodoro-rivadavia-el-cerro-chenque-formacion-chenque-y-deslizamientos-10",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "El cerro Chenque: Formación Chenque y deslizamientos",
      "titulo": "El cerro que se mueve",
@@ -7181,6 +7533,7 @@
     },
     {
      "id": "comodoro-rivadavia-pampa-del-castillo-y-los-rodados-patagonicos-11",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Pampa del Castillo y los Rodados Patagónicos",
      "titulo": "Las piedras que bajaron de los Andes",
@@ -7200,6 +7553,7 @@
     },
     {
      "id": "comodoro-rivadavia-el-viento-climatologia-y-energia-eolica-12",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "El viento: climatología y energía eólica",
      "titulo": "Vivir con el viento",
@@ -7220,6 +7574,7 @@
     },
     {
      "id": "comodoro-rivadavia-rada-tilly-y-punta-del-marques-loberia-y-geologia-13",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Rada Tilly y Punta del Marqués: lobería y geología",
      "titulo": "La punta de los lobos",
@@ -7240,6 +7595,7 @@
     },
     {
      "id": "comodoro-rivadavia-ballenas-delfines-y-aves-marinas-del-golfo-san-jorge-14",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Ballenas, delfines y aves marinas del golfo San Jorge",
      "titulo": "Soplos frente a la ciudad",
@@ -7260,6 +7616,7 @@
     },
     {
      "id": "comodoro-rivadavia-el-langostino-patagonico-y-la-merluza-biologia-y-pesqueria-15",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El langostino patagónico y la merluza: biología y pesquería",
      "titulo": "El oro rojo del golfo",
@@ -7280,6 +7637,7 @@
     },
     {
      "id": "comodoro-rivadavia-mamiferos-y-aves-de-la-estepa-alrededor-de-comodoro-16",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Mamíferos y aves de la estepa alrededor de Comodoro",
      "titulo": "Quién vive entre los pozos",
@@ -7300,6 +7658,7 @@
     },
     {
      "id": "comodoro-rivadavia-la-vegetacion-de-la-estepa-del-golfo-san-jorge-17",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "La vegetación de la estepa del golfo San Jorge",
      "titulo": "Arbustos con espinas y memoria",
@@ -7320,6 +7679,7 @@
     },
     {
      "id": "comodoro-rivadavia-langostino-cordero-y-la-mesa-de-las-colectividades-18",
+     "audio": null,
      "tema": "Comidas y bebidas",
      "subtema": "Langostino, cordero y la mesa de las colectividades",
      "titulo": "Una mesa con veinte pasaportes",
@@ -7340,6 +7700,7 @@
     },
     {
      "id": "comodoro-rivadavia-museos-y-paseos-petroleo-ferrocarril-historia-regional-y-miradores-19",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "Museos y paseos: petróleo, ferrocarril, historia regional y miradores",
      "titulo": "Qué hacer antes de que se vaya la luz",
@@ -7371,6 +7732,7 @@
    "relatos": [
     {
      "id": "ruta-estancia-la-oriental-comodoro-rivadavia-logistica-del-dia-nafta-distancias-ripio-horarios-senal-y-el-desvio-a-la-cueva-de-las-manos-0",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "Logística del día: nafta, distancias, ripio, horarios, señal y el desvío a la Cueva de las Manos",
      "titulo": "El plan de vuelo de setecientos kilómetros",
@@ -7391,6 +7753,7 @@
     },
     {
      "id": "ruta-estancia-la-oriental-comodoro-rivadavia-la-salida-del-parque-el-ripio-de-la-treinta-y-siete-las-horquetas-y-la-meseta-hasta-bajo-caracoles-1",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "La salida del parque: el ripio de la treinta y siete, Las Horquetas y la meseta hasta Bajo Caracoles",
      "titulo": "Setecientos kilómetros: del cerro León a la primera esquina de la cuarenta",
@@ -7411,6 +7774,7 @@
     },
     {
      "id": "ruta-estancia-la-oriental-comodoro-rivadavia-geologia-de-la-ruta-cuarenta-el-macizo-del-deseado-los-basaltos-y-la-meseta-del-lago-buenos-aires-2",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Geología de la ruta cuarenta: el macizo del Deseado, los basaltos y la meseta del lago Buenos Aires",
      "titulo": "Lava, ceniza y la dorsal que se hunde bajo los Andes",
@@ -7431,6 +7795,7 @@
     },
     {
      "id": "ruta-estancia-la-oriental-comodoro-rivadavia-cueva-de-las-manos-descubrimiento-investigacion-dataciones-y-patrimonio-de-la-humanidad-3",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Cueva de las Manos: descubrimiento, investigación, dataciones y Patrimonio de la Humanidad",
      "titulo": "Nueve mil años de manos sobre la misma pared",
@@ -7451,6 +7816,7 @@
     },
     {
      "id": "ruta-estancia-la-oriental-comodoro-rivadavia-cueva-de-las-manos-los-estilos-las-escenas-de-caza-los-pigmentos-y-la-tecnica-del-soplado-4",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Cueva de las Manos: los estilos, las escenas de caza, los pigmentos y la técnica del soplado",
      "titulo": "Cómo se lee una pared pintada durante ocho mil años",
@@ -7471,6 +7837,7 @@
     },
     {
      "id": "ruta-estancia-la-oriental-comodoro-rivadavia-el-canadon-del-rio-pinturas-el-parque-patagonia-y-el-maca-tobiano-5",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El cañadón del río Pinturas, el Parque Patagonia y el macá tobiano",
      "titulo": "Un parque armado estancia por estancia para salvar a un ave de treinta centímetros",
@@ -7491,6 +7858,7 @@
     },
     {
      "id": "ruta-estancia-la-oriental-comodoro-rivadavia-perito-moreno-el-pueblo-de-pari-aike-a-capital-arqueologica-la-ceniza-del-hudson-y-el-oro-6",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Perito Moreno, el pueblo: de Parí Aike a capital arqueológica, la ceniza del Hudson y el oro",
      "titulo": "Un oasis con tres nombres antes del cuarto",
@@ -7511,6 +7879,7 @@
     },
     {
      "id": "ruta-estancia-la-oriental-comodoro-rivadavia-el-rio-fenix-la-captura-natural-el-canal-de-llwyd-ap-iwan-y-el-rio-de-los-dos-oceanos-7",
+     "audio": null,
      "tema": "Historia",
      "subtema": "El río Fénix: la captura natural, el canal de Llwyd ap Iwan y el río de los dos océanos",
      "titulo": "El río que una zanja devolvió al Atlántico",
@@ -7531,6 +7900,7 @@
     },
     {
      "id": "ruta-estancia-la-oriental-comodoro-rivadavia-el-lago-buenos-aires-o-general-carrera-una-fosa-tectonica-un-millon-de-anos-de-glaciares-y-las-terrazas-de-un-lago-perdido-8",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "El lago Buenos Aires o General Carrera: una fosa tectónica, un millón de años de glaciares y las terrazas de un lago perdido",
      "titulo": "El lago de dos nombres y el mejor reloj glaciar del planeta",
@@ -7551,6 +7921,7 @@
     },
     {
      "id": "ruta-estancia-la-oriental-comodoro-rivadavia-los-aonikenk-y-los-tehuelches-del-norte-en-esta-franja-y-la-frontera-con-chile-del-tratado-de-mil-ochocientos-ochenta-y-uno-al-laudo-de-mil-novecientos-dos-9",
+     "audio": null,
      "tema": "Costumbres y gente",
      "subtema": "Los aonikenk y los tehuelches del norte en esta franja, y la frontera con Chile: del tratado de mil ochocientos ochenta y uno al laudo de mil novecientos dos",
      "titulo": "Cazadores de guanaco en una línea que todavía no existía",
@@ -7571,6 +7942,7 @@
     },
     {
      "id": "ruta-estancia-la-oriental-comodoro-rivadavia-rio-mayo-y-la-expedicion-de-los-rifleros-del-chubut-de-mil-ochocientos-ochenta-y-cinco-10",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Río Mayo y la expedición de los Rifleros del Chubut de mil ochocientos ochenta y cinco",
      "titulo": "Treinta rifles, un gobernador y un río con nombre de ayudante",
@@ -7591,6 +7963,7 @@
     },
     {
      "id": "ruta-estancia-la-oriental-comodoro-rivadavia-la-esquila-las-comparsas-y-las-estancias-laneras-alrededor-de-rio-mayo-11",
+     "audio": null,
      "tema": "Costumbres y gente",
      "subtema": "La esquila, las comparsas y las estancias laneras alrededor de Río Mayo",
      "titulo": "Dos minutos por oveja: el oficio que vistió a la Patagonia",
@@ -7611,6 +7984,7 @@
     },
     {
      "id": "ruta-estancia-la-oriental-comodoro-rivadavia-fauna-de-la-estepa-en-la-ruta-veintiseis-guanaco-choique-mara-piche-carnivoros-y-aves-de-la-meseta-12",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Fauna de la estepa en la ruta veintiséis: guanaco, choique, mara, piche, carnívoros y aves de la meseta",
      "titulo": "Lo que se mueve en la estepa a fines de noviembre",
@@ -7632,6 +8006,7 @@
     },
     {
      "id": "ruta-estancia-la-oriental-comodoro-rivadavia-flora-de-la-estepa-patagonica-coirones-neneo-quilembai-y-la-desertificacion-13",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Flora de la estepa patagónica: coirones, neneo, quilembai y la desertificación",
      "titulo": "Plantas que se achican para vivir en el viento",
@@ -7653,6 +8028,7 @@
     },
     {
      "id": "ruta-estancia-la-oriental-comodoro-rivadavia-el-valle-de-sarmiento-visto-desde-la-ruta-el-senguer-los-lagos-musters-y-colhue-huapi-y-la-gran-barranca-14",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "El valle de Sarmiento visto desde la ruta: el Senguer, los lagos Musters y Colhué Huapi y la Gran Barranca",
      "titulo": "Dos lagos, un río que no llega al mar y una barranca que cuenta treinta millones de años",
@@ -7673,6 +8049,7 @@
     },
     {
      "id": "ruta-estancia-la-oriental-comodoro-rivadavia-la-pampa-del-castillo-los-rodados-patagonicos-la-inversion-del-relieve-el-viento-y-la-nieve-15",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "La pampa del Castillo: los Rodados Patagónicos, la inversión del relieve, el viento y la nieve",
      "titulo": "Una meseta empedrada por ríos que ya no existen",
@@ -7693,6 +8070,7 @@
     },
     {
      "id": "ruta-estancia-la-oriental-comodoro-rivadavia-el-petroleo-de-la-cuenca-del-golfo-san-jorge-cerro-dragon-las-ciguenas-los-campamentos-y-la-bajada-a-comodoro-16",
+     "audio": null,
      "tema": "Historia",
      "subtema": "El petróleo de la cuenca del golfo San Jorge: Cerro Dragón, las cigüeñas, los campamentos y la bajada a Comodoro",
      "titulo": "Un siglo de cigüeñas sobre un lago de hace cien millones de años",
@@ -7724,6 +8102,7 @@
    "relatos": [
     {
      "id": "isla-pinguino-de-despensa-de-corsarios-a-parque-marino-0",
+     "audio": null,
      "tema": "Historia",
      "subtema": "De despensa de corsarios a parque marino",
      "titulo": "Pingüinos salados y corsarios",
@@ -7743,6 +8122,7 @@
     },
     {
      "id": "isla-pinguino-el-pinguino-de-penacho-amarillo-1",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El pingüino de penacho amarillo",
      "titulo": "El saltador de ojos rojos",
@@ -7761,6 +8141,7 @@
     },
     {
      "id": "isla-pinguino-lobos-elefantes-marinos-cormoranes-y-toninas-2",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Lobos, elefantes marinos, cormoranes y toninas",
      "titulo": "La isla que nunca se calla",
@@ -7779,6 +8160,7 @@
     },
     {
      "id": "isla-pinguino-la-excursion-en-lancha-y-las-rocas-de-la-isla-3",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "La excursión en lancha y las rocas de la isla",
      "titulo": "Seis horas de mar y pórfido",
@@ -7798,6 +8180,7 @@
     },
     {
      "id": "isla-pinguino-pinguino-de-penacho-amarillo-taxonomia-parentesco-y-distribucion-mundial-4",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Pingüino de penacho amarillo: taxonomía, parentesco y distribución mundial",
      "titulo": "Tres pingüinos en uno",
@@ -7817,6 +8200,7 @@
     },
     {
      "id": "isla-pinguino-pinguino-de-penacho-amarillo-biologia-reproductiva-dieta-y-migracion-5",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Pingüino de penacho amarillo: biología reproductiva, dieta y migración",
      "titulo": "Dos huevos, un pichón",
@@ -7837,6 +8221,7 @@
     },
     {
      "id": "isla-pinguino-la-colonia-de-isla-pinguino-y-su-historia-cientifica-6",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "La colonia de Isla Pingüino y su historia científica",
      "titulo": "Cuarenta años de conteos",
@@ -7857,6 +8242,7 @@
     },
     {
      "id": "isla-pinguino-el-pinguino-de-magallanes-en-el-parque-7",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El pingüino de Magallanes en el parque",
      "titulo": "Setenta mil cuevas",
@@ -7877,6 +8263,7 @@
     },
     {
      "id": "isla-pinguino-el-lobo-marino-de-un-pelo-8",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El lobo marino de un pelo",
      "titulo": "El león de la playa",
@@ -7897,6 +8284,7 @@
     },
     {
      "id": "isla-pinguino-el-lobo-marino-de-dos-pelos-9",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El lobo marino de dos pelos",
      "titulo": "El lobo de la piel doble",
@@ -7916,6 +8304,7 @@
     },
     {
      "id": "isla-pinguino-el-elefante-marino-del-sur-biologia-muda-y-por-que-esta-en-la-isla-10",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El elefante marino del sur: biología, muda y por qué está en la isla",
      "titulo": "Los gigantes que vienen a cambiar de piel",
@@ -7935,6 +8324,7 @@
     },
     {
      "id": "isla-pinguino-los-cormoranes-gris-imperial-roquero-y-bigua-11",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Los cormoranes: gris, imperial, roquero y biguá",
      "titulo": "Cuatro cormoranes",
@@ -7955,6 +8345,7 @@
     },
     {
      "id": "isla-pinguino-skuas-gaviotas-paloma-antartica-ostreros-y-gaviotines-12",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Skúas, gaviotas, paloma antártica, ostreros y gaviotines",
      "titulo": "Los que viven de los demás",
@@ -7974,6 +8365,7 @@
     },
     {
      "id": "isla-pinguino-aves-pelagicas-durante-la-navegacion-albatros-petreles-y-pardelas-13",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Aves pelágicas durante la navegación: albatros, petreles y pardelas",
      "titulo": "Alas sobre el mar abierto",
@@ -7993,6 +8385,7 @@
     },
     {
      "id": "isla-pinguino-cetaceos-del-parque-delfines-orcas-y-ballenas-14",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Cetáceos del parque: delfines, orcas y ballenas",
      "titulo": "Aletas en el agua",
@@ -8012,6 +8405,7 @@
     },
     {
      "id": "isla-pinguino-el-ecosistema-marino-corrientes-frentes-krill-sardina-y-anchoita-15",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El ecosistema marino: corrientes, frentes, krill, sardina y anchoíta",
      "titulo": "La despensa fría",
@@ -8032,6 +8426,7 @@
     },
     {
      "id": "isla-pinguino-los-porfidos-jurasicos-el-macizo-del-deseado-y-la-roca-de-la-isla-16",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Los pórfidos jurásicos: el Macizo del Deseado y la roca de la isla",
      "titulo": "La roca que sobrevivió al fuego",
@@ -8052,6 +8447,7 @@
     },
     {
      "id": "isla-pinguino-isla-de-los-reyes-corsarios-naufragos-y-la-real-compania-maritima-17",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Isla de los Reyes: corsarios, náufragos y la Real Compañía Marítima",
      "titulo": "Veinte mil pingüinos en barriles",
@@ -8072,6 +8468,7 @@
     },
     {
      "id": "isla-pinguino-el-faro-de-mil-novecientos-tres-y-la-factoria-de-lobos-18",
+     "audio": null,
      "tema": "Historia",
      "subtema": "El faro de mil novecientos tres y la factoría de lobos",
      "titulo": "La luz que se encendió con querosén",
@@ -8092,6 +8489,7 @@
     },
     {
      "id": "isla-pinguino-la-reserva-provincial-el-tratado-de-dos-mil-diez-y-el-parque-interjurisdiccional-19",
+     "audio": null,
      "tema": "Historia",
      "subtema": "La reserva provincial, el tratado de dos mil diez y el parque interjurisdiccional",
      "titulo": "Un parque con dos dueños",
@@ -8123,6 +8521,7 @@
    "relatos": [
     {
      "id": "ria-deseado-origen-de-la-ria-0",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Origen de la ría",
      "titulo": "Un valle sin río",
@@ -8141,6 +8540,7 @@
     },
     {
      "id": "ria-deseado-el-cormoran-gris-1",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El cormorán gris",
      "titulo": "La barranca de los cormoranes",
@@ -8159,6 +8559,7 @@
     },
     {
      "id": "ria-deseado-pinguinos-lobos-marinos-y-las-islas-de-la-ria-2",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Pingüinos, lobos marinos y las islas de la ría",
      "titulo": "Las islas de la ría",
@@ -8177,6 +8578,7 @@
     },
     {
      "id": "ria-deseado-la-excursion-en-lancha-3",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "La excursión en lancha",
      "titulo": "Navegar la ría con el motor apagado",
@@ -8198,6 +8600,7 @@
     },
     {
      "id": "ria-deseado-la-tonina-overa-delfin-de-la-ria-4",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "La tonina overa, delfín de la ría",
      "titulo": "Un delfín de dos colores que nace en noviembre",
@@ -8217,6 +8620,7 @@
     },
     {
      "id": "ria-deseado-cormoran-imperial-y-cormoran-de-cuello-negro-5",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Cormorán imperial y cormorán de cuello negro",
      "titulo": "El ojo azul y la discusión de los taxónomos",
@@ -8236,6 +8640,7 @@
     },
     {
      "id": "ria-deseado-cormoran-roquero-y-bigua-6",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Cormorán roquero y biguá",
      "titulo": "El de la cara roja y el que anida en los arbustos",
@@ -8255,6 +8660,7 @@
     },
     {
      "id": "ria-deseado-el-pinguino-de-magallanes-en-las-islas-de-la-ria-7",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El pingüino de Magallanes en las islas de la ría",
      "titulo": "Pichones de dos semanas bajo la zampa",
@@ -8275,6 +8681,7 @@
     },
     {
      "id": "ria-deseado-gaviotines-gaviotas-y-escuas-8",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Gaviotines, gaviotas y escúas",
      "titulo": "Los que pescan en picada y los que roban",
@@ -8294,6 +8701,7 @@
     },
     {
      "id": "ria-deseado-garzas-ostreros-y-patos-de-la-orilla-9",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Garzas, ostreros y patos de la orilla",
      "titulo": "La orilla de noche y la orilla de día",
@@ -8314,6 +8722,7 @@
     },
     {
      "id": "ria-deseado-aves-playeras-migratorias-10",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Aves playeras migratorias",
      "titulo": "Los que vienen del Ártico a comer en el barro",
@@ -8334,6 +8743,7 @@
     },
     {
      "id": "ria-deseado-lobos-marinos-de-un-pelo-11",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Lobos marinos de un pelo",
      "titulo": "Los machos llegan en diciembre",
@@ -8353,6 +8763,7 @@
     },
     {
      "id": "ria-deseado-el-bosque-de-cachiyuyo-el-intermareal-y-los-peces-12",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El bosque de cachiyuyo, el intermareal y los peces",
      "titulo": "Lo que la marea tapa y destapa",
@@ -8374,6 +8785,7 @@
     },
     {
      "id": "ria-deseado-flora-de-los-canadones-y-la-estepa-13",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Flora de los cañadones y la estepa",
      "titulo": "Matas que se defienden del viento",
@@ -8395,6 +8807,7 @@
     },
     {
      "id": "ria-deseado-ignimbritas-ostras-y-terrazas-leer-las-paredes-14",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Ignimbritas, ostras y terrazas: leer las paredes",
      "titulo": "Ciento cincuenta millones de años en una pared",
@@ -8416,6 +8829,7 @@
     },
     {
      "id": "ria-deseado-la-reserva-de-intangible-a-provincial-15",
+     "audio": null,
      "tema": "Historia",
      "subtema": "La reserva: de intangible a provincial",
      "titulo": "Diez mil hectáreas que nadie podía tocar",
@@ -8436,6 +8850,7 @@
     },
     {
      "id": "ria-deseado-darwin-lee-la-ria-observaciones-del-verano-de-mil-ochocientos-treinta-y-tres-16",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Darwin lee la ría: observaciones del verano de mil ochocientos treinta y tres",
      "titulo": "Trece días con un barómetro y una escopeta",
@@ -8468,6 +8883,7 @@
    "relatos": [
     {
      "id": "cabo-blanco-las-salinas-y-el-pueblo-desaparecido-0",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Las salinas y el pueblo desaparecido",
      "titulo": "El pueblo que se comió la sal",
@@ -8486,6 +8902,7 @@
     },
     {
      "id": "cabo-blanco-el-lobo-marino-de-dos-pelos-1",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El lobo marino de dos pelos",
      "titulo": "La piel que casi los borra",
@@ -8504,6 +8921,7 @@
     },
     {
      "id": "cabo-blanco-el-faro-los-cormoranes-y-el-camino-2",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "El faro, los cormoranes y el camino",
      "titulo": "Faro de ladrillo, cormoranes y greda",
@@ -8523,6 +8941,7 @@
     },
     {
      "id": "cabo-blanco-el-lobo-fino-por-dentro-taxonomia-buceo-y-el-calendario-de-noviembre-3",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El lobo fino por dentro: taxonomía, buceo y el calendario de noviembre",
      "titulo": "Un oso de mar con reloj interno",
@@ -8543,6 +8962,7 @@
     },
     {
      "id": "cabo-blanco-explotacion-censos-y-recuperacion-del-lobo-fino-4",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Explotación, censos y recuperación del lobo fino",
      "titulo": "Garrotes, pieles y los números de la vuelta",
@@ -8563,6 +8983,7 @@
     },
     {
      "id": "cabo-blanco-el-lobo-de-un-pelo-y-como-distinguirlo-del-lobo-fino-5",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El lobo de un pelo y cómo distinguirlo del lobo fino",
      "titulo": "El león del cabo",
@@ -8581,6 +9002,7 @@
     },
     {
      "id": "cabo-blanco-las-tres-especies-de-cormoranes-6",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Las tres especies de cormoranes",
      "titulo": "Tres cormoranes y una pared de pórfido",
@@ -8600,6 +9022,7 @@
     },
     {
      "id": "cabo-blanco-pinguinos-gaviotas-petreles-y-otras-aves-marinas-y-costeras-7",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Pingüinos, gaviotas, petreles y otras aves marinas y costeras",
      "titulo": "Los que viven del borde",
@@ -8620,6 +9043,7 @@
     },
     {
      "id": "cabo-blanco-el-intermareal-y-el-bosque-de-cachiyuyo-8",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El intermareal y el bosque de cachiyuyo",
      "titulo": "La marea descubre un bosque",
@@ -8640,6 +9064,7 @@
     },
     {
      "id": "cabo-blanco-aves-de-meseta-y-rapaces-del-camino-9",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Aves de meseta y rapaces del camino",
      "titulo": "Lo que vuela sobre la estepa",
@@ -8662,6 +9087,7 @@
     },
     {
      "id": "cabo-blanco-guanaco-mara-zorros-y-la-fauna-terrestre-de-la-meseta-10",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Guanaco, mara, zorros y la fauna terrestre de la meseta",
      "titulo": "El camélido que se quedó con la estepa",
@@ -8682,6 +9108,7 @@
     },
     {
      "id": "cabo-blanco-la-flora-de-la-estepa-costera-y-de-la-salina-11",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "La flora de la estepa costera y de la salina",
      "titulo": "Lo que crece donde no llueve",
@@ -8704,6 +9131,7 @@
     },
     {
      "id": "cabo-blanco-porfidos-jurasicos-tombolo-y-la-costa-12",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Pórfidos jurásicos, tómbolo y la costa",
      "titulo": "Una isla volcánica que el mar ató a la costa",
@@ -8725,6 +9153,7 @@
     },
     {
      "id": "cabo-blanco-magallanes-en-mil-quinientos-veinte-y-los-navegantes-que-siguieron-13",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Magallanes en mil quinientos veinte y los navegantes que siguieron",
      "titulo": "Cinco naves frente a un cabo blanco",
@@ -8746,6 +9175,7 @@
     },
     {
      "id": "cabo-blanco-arqueologia-y-pueblos-originarios-aonikenk-en-yenk-aike-14",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Arqueología y pueblos originarios: aonikenk en Yenk Aike",
      "titulo": "Seis mil años de lobos en la mesa",
@@ -8766,6 +9196,7 @@
     },
     {
      "id": "cabo-blanco-el-faro-construccion-torreros-y-un-siglo-de-aislamiento-15",
+     "audio": null,
      "tema": "Historia",
      "subtema": "El faro: construcción, torreros y un siglo de aislamiento",
      "titulo": "Ciento diez mil ladrillos en un peñón",
@@ -8786,6 +9217,7 @@
     },
     {
      "id": "cabo-blanco-la-vida-cotidiana-del-pueblo-de-la-sal-correo-telegrafo-y-trencito-16",
+     "audio": null,
      "tema": "Historia",
      "subtema": "La vida cotidiana del pueblo de la sal: correo, telégrafo y trencito",
      "titulo": "Un pueblo con indicativo telegráfico",
@@ -8807,6 +9239,7 @@
     },
     {
      "id": "cabo-blanco-la-reserva-intangible-que-significa-como-se-maneja-y-como-visitarla-bien-17",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "La reserva intangible: qué significa, cómo se maneja y cómo visitarla bien",
      "titulo": "Intangible quiere decir que no se toca",
@@ -8839,6 +9272,7 @@
    "relatos": [
     {
      "id": "parque-nacional-monte-leon-cazadores-guaneros-y-ovejas-la-costa-antes-del-parque-0",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Cazadores, guaneros y ovejas: la costa antes del parque",
      "titulo": "Diez mil años de costa",
@@ -8857,6 +9291,7 @@
     },
     {
      "id": "parque-nacional-monte-leon-los-tompkins-y-la-creacion-del-primer-parque-costero-1",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Los Tompkins y la creación del primer parque costero",
      "titulo": "Un campo comprado para regalarlo",
@@ -8874,6 +9309,7 @@
     },
     {
      "id": "parque-nacional-monte-leon-el-guano-de-monte-leon-y-la-guerra-que-no-fue-mil-ochocientos-setenta-y-seis-a-mil-ochocientos-setenta-y-nueve-2",
+     "audio": null,
      "tema": "Historia",
      "subtema": "El guano de Monte León y la guerra que no fue, mil ochocientos setenta y seis a mil ochocientos setenta y nueve",
      "titulo": "Dos barcos apresados por excremento de cormorán",
@@ -8894,6 +9330,7 @@
     },
     {
      "id": "parque-nacional-monte-leon-la-estancia-monte-leon-ovejas-la-familia-braun-y-los-loberos-3",
+     "audio": null,
      "tema": "Historia",
      "subtema": "La estancia Monte León: ovejas, la familia Braun y los loberos",
      "titulo": "Cuarenta mil ovejas y un galpón de esquila",
@@ -8914,6 +9351,7 @@
     },
     {
      "id": "parque-nacional-monte-leon-veinte-anos-de-parque-nacional-manejo-investigacion-y-lo-pendiente-4",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Veinte años de parque nacional: manejo, investigación y lo pendiente",
      "titulo": "Lo que se hace con sesenta y dos mil hectáreas",
@@ -8933,6 +9371,7 @@
     },
     {
      "id": "parque-nacional-monte-leon-los-aonikenk-y-los-diez-mil-anos-de-ocupacion-de-la-costa-5",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Los aonikenk y los diez mil años de ocupación de la costa",
      "titulo": "Conchales, boleadoras y un nombre que viene de los pies",
@@ -8953,6 +9392,7 @@
     },
     {
      "id": "parque-nacional-monte-leon-la-pinguinera-en-noviembre-y-los-pumas-que-la-cazan-6",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "La pingüinera en noviembre y los pumas que la cazan",
      "titulo": "Cuarenta mil parejas y un puma en la playa",
@@ -8971,6 +9411,7 @@
     },
     {
      "id": "parque-nacional-monte-leon-loberia-cormoranes-y-el-intermareal-7",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Lobería, cormoranes y el intermareal",
      "titulo": "La isla de los cormoranes y el mundo de la bajamar",
@@ -8989,6 +9430,7 @@
     },
     {
      "id": "parque-nacional-monte-leon-pinguino-de-magallanes-biologia-censos-y-quien-lo-estudio-8",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Pingüino de Magallanes: biología, censos y quién lo estudió",
      "titulo": "El pingüino que Forster describió y Frere contó",
@@ -9008,6 +9450,7 @@
     },
     {
      "id": "parque-nacional-monte-leon-el-puma-de-monte-leon-la-investigacion-con-collares-satelitales-9",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El puma de Monte León: la investigación con collares satelitales",
      "titulo": "Trece pumas por cada cien kilómetros cuadrados",
@@ -9028,6 +9471,7 @@
     },
     {
      "id": "parque-nacional-monte-leon-los-tres-cormoranes-de-la-isla-monte-leon-10",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Los tres cormoranes de la isla Monte León",
      "titulo": "Imperial, roquero y gris: tres formas de pescar en la misma isla",
@@ -9046,6 +9490,7 @@
     },
     {
      "id": "parque-nacional-monte-leon-gaviotas-gaviotines-skuas-petreles-y-la-paloma-antartica-11",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Gaviotas, gaviotines, skúas, petreles y la paloma antártica",
      "titulo": "Los que viven de la colonia ajena",
@@ -9065,6 +9510,7 @@
     },
     {
      "id": "parque-nacional-monte-leon-ostreros-chorlos-y-playeros-migratorios-de-la-restinga-12",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Ostreros, chorlos y playeros migratorios de la restinga",
      "titulo": "Los que llegan del Ártico y los que no se van nunca",
@@ -9084,6 +9530,7 @@
     },
     {
      "id": "parque-nacional-monte-leon-el-lobo-marino-de-un-pelo-y-la-loberia-13",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El lobo marino de un pelo y la lobería",
      "titulo": "Trescientos cincuenta kilos de melena",
@@ -9103,6 +9550,7 @@
     },
     {
      "id": "parque-nacional-monte-leon-cetaceos-frente-a-la-costa-franca-austral-orca-tonina-overa-y-delfin-austral-14",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Cetáceos frente a la costa: franca austral, orca, tonina overa y delfín austral",
      "titulo": "Cuatro cetáceos para mirar desde el acantilado",
@@ -9121,6 +9569,7 @@
     },
     {
      "id": "parque-nacional-monte-leon-el-guanaco-el-animal-de-la-estepa-y-de-los-tehuelches-15",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El guanaco: el animal de la estepa y de los tehuelches",
      "titulo": "Chulengos en el cañadón",
@@ -9140,6 +9589,7 @@
     },
     {
      "id": "parque-nacional-monte-leon-choique-zorro-gris-piche-y-zorrino-la-fauna-menor-de-la-estepa-16",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Choique, zorro gris, piche y zorrino: la fauna menor de la estepa",
      "titulo": "El avestruz que se comió Darwin y el armadillo que cruzó el río",
@@ -9160,6 +9610,7 @@
     },
     {
      "id": "parque-nacional-monte-leon-aves-de-la-estepa-y-rapaces-del-acantilado-17",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Aves de la estepa y rapaces del acantilado",
      "titulo": "La que grita desde la mata negra y la que planea sobre la pared",
@@ -9180,6 +9631,7 @@
     },
     {
      "id": "parque-nacional-monte-leon-el-intermareal-la-olla-y-los-bosques-de-cachiyuyo-18",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El intermareal, La Olla y los bosques de cachiyuyo",
      "titulo": "Seis horas de vida bajo el sol y seis bajo el agua",
@@ -9201,6 +9653,7 @@
     },
     {
      "id": "parque-nacional-monte-leon-flora-de-la-estepa-y-la-costa-19",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Flora de la estepa y la costa",
      "titulo": "Mata negra, molle y las gramíneas que Spegazzini no conocía",
@@ -9221,6 +9674,7 @@
     },
     {
      "id": "parque-nacional-monte-leon-los-acantilados-la-cabeza-del-leon-y-la-olla-20",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Los acantilados, la Cabeza del León y La Olla",
      "titulo": "Un mar de hace veinte millones de años",
@@ -9240,6 +9694,7 @@
     },
     {
      "id": "parque-nacional-monte-leon-formacion-monte-leon-el-mar-del-mioceno-temprano-y-sus-fosiles-21",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Formación Monte León: el mar del Mioceno temprano y sus fósiles",
      "titulo": "Plataforma marina, glauconita y un foraminífero que da la edad",
@@ -9259,6 +9714,7 @@
     },
     {
      "id": "parque-nacional-monte-leon-formacion-santa-cruz-y-los-mamiferos-del-santacrucense-22",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Formación Santa Cruz y los mamíferos del Santacrucense",
      "titulo": "Un mono, un caballo de un dedo y aves del terror a la orilla del mar",
@@ -9279,6 +9735,7 @@
     },
     {
      "id": "parque-nacional-monte-leon-como-organizar-la-manana-en-el-parque-23",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "Cómo organizar la mañana en el parque",
      "titulo": "Registro, ripio, marea y pingüinos",
@@ -9299,6 +9756,7 @@
     },
     {
      "id": "parque-nacional-monte-leon-los-senderos-y-miradores-uno-por-uno-y-como-leer-la-tabla-de-mareas-24",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "Los senderos y miradores uno por uno, y cómo leer la tabla de mareas",
      "titulo": "Nueve paradas entre el galpón y la playa Kimiri Aike",
@@ -9330,6 +9788,7 @@
    "relatos": [
     {
      "id": "peninsula-san-julian-pinguinos-de-magallanes-en-plena-cria-0",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Pingüinos de Magallanes en plena cría",
      "titulo": "Noviembre en la pingüinera: huevos que se abren",
@@ -9348,6 +9807,7 @@
     },
     {
      "id": "peninsula-san-julian-cormoranes-y-aves-costeras-1",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Cormoranes y aves costeras",
      "titulo": "Cormoranes de ojos azules y aves de la marisma",
@@ -9367,6 +9827,7 @@
     },
     {
      "id": "peninsula-san-julian-cormoran-gris-de-patas-rojas-2",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Cormorán gris de patas rojas",
      "titulo": "El cormorán gris: la joya de La Mina",
@@ -9385,6 +9846,7 @@
     },
     {
      "id": "peninsula-san-julian-cormoranes-imperial-cuello-negro-y-bigua-3",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Cormoranes imperial, cuello negro y biguá",
      "titulo": "Tres cormoranes, tres maneras de pescar",
@@ -9403,6 +9865,7 @@
     },
     {
      "id": "peninsula-san-julian-gaviotas-gaviotines-skuas-y-petreles-4",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Gaviotas, gaviotines, skúas y petreles",
      "titulo": "La mancha roja de la gaviota y los piratas del aire",
@@ -9421,6 +9884,7 @@
     },
     {
      "id": "peninsula-san-julian-aves-de-marisma-5",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Aves de marisma",
      "titulo": "El comedor que abre la marea: aves de la marisma",
@@ -9441,6 +9905,7 @@
     },
     {
      "id": "peninsula-san-julian-aves-playeras-migratorias-6",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Aves playeras migratorias",
      "titulo": "Del Ártico a la península: los playeros viajeros",
@@ -9459,6 +9924,7 @@
     },
     {
      "id": "peninsula-san-julian-lobos-marinos-elefantes-marinos-y-cetaceos-7",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Lobos marinos, elefantes marinos y cetáceos",
      "titulo": "Lobos, elefantes y orcas frente a la península",
@@ -9478,6 +9944,7 @@
     },
     {
      "id": "peninsula-san-julian-guanaco-fauna-de-estepa-y-la-reserva-8",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Guanaco, fauna de estepa y la reserva",
      "titulo": "El regreso del guanaco",
@@ -9498,6 +9965,7 @@
     },
     {
      "id": "peninsula-san-julian-flora-de-estepa-y-marisma-9",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Flora de estepa y marisma",
      "titulo": "Mata negra, jume y líquenes: la vegetación de la península",
@@ -9518,6 +9986,7 @@
     },
     {
      "id": "peninsula-san-julian-formaciones-san-julian-y-monte-leon-10",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Formaciones San Julián y Monte León",
      "titulo": "Ostras gigantes y helechos arborescentes: las rocas de San Julián",
@@ -9536,6 +10005,7 @@
     },
     {
      "id": "peninsula-san-julian-terrazas-cordones-litorales-bahia-y-mareas-11",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Terrazas, cordones litorales, bahía y mareas",
      "titulo": "La escalera de Darwin y la bahía que respira",
@@ -9555,6 +10025,7 @@
     },
     {
      "id": "peninsula-san-julian-arqueologia-cazadores-de-guanaco-y-floridablanca-12",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Arqueología: cazadores de guanaco y Floridablanca",
      "titulo": "Piedras en el suelo: arqueología de la península y de Floridablanca",
@@ -9573,6 +10044,7 @@
     },
     {
      "id": "peninsula-san-julian-la-peninsula-la-bahia-y-sus-mareas-13",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "La península, la bahía y sus mareas",
      "titulo": "Recorrer la península: acantilados, marismas y siete metros de marea",
@@ -9603,6 +10075,7 @@
    "relatos": [
     {
      "id": "isla-leones-el-faro-de-mil-novecientos-diecisiete-y-sus-trece-torreros-0",
+     "audio": null,
      "tema": "Historia",
      "subtema": "El faro de mil novecientos diecisiete y sus trece torreros",
      "titulo": "Trece torreros y una óptica francesa",
@@ -9621,6 +10094,7 @@
     },
     {
      "id": "isla-leones-pinguinos-cormoranes-y-lobos-en-la-isla-1",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Pingüinos, cormoranes y lobos en la isla",
      "titulo": "Una isla que brama",
@@ -9638,6 +10112,7 @@
     },
     {
      "id": "isla-leones-la-excursion-al-faro-desde-bahia-arredondo-2",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "La excursión al faro desde bahía Arredondo",
      "titulo": "Un día entero para llegar al faro",
@@ -9656,6 +10131,7 @@
     },
     {
      "id": "isla-leones-nueva-leon-la-colonia-de-alcazaba-en-caleta-hornos-mil-quinientos-treinta-y-cinco-3",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Nueva León: la colonia de Alcazaba en Caleta Hornos, mil quinientos treinta y cinco",
      "titulo": "El gobernador que murió en su propia ciudad",
@@ -9675,6 +10151,7 @@
     },
     {
      "id": "isla-leones-jesuitas-loberos-guaneros-y-el-huracan-de-mil-ochocientos-cuarenta-y-seis-4",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Jesuitas, loberos, guaneros y el huracán de mil ochocientos cuarenta y seis",
      "titulo": "La isla que se vendía por toneladas",
@@ -9695,6 +10172,7 @@
     },
     {
      "id": "isla-leones-la-maquina-del-faro-optica-trencito-decauville-y-vida-de-los-torreros-5",
+     "audio": null,
      "tema": "Historia",
      "subtema": "La máquina del faro: óptica, trencito Decauville y vida de los torreros",
      "titulo": "Tres destellos cada diez segundos",
@@ -9715,6 +10193,7 @@
     },
     {
      "id": "isla-leones-naufragios-y-navegacion-en-el-norte-del-golfo-san-jorge-6",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Naufragios y navegación en el norte del golfo San Jorge",
      "titulo": "El vapor que trajo a San Martín y se perdió en Camarones",
@@ -9735,6 +10214,7 @@
     },
     {
      "id": "isla-leones-el-pinguino-de-magallanes-de-isla-leones-7",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El pingüino de Magallanes de Isla Leones",
      "titulo": "Un nido debajo de cada mata",
@@ -9754,6 +10234,7 @@
     },
     {
      "id": "isla-leones-cormoran-imperial-y-cormoran-cuello-negro-los-dos-buzos-de-los-acantilados-8",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Cormorán imperial y cormorán cuello negro: los dos buzos de los acantilados",
      "titulo": "Nidos de barro, algas y hueso",
@@ -9773,6 +10254,7 @@
     },
     {
      "id": "isla-leones-gaviotas-petrel-gigante-gaviotines-y-escuas-los-otros-nidificantes-9",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Gaviotas, petrel gigante, gaviotines y escúas: los otros nidificantes",
      "titulo": "Los que viven de la colonia",
@@ -9792,6 +10274,7 @@
     },
     {
      "id": "isla-leones-lobo-marino-de-un-pelo-biologia-colonia-y-la-cria-de-diciembre-10",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Lobo marino de un pelo: biología, colonia y la cría de diciembre",
      "titulo": "El bramido que da nombre",
@@ -9811,6 +10294,7 @@
     },
     {
      "id": "isla-leones-toninas-overas-ballenas-y-delfines-del-golfo-san-jorge-11",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Toninas overas, ballenas y delfines del golfo San Jorge",
      "titulo": "El delfín blanco y negro y las ballenas de paso",
@@ -9831,6 +10315,7 @@
     },
     {
      "id": "isla-leones-aves-playeras-pato-vapor-cabeza-blanca-y-rapaces-de-la-isla-y-la-costa-12",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Aves playeras, pato vapor cabeza blanca y rapaces de la isla y la costa",
      "titulo": "El pato que no vuela y el chorlo que vuela demasiado",
@@ -9851,6 +10336,7 @@
     },
     {
      "id": "isla-leones-piche-lagartijas-y-flora-la-vida-terrestre-de-una-isla-de-estepa-13",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Piche, lagartijas y flora: la vida terrestre de una isla de estepa",
      "titulo": "Un armadillo en una isla",
@@ -9871,6 +10357,7 @@
     },
     {
      "id": "isla-leones-riolitas-jurasicas-terrazas-marinas-y-guano-la-geologia-de-la-isla-y-la-costa-14",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Riolitas jurásicas, terrazas marinas y guano: la geología de la isla y la costa",
      "titulo": "Una isla hecha de lava de ciento ochenta millones de años",
@@ -9891,6 +10378,7 @@
     },
     {
      "id": "isla-leones-el-parque-patagonia-azul-y-la-conservacion-de-la-isla-15",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El Parque Patagonia Azul y la conservación de la isla",
      "titulo": "Cuarenta y dos islas y una milla de mar",
@@ -9922,6 +10410,7 @@
    "relatos": [
     {
      "id": "puerto-madryn-el-desembarco-gales-y-el-nacimiento-de-la-ciudad-0",
+     "audio": null,
      "tema": "Historia",
      "subtema": "El desembarco galés y el nacimiento de la ciudad",
      "titulo": "Punta Cuevas, el Mimosa y el nombre de un barón",
@@ -9941,6 +10430,7 @@
     },
     {
      "id": "puerto-madryn-michael-d-jones-la-idea-de-la-wladfa-y-el-viaje-del-mimosa-1",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Michael D. Jones, la idea de la Wladfa y el viaje del Mimosa",
      "titulo": "Un pastor de Bala y un clíper de té",
@@ -9961,6 +10451,7 @@
     },
     {
      "id": "puerto-madryn-los-primeros-anos-de-la-colonia-y-la-relacion-con-los-tehuelches-2",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Los primeros años de la colonia y la relación con los tehuelches",
      "titulo": "Pan por carne: el pacto que salvó a la colonia",
@@ -9981,6 +10472,7 @@
     },
     {
      "id": "puerto-madryn-aluar-el-puerto-y-la-ciudad-de-hoy-3",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Aluar, el puerto y la ciudad de hoy",
      "titulo": "Aluminio, viento y cien mil habitantes",
@@ -10001,6 +10493,7 @@
     },
     {
      "id": "puerto-madryn-el-doradillo-y-las-ballenas-de-fin-de-temporada-en-noviembre-4",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El Doradillo y las ballenas de fin de temporada en noviembre",
      "titulo": "Madres y ballenatos en el golfo Nuevo",
@@ -10019,6 +10512,7 @@
     },
     {
      "id": "puerto-madryn-biologia-de-la-ballena-franca-austral-5",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Biología de la ballena franca austral",
      "titulo": "Eubalaena australis: anatomía de una ballena correcta",
@@ -10039,6 +10533,7 @@
     },
     {
      "id": "puerto-madryn-medio-siglo-de-investigacion-y-conservacion-de-la-ballena-franca-en-valdes-6",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Medio siglo de investigación y conservación de la ballena franca en Valdés",
      "titulo": "Roger Payne, las fotos aéreas y las crías que mueren",
@@ -10059,6 +10554,7 @@
     },
     {
      "id": "puerto-madryn-las-orcas-de-peninsula-valdes-y-el-varamiento-intencional-7",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Las orcas de Península Valdés y el varamiento intencional",
      "titulo": "Orcas que salen del mar a cazar",
@@ -10079,6 +10575,7 @@
     },
     {
      "id": "puerto-madryn-elefantes-marinos-y-lobos-marinos-los-pinnipedos-de-valdes-y-punta-loma-8",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Elefantes marinos y lobos marinos: los pinnípedos de Valdés y Punta Loma",
      "titulo": "Colosos que mudan y lobos que defienden la playa",
@@ -10099,6 +10596,7 @@
     },
     {
      "id": "puerto-madryn-el-pinguino-de-magallanes-en-punta-tombo-y-san-lorenzo-9",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El pingüino de Magallanes en Punta Tombo y San Lorenzo",
      "titulo": "Noviembre en la colonia: nacen los pichones",
@@ -10119,6 +10617,7 @@
     },
     {
      "id": "puerto-madryn-peninsula-valdes-patrimonio-de-la-humanidad-salinas-istmo-y-estepa-10",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Península Valdés: Patrimonio de la Humanidad, salinas, istmo y estepa",
      "titulo": "Una isla que casi no es isla",
@@ -10139,6 +10638,7 @@
     },
     {
      "id": "puerto-madryn-la-ciencia-en-madryn-el-centro-nacional-patagonico-y-el-ecocentro-11",
+     "audio": null,
      "tema": "Costumbres y gente",
      "subtema": "La ciencia en Madryn: el Centro Nacional Patagónico y el Ecocentro",
      "titulo": "Una ciudad de biólogos marinos",
@@ -10158,6 +10658,7 @@
     },
     {
      "id": "puerto-madryn-buceo-vida-submarina-y-pesca-en-el-golfo-nuevo-12",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "Buceo, vida submarina y pesca en el golfo Nuevo",
      "titulo": "Bajo el espejo del golfo",
@@ -10178,6 +10679,7 @@
     },
     {
      "id": "puerto-madryn-cordero-langostinos-mariscos-y-la-mesa-de-madryn-13",
+     "audio": null,
      "tema": "Comidas y bebidas",
      "subtema": "Cordero, langostinos, mariscos y la mesa de Madryn",
      "titulo": "Cordero al asador frente al golfo",
@@ -10210,6 +10712,7 @@
    "relatos": [
     {
      "id": "trelew-el-pueblo-de-luis-la-ciudad-que-nacio-de-una-estacion-0",
+     "audio": null,
      "tema": "Historia",
      "subtema": "El pueblo de Luis: la ciudad que nació de una estación",
      "titulo": "Un pueblo que nació de una estación de tren",
@@ -10230,6 +10733,7 @@
     },
     {
      "id": "trelew-lewis-jones-y-el-ferrocarril-central-del-chubut-1",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Lewis Jones y el Ferrocarril Central del Chubut",
      "titulo": "El impresor que tendió una vía en el desierto",
@@ -10250,6 +10754,7 @@
     },
     {
      "id": "trelew-riego-trigo-cooperativa-e-inundaciones-la-economia-de-la-colonia-2",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Riego, trigo, cooperativa e inundaciones: la economía de la colonia",
      "titulo": "La zanja de Aaron Jenkins",
@@ -10270,6 +10775,7 @@
     },
     {
      "id": "trelew-las-capillas-galesas-del-valle-3",
+     "audio": null,
      "tema": "Costumbres y gente",
      "subtema": "Las capillas galesas del valle",
      "titulo": "Capillas sin campanario",
@@ -10290,6 +10796,7 @@
     },
     {
      "id": "trelew-el-eisteddfod-y-la-lengua-galesa-en-la-patagonia-de-hoy-4",
+     "audio": null,
      "tema": "Costumbres y gente",
      "subtema": "El Eisteddfod y la lengua galesa en la Patagonia de hoy",
      "titulo": "Un sillón para el mejor poeta",
@@ -10310,6 +10817,7 @@
     },
     {
      "id": "trelew-gaiman-y-dolavon-pueblos-galeses-del-valle-5",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "Gaiman y Dolavon: pueblos galeses del valle",
      "titulo": "Té en Gaiman, norias en Dolavon",
@@ -10330,6 +10838,7 @@
     },
     {
      "id": "trelew-la-torta-negra-y-la-cocina-del-valle-6",
+     "audio": null,
      "tema": "Comidas y bebidas",
      "subtema": "La torta negra y la cocina del valle",
      "titulo": "Una torta que aguanta un invierno",
@@ -10350,6 +10859,7 @@
     },
     {
      "id": "trelew-rawson-playa-union-y-las-toninas-overas-7",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "Rawson, Playa Unión y las toninas overas",
      "titulo": "La capital chica y los delfines blanco y negro",
@@ -10370,6 +10880,7 @@
     },
     {
      "id": "trelew-la-masacre-de-trelew-la-fuga-del-penal-de-rawson-y-los-fusilamientos-8",
+     "audio": null,
      "tema": "Historia",
      "subtema": "La Masacre de Trelew: la fuga del penal de Rawson y los fusilamientos",
      "titulo": "Agosto de mil novecientos setenta y dos",
@@ -10390,6 +10901,7 @@
     },
     {
      "id": "trelew-la-masacre-de-trelew-memoria-juicio-y-condenas-9",
+     "audio": null,
      "tema": "Historia",
      "subtema": "La Masacre de Trelew: memoria, juicio y condenas",
      "titulo": "Cuarenta años hasta la sentencia",
@@ -10410,6 +10922,7 @@
     },
     {
      "id": "trelew-patagotitan-mayorum-el-titan-de-la-flecha-10",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Patagotitan mayorum, el titán de La Flecha",
      "titulo": "El titán de La Flecha",
@@ -10430,6 +10943,7 @@
     },
     {
      "id": "trelew-egidio-feruglio-y-los-dinosaurios-jurasicos-de-la-cuenca-de-canadon-asfalto-11",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Egidio Feruglio y los dinosaurios jurásicos de la cuenca de Cañadón Asfalto",
      "titulo": "Un lago salado de hace ciento ochenta millones de años",
@@ -10450,6 +10964,7 @@
     },
     {
      "id": "trelew-el-mar-del-mioceno-la-formacion-gaiman-y-el-parque-bryn-gwyn-12",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "El mar del Mioceno: la Formación Gaiman y el parque Bryn Gwyn",
      "titulo": "Pingüinos fósiles en la barranca",
@@ -10470,6 +10985,7 @@
     },
     {
      "id": "trelew-la-laguna-chiquichano-y-las-aves-acuaticas-de-trelew-13",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "La laguna Chiquichano y las aves acuáticas de Trelew",
      "titulo": "Flamencos en el centro de la ciudad",
@@ -10502,6 +11018,7 @@
    "relatos": [
     {
      "id": "viedma-del-fuerte-de-mil-setecientos-setenta-y-nueve-a-la-capital-que-no-fue-0",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Del fuerte de mil setecientos setenta y nueve a la capital que no fue",
      "titulo": "La ciudad más antigua de la Patagonia",
@@ -10521,6 +11038,7 @@
     },
     {
      "id": "viedma-loros-barranqueros-de-el-condor-y-lobos-marinos-de-punta-bermeja-1",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Loros barranqueros de El Cóndor y lobos marinos de Punta Bermeja",
      "titulo": "La colonia de loros más grande del mundo",
@@ -10541,6 +11059,7 @@
     },
     {
      "id": "viedma-la-comarca-regata-cebollas-del-valle-y-mesa-maragata-2",
+     "audio": null,
      "tema": "Costumbres y gente",
      "subtema": "La comarca: regata, cebollas del valle y mesa maragata",
      "titulo": "Un río que se rema y un valle que se riega",
@@ -10561,6 +11080,7 @@
     },
     {
      "id": "viedma-el-plan-borbonico-de-poblamiento-y-la-fundacion-del-fuerte-del-carmen-3",
+     "audio": null,
      "tema": "Historia",
      "subtema": "El plan borbónico de poblamiento y la fundación del Fuerte del Carmen",
      "titulo": "Un funcionario de Jaén y una orden que venía de Madrid",
@@ -10580,6 +11100,7 @@
     },
     {
      "id": "viedma-los-maragatos-colonos-de-leon-cuevas-en-la-barranca-y-la-torre-del-fuerte-4",
+     "audio": null,
      "tema": "Costumbres y gente",
      "subtema": "Los maragatos: colonos de León, cuevas en la barranca y la Torre del Fuerte",
      "titulo": "Gente de la Maragatería viviendo bajo tierra",
@@ -10600,6 +11121,7 @@
     },
     {
      "id": "viedma-la-guerra-con-el-imperio-del-brasil-y-el-combate-del-siete-de-marzo-de-mil-ochocientos-veintisiete-5",
+     "audio": null,
      "tema": "Historia",
      "subtema": "La guerra con el Imperio del Brasil y el combate del siete de marzo de mil ochocientos veintisiete",
      "titulo": "El día que un pueblo de gauchos derrotó a una escuadra imperial",
@@ -10620,6 +11142,7 @@
     },
     {
      "id": "viedma-los-salesianos-en-la-patagonia-norte-y-ceferino-namuncura-6",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Los salesianos en la Patagonia norte y Ceferino Namuncurá",
      "titulo": "El nieto de Calfucurá en un colegio de Viedma",
@@ -10640,6 +11163,7 @@
     },
     {
      "id": "viedma-artemides-zatti-el-enfermero-de-la-bicicleta-7",
+     "audio": null,
      "tema": "Costumbres y gente",
      "subtema": "Artémides Zatti, el enfermero de la bicicleta",
      "titulo": "El pariente de todos los pobres",
@@ -10660,6 +11184,7 @@
     },
     {
      "id": "viedma-el-proyecto-de-alfonsin-para-trasladar-la-capital-a-viedma-y-carmen-de-patagones-8",
+     "audio": null,
      "tema": "Historia",
      "subtema": "El proyecto de Alfonsín para trasladar la capital a Viedma y Carmen de Patagones",
      "titulo": "Al sur, al mar y al frío",
@@ -10680,6 +11205,7 @@
     },
     {
      "id": "viedma-el-rio-negro-hidrologia-el-valle-inferior-el-riego-y-la-cebolla-9",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "El río Negro: hidrología, el valle inferior, el riego y la cebolla",
      "titulo": "El río más caudaloso de la Patagonia llega al mar",
@@ -10702,6 +11228,7 @@
     },
     {
      "id": "viedma-biologia-del-loro-barranquero-y-la-investigacion-de-masello-y-quillfeldt-en-el-condor-10",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Biología del loro barranquero y la investigación de Masello y Quillfeldt en El Cóndor",
      "titulo": "Treinta y cinco mil túneles en una pared de arenisca",
@@ -10724,6 +11251,7 @@
     },
     {
      "id": "viedma-el-naufragio-del-condor-el-faro-rio-negro-y-el-balneario-11",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "El naufragio del Cóndor, el faro Río Negro y el balneario",
      "titulo": "Un barco danés, un faro y un cura bañista",
@@ -10744,6 +11272,7 @@
     },
     {
      "id": "viedma-el-lobo-marino-de-un-pelo-en-la-loberia-de-punta-bermeja-12",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El lobo marino de un pelo en la lobería de Punta Bermeja",
      "titulo": "Harenes al pie de la punta roja",
@@ -10776,6 +11305,7 @@
    "relatos": [
     {
      "id": "bahia-blanca-del-fuerte-de-mil-ochocientos-veintiocho-al-puerto-y-la-ciudad-industrial-0",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Del fuerte de mil ochocientos veintiocho al puerto y la ciudad industrial",
      "titulo": "El fuerte, Darwin y el tren",
@@ -10794,6 +11324,7 @@
     },
     {
      "id": "bahia-blanca-el-estuario-cangrejales-gaviota-cangrejera-y-aves-migratorias-1",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El estuario: cangrejales, gaviota cangrejera y aves migratorias",
      "titulo": "La ría de los cangrejos",
@@ -10812,6 +11343,7 @@
     },
     {
      "id": "bahia-blanca-ingeniero-white-el-centro-y-la-ciudad-despues-de-las-tormentas-2",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "Ingeniero White, el centro y la ciudad después de las tormentas",
      "titulo": "White, el teatro y una ciudad que se levanta",
@@ -10830,6 +11362,7 @@
     },
     {
      "id": "bahia-blanca-la-fortaleza-protectora-argentina-y-medio-siglo-de-frontera-3",
+     "audio": null,
      "tema": "Historia",
      "subtema": "La Fortaleza Protectora Argentina y medio siglo de frontera",
      "titulo": "Un foso, cuatro baluartes y la frontera",
@@ -10850,6 +11383,7 @@
     },
     {
      "id": "bahia-blanca-darwin-en-punta-alta-los-primeros-fosiles-de-su-vida-entre-mil-ochocientos-treinta-y-dos-y-mil-ochocientos-treinta-y-tres-4",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Darwin en Punta Alta: los primeros fósiles de su vida, entre mil ochocientos treinta y dos y mil ochocientos treinta y tres",
      "titulo": "Una catacumba de monstruos",
@@ -10870,6 +11404,7 @@
     },
     {
      "id": "bahia-blanca-megatherium-toxodon-y-macrauchenia-que-eran-y-por-que-cambiaron-el-pensamiento-de-darwin-5",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Megatherium, Toxodon y Macrauchenia: qué eran y por qué cambiaron el pensamiento de Darwin",
      "titulo": "Los gigantes que pedían una explicación",
@@ -10890,6 +11425,7 @@
     },
     {
      "id": "bahia-blanca-el-cangrejo-cavador-neohelice-granulata-ingeniero-de-la-marisma-y-animal-de-laboratorio-6",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "El cangrejo cavador Neohelice granulata, ingeniero de la marisma y animal de laboratorio",
      "titulo": "El cangrejo que fabrica el paisaje",
@@ -10910,6 +11446,7 @@
     },
     {
      "id": "bahia-blanca-la-gaviota-cangrejera-larus-atlanticus-endemismo-cria-en-el-estuario-y-conservacion-7",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "La gaviota cangrejera Larus atlanticus: endemismo, cría en el estuario y conservación",
      "titulo": "La gaviota que solo cría acá",
@@ -10930,6 +11467,7 @@
     },
     {
      "id": "bahia-blanca-el-puerto-de-aguas-profundas-de-ingeniero-white-y-el-polo-petroquimico-8",
+     "audio": null,
      "tema": "Historia",
      "subtema": "El puerto de aguas profundas de Ingeniero White y el polo petroquímico",
      "titulo": "Un puerto hondo y una ciudad química",
@@ -10950,6 +11488,7 @@
     },
     {
      "id": "bahia-blanca-el-ferrocarril-las-cuatro-estaciones-y-la-ciudad-de-los-inmigrantes-9",
+     "audio": null,
      "tema": "Costumbres y gente",
      "subtema": "El ferrocarril, las cuatro estaciones y la ciudad de los inmigrantes",
      "titulo": "Rieles ingleses, franceses y una ciudad italiana",
@@ -10970,6 +11509,7 @@
     },
     {
      "id": "bahia-blanca-el-temporal-de-diciembre-de-dos-mil-veintitres-y-la-inundacion-de-marzo-de-dos-mil-veinticinco-10",
+     "audio": null,
      "tema": "Historia",
      "subtema": "El temporal de diciembre de dos mil veintitrés y la inundación de marzo de dos mil veinticinco",
      "titulo": "Viento y agua: quince meses que marcaron a la ciudad",
@@ -10990,6 +11530,7 @@
     },
     {
      "id": "bahia-blanca-la-base-naval-puerto-belgrano-luigi-luiggi-y-la-ciudad-de-punta-alta-11",
+     "audio": null,
      "tema": "Historia",
      "subtema": "La Base Naval Puerto Belgrano, Luigi Luiggi y la ciudad de Punta Alta",
      "titulo": "El puerto militar que inventó una ciudad",
@@ -11010,6 +11551,7 @@
     },
     {
      "id": "bahia-blanca-el-basquet-de-los-clubes-de-barrio-y-la-carrera-de-emanuel-ginobili-12",
+     "audio": null,
      "tema": "Costumbres y gente",
      "subtema": "El básquet de los clubes de barrio y la carrera de Emanuel Ginóbili",
      "titulo": "La ciudad del aro",
@@ -11030,6 +11572,7 @@
     },
     {
      "id": "bahia-blanca-pescados-y-mariscos-del-estuario-la-pesca-artesanal-de-white-y-la-cocina-de-las-colectividades-13",
+     "audio": null,
      "tema": "Comidas y bebidas",
      "subtema": "Pescados y mariscos del estuario, la pesca artesanal de White y la cocina de las colectividades",
      "titulo": "Lo que sale de la ría y lo que trajeron los barcos",
@@ -11061,6 +11604,7 @@
    "relatos": [
     {
      "id": "caleta-olivia-del-telegrafo-al-petroleo-0",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Del telégrafo al petróleo",
      "titulo": "Una caleta, un telegrama y un obrero de trece metros",
@@ -11079,6 +11623,7 @@
     },
     {
      "id": "caleta-olivia-lobos-marinos-y-ballenas-sei-en-el-golfo-san-jorge-1",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Lobos marinos y ballenas sei en el golfo San Jorge",
      "titulo": "El golfo de las ballenas que volvieron",
@@ -11097,6 +11642,7 @@
     },
     {
      "id": "caleta-olivia-parada-de-ruta-costanera-mirador-y-mesa-2",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "Parada de ruta: costanera, mirador y mesa",
      "titulo": "Media hora bien usada en Caleta Olivia",
@@ -11115,6 +11661,7 @@
     },
     {
      "id": "caleta-olivia-canadon-seco-mil-novecientos-cuarenta-y-cuatro-y-el-petroleo-del-norte-de-santa-cruz-3",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Cañadón Seco, mil novecientos cuarenta y cuatro, y el petróleo del norte de Santa Cruz",
      "titulo": "El pozo que convirtió un pueblo de ciento sesenta personas en una ciudad",
@@ -11135,6 +11682,7 @@
     },
     {
      "id": "caleta-olivia-el-gorosito-monumento-al-obrero-petrolero-y-simbolo-de-la-ciudad-4",
+     "audio": null,
      "tema": "Costumbres y gente",
      "subtema": "El Gorosito: monumento al obrero petrolero y símbolo de la ciudad",
      "titulo": "Un gigante que abre o cierra la válvula",
@@ -11155,6 +11703,7 @@
     },
     {
      "id": "caleta-olivia-biologia-de-la-ballena-sei-y-la-poblacion-del-golfo-san-jorge-5",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Biología de la ballena sei y la población del golfo San Jorge",
      "titulo": "El rorcual que filtra con un peine de seda",
@@ -11175,6 +11724,7 @@
     },
     {
      "id": "caleta-olivia-el-puerto-caleta-paula-la-pesca-del-langostino-y-lo-que-llega-a-la-mesa-6",
+     "audio": null,
      "tema": "Comidas y bebidas",
      "subtema": "El puerto Caleta Paula, la pesca del langostino y lo que llega a la mesa",
      "titulo": "Un puerto excavado en un autódromo y un camarón rojo",
@@ -11195,6 +11745,7 @@
     },
     {
      "id": "caleta-olivia-las-aves-de-la-costa-ostreros-gaviotas-cormoranes-y-playeros-migratorios-7",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Las aves de la costa: ostreros, gaviotas, cormoranes y playeros migratorios",
      "titulo": "Quién camina por las restingas de la costanera",
@@ -11216,6 +11767,7 @@
     },
     {
      "id": "caleta-olivia-la-ciudad-hoy-migracion-chilena-turnos-petroleros-agua-y-deporte-8",
+     "audio": null,
      "tema": "Costumbres y gente",
      "subtema": "La ciudad hoy: migración chilena, turnos petroleros, agua y deporte",
      "titulo": "Cincuenta y seis mil personas entre la meseta y el golfo",
@@ -11248,6 +11800,7 @@
    "relatos": [
     {
      "id": "sarmiento-tehuelches-exploradores-y-los-nombres-de-los-lagos-0",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Tehuelches, exploradores y los nombres de los lagos",
      "titulo": "Otrón, la isla colorada y el tigre del agua",
@@ -11269,6 +11822,7 @@
     },
     {
      "id": "sarmiento-fundacion-pietrobelli-la-colonia-pastoril-sarmiento-y-los-galeses-1",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Fundación: Pietrobelli, la Colonia Pastoril Sarmiento y los galeses",
      "titulo": "Un pueblo que necesitó fundar su propio puerto",
@@ -11288,6 +11842,7 @@
     },
     {
      "id": "sarmiento-los-boers-en-el-valle-de-sarmiento-2",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Los bóers en el valle de Sarmiento",
      "titulo": "Carros de bueyes, la Biblia holandesa y koeksisters en la estepa",
@@ -11308,6 +11863,7 @@
     },
     {
      "id": "sarmiento-los-lituanos-de-sarmiento-y-la-familia-szlapelis-3",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Los lituanos de Sarmiento y la familia Szlapelis",
      "titulo": "El cóndor de los cielos: lituanos en el valle de los lagos",
@@ -11328,6 +11884,7 @@
     },
     {
      "id": "sarmiento-el-ferrocarril-de-comodoro-rivadavia-a-colonia-sarmiento-4",
+     "audio": null,
      "tema": "Historia",
      "subtema": "El ferrocarril de Comodoro Rivadavia a Colonia Sarmiento",
      "titulo": "Un tren que iba al lago Buenos Aires y se quedó en Sarmiento",
@@ -11348,6 +11905,7 @@
     },
     {
      "id": "sarmiento-el-siglo-veinte-petroleo-gobernacion-militar-acueducto-y-crecimiento-5",
+     "audio": null,
      "tema": "Historia",
      "subtema": "El siglo veinte: petróleo, gobernación militar, acueducto y crecimiento",
      "titulo": "La quinta de la ciudad petrolera",
@@ -11368,6 +11926,7 @@
     },
     {
      "id": "sarmiento-hidrologia-del-rio-senguer-y-el-lago-musters-6",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Hidrología del río Senguer y el lago Musters",
      "titulo": "Un río de la cordillera que nunca llega al mar",
@@ -11388,6 +11947,7 @@
     },
     {
      "id": "sarmiento-la-desecacion-del-colhue-huapi-y-las-tormentas-de-polvo-7",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "La desecación del Colhué Huapi y las tormentas de polvo",
      "titulo": "El lago que se volvió tormenta de polvo",
@@ -11408,6 +11968,7 @@
     },
     {
      "id": "sarmiento-peces-de-los-lagos-y-pesca-8",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Peces de los lagos y pesca",
      "titulo": "Percas, pejerreyes y un bagre que viene de Gondwana",
@@ -11428,6 +11989,7 @@
     },
     {
      "id": "sarmiento-aves-acuaticas-de-los-lagos-cisnes-flamencos-macas-y-patos-9",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Aves acuáticas de los lagos: cisnes, flamencos, macás y patos",
      "titulo": "Cinco mil cisnes en un día de otoño",
@@ -11448,6 +12010,7 @@
     },
     {
      "id": "sarmiento-fauna-de-la-estepa-alrededor-del-valle-10",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Fauna de la estepa alrededor del valle",
      "titulo": "Maras, pumas, matuastos y la estepa después de la oveja",
@@ -11469,6 +12032,7 @@
     },
     {
      "id": "sarmiento-flora-del-valle-la-estepa-y-los-mallines-11",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Flora del valle, la estepa y los mallines",
      "titulo": "Duraznillo, totora y álamos: tres paisajes vegetales en un mismo valle",
@@ -11490,6 +12054,7 @@
     },
     {
      "id": "sarmiento-geologia-del-valle-la-cuenca-la-sierra-y-el-paleolago-sarmiento-12",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Geología del valle: la cuenca, la sierra y el paleolago Sarmiento",
      "titulo": "Un bajo que fue alto y un lago de cuatro mil kilómetros cuadrados",
@@ -11510,6 +12075,7 @@
     },
     {
      "id": "sarmiento-gran-barranca-y-la-formacion-sarmiento-veinte-millones-de-anos-de-mamiferos-13",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Gran Barranca y la Formación Sarmiento: veinte millones de años de mamíferos",
      "titulo": "El acantilado que le dio nombre a las edades de los mamíferos",
@@ -11530,6 +12096,7 @@
     },
     {
      "id": "sarmiento-dinosaurios-de-sarmiento-y-el-valle-de-los-gigantes-14",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Dinosaurios de Sarmiento y el Valle de los Gigantes",
      "titulo": "Un cráneo de titanosaurio que miraba hacia abajo",
@@ -11550,6 +12117,7 @@
     },
     {
      "id": "sarmiento-chacras-riego-y-cerezas-15",
+     "audio": null,
      "tema": "Costumbres y gente",
      "subtema": "Chacras, riego y cerezas",
      "titulo": "De quinta de Comodoro a exportar cerezas a China",
@@ -11570,6 +12138,7 @@
     },
     {
      "id": "sarmiento-gastronomia-vino-y-fiestas-doma-cordero-y-otronia-16",
+     "audio": null,
      "tema": "Comidas y bebidas",
      "subtema": "Gastronomía, vino y fiestas: doma, cordero y Otronia",
      "titulo": "Jineteadas en febrero y un vino junto al lago Otrón",
@@ -11591,6 +12160,7 @@
     },
     {
      "id": "sarmiento-el-museo-regional-desiderio-torres-y-el-arte-rupestre-de-la-zona-17",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "El Museo Regional Desiderio Torres y el arte rupestre de la zona",
      "titulo": "Dieciséis mil piedras talladas en una estación de tren",
@@ -11622,6 +12192,7 @@
    "relatos": [
     {
      "id": "bosque-petrificado-sarmiento-descubrimiento-proteccion-y-la-historia-del-area-protegida-0",
+     "audio": null,
      "tema": "Historia",
      "subtema": "Descubrimiento, protección y la historia del área protegida",
      "titulo": "Una donación, una ordenanza y un yacimiento que quedaba afuera",
@@ -11641,6 +12212,7 @@
     },
     {
      "id": "bosque-petrificado-sarmiento-paleobotanica-que-arboles-eran-los-troncos-1",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Paleobotánica: qué árboles eran los troncos",
      "titulo": "Palmeras, podocarpos y el mito de las araucarias",
@@ -11661,6 +12233,7 @@
     },
     {
      "id": "bosque-petrificado-sarmiento-formaciones-salamanca-rio-chico-y-sarmiento-y-la-controversia-de-edades-2",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Formaciones Salamanca, Río Chico y Sarmiento, y la controversia de edades",
      "titulo": "Sesenta y cinco millones de años, o no exactamente",
@@ -11681,6 +12254,7 @@
     },
     {
      "id": "bosque-petrificado-sarmiento-el-clima-del-paleoceno-y-del-eoceno-en-la-patagonia-3",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "El clima del Paleoceno y del Eoceno en la Patagonia",
      "titulo": "Una costa sin heladas después del meteorito",
@@ -11701,6 +12275,7 @@
     },
     {
      "id": "bosque-petrificado-sarmiento-la-permineralizacion-en-detalle-4",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "La permineralización en detalle",
      "titulo": "Cómo un árbol se convierte en piedra, célula por célula",
@@ -11721,6 +12296,7 @@
     },
     {
      "id": "bosque-petrificado-sarmiento-fosiles-asociados-el-mar-salamanqueano-y-sus-habitantes-5",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Fósiles asociados: el mar salamanqueano y sus habitantes",
      "titulo": "Ostras, tiburones, cocodrilos y un ornitorrinco patagónico",
@@ -11741,6 +12317,7 @@
     },
     {
      "id": "bosque-petrificado-sarmiento-los-badlands-y-la-geomorfologia-del-valle-lunar-6",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Los badlands y la geomorfología del Valle Lunar",
      "titulo": "Tierras malas: cómo la erosión desentierra un bosque",
@@ -11761,6 +12338,7 @@
     },
     {
      "id": "bosque-petrificado-sarmiento-los-otros-bosques-petrificados-de-la-patagonia-7",
+     "audio": null,
      "tema": "Paisaje y geología",
      "subtema": "Los otros bosques petrificados de la Patagonia",
      "titulo": "Jaramillo, Szlápelis, Ameghino: una familia de bosques de piedra",
@@ -11781,6 +12359,7 @@
     },
     {
      "id": "bosque-petrificado-sarmiento-flora-actual-de-la-reserva-la-estepa-sobre-el-bosque-fosil-8",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Flora actual de la reserva: la estepa sobre el bosque fósil",
      "titulo": "Matas en cojín, plantas en pedestal y un senecio que solo vive acá",
@@ -11801,6 +12380,7 @@
     },
     {
      "id": "bosque-petrificado-sarmiento-fauna-actual-de-la-reserva-aves-y-mamiferos-de-la-estepa-9",
+     "audio": null,
      "tema": "Naturaleza y biología",
      "subtema": "Fauna actual de la reserva: aves y mamíferos de la estepa",
      "titulo": "Guanacos con chulengos, choiques y loros en las barrancas",
@@ -11822,6 +12402,7 @@
     },
     {
      "id": "bosque-petrificado-sarmiento-como-recorrer-el-sendero-y-que-mirar-en-cada-tramo-10",
+     "audio": null,
      "tema": "Qué ver y qué hacer",
      "subtema": "Cómo recorrer el sendero y qué mirar en cada tramo",
      "titulo": "Caminar entre árboles de piedra",

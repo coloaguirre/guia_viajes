@@ -1,6 +1,6 @@
 // Cache-first service worker so the guide works without signal on the road.
 // Bump VERSION whenever content or code changes.
-const VERSION = "v20261113-112cbf81";
+const VERSION = "v20261113-ae03a63b";
 const AUDIO_CACHE = "audio-v1"; // descargas de audio, no se borra al actualizar la app
 const SHELL = ["./", "./index.html", "./style.css", "./app.js", "./manifest.json", "./icon.svg", "./content/relatos.json"];
 
