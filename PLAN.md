@@ -50,3 +50,6 @@ itinerario real en 2-3 días (meta: 2026-11-15/16).
   Caracoles, Perito Moreno, Río Mayo), ruta nacional 26 por Sarmiento,
   lagos Musters y Colhué Huapi y Bosque Petrificado José Ormachea.
   Confirmado por el usuario 2026-11-13.
+- Día 10 (Piedrabuena → Gregores): camino directo por ruta nacional 288 y
+  provincial 27 (valle del río Chico), 242 km. Confirmado 2026-11-13.
+- Voz del audio: es-AR-ElenaNeural, velocidad -5 %. Confirmado 2026-11-13.
