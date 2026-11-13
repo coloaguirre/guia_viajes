@@ -30,7 +30,7 @@ itinerario real en 2-3 días (meta: 2026-11-15/16).
 - [x] 2.4 PWA: manifest, service worker, instalación en el celular.
 
 ## Fase 3 — Contenido real y prueba en ruta
-- [~] 3.1 Cargar el itinerario real y generar los relatos de todos los
+- [x] 3.1 Cargar el itinerario real y generar los relatos de todos los
       lugares (Claude Code ejecuta el pipeline).
 - [ ] 3.2 Probar en el celular: voz, geo, offline. Ajustes.
 
