@@ -1,0 +1,36 @@
+# Datos y artefactos — nunca al repo
+data/
+models/
+logs/
+
+# Secretos — nunca al repo
+connections/
+
+# Configs locales de agentes de IA — vector de fuga documentado (2026):
+# pueden contener tokens, rutas y secretos de MCP. Nunca al repo.
+.claude/settings.local.json
+.mcp.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Entornos y locales
+.env
+.DS_Store
+
+# Metadata de Windows que deja el unzip/copia en WSL
+*:Zone.Identifier
+
+# Node (si se agrega tooling al frontend)
+node_modules/
+
+# app/content/ (contenido generado que publica la app) SÍ se versiona.
+# Los insumos crudos (itinerario, relatos intermedios) quedan en data/.

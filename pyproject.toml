@@ -1,0 +1,34 @@
+[project]
+name = "guia-viajes"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Claudio Aguirre", email = "aguirre.claudio@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "openpyxl>=3.1.5",
+    "polars>=2.1.0",
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+guia-viajes = "guia_viajes:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+    "ruff>=0.17.5",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
