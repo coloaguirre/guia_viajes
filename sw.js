@@ -1,6 +1,7 @@
 // Cache-first service worker so the guide works without signal on the road.
 // Bump VERSION whenever content or code changes.
 const VERSION = "v20261113-112cbf81";
+const AUDIO_CACHE = "audio-v1"; // descargas de audio, no se borra al actualizar la app
 const SHELL = ["./", "./index.html", "./style.css", "./app.js", "./manifest.json", "./icon.svg", "./content/relatos.json"];
 
 self.addEventListener("install", (e) => {
@@ -8,12 +9,17 @@ self.addEventListener("install", (e) => {
 });
 self.addEventListener("activate", (e) => {
   e.waitUntil(
-    caches.keys().then((keys) => Promise.all(keys.filter((k) => k !== VERSION).map((k) => caches.delete(k))))
+    caches.keys().then((keys) => Promise.all(keys.filter((k) => k !== VERSION && k !== AUDIO_CACHE).map((k) => caches.delete(k))))
       .then(() => self.clients.claim())
   );
 });
 self.addEventListener("fetch", (e) => {
   if (e.request.method !== "GET") return;
+  if (e.request.url.endsWith(".opus")) {
+    // audio: cache-first; si no está guardado, va a la red sin guardarlo (lo guarda "Guardar audio")
+    e.respondWith(caches.match(e.request).then((hit) => hit || fetch(e.request)));
+    return;
+  }
   e.respondWith(
     caches.match(e.request).then((hit) => hit || fetch(e.request).then((res) => {
       const copy = res.clone();
