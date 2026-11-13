@@ -465,7 +465,8 @@
   "nombre": "Puerto Madryn",
   "slug": "puerto-madryn",
   "dias": [
-   2
+   2,
+   18
   ],
   "roles": [
    "extra"
@@ -479,7 +480,8 @@
   "nombre": "Trelew",
   "slug": "trelew",
   "dias": [
-   2
+   2,
+   18
   ],
   "roles": [
    "extra"
