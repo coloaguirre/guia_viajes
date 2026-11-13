@@ -30,11 +30,23 @@ itinerario real en 2-3 días (meta: 2026-11-15/16).
 - [x] 2.4 PWA: manifest, service worker, instalación en el celular.
 
 ## Fase 3 — Contenido real y prueba en ruta
-- [ ] 3.1 Cargar el itinerario real y generar los relatos de todos los
+- [~] 3.1 Cargar el itinerario real y generar los relatos de todos los
       lugares (Claude Code ejecuta el pipeline).
 - [ ] 3.2 Probar en el celular: voz, geo, offline. Ajustes.
 
+## Decisiones de la Fase 3 (2026-11-13)
+- Celular: Android (Chrome: reconocimiento de voz y voces es-AR de Google).
+- Itinerario: hoja "Plan B" del Excel (la que tiene reservas). El Excel
+  queda en `data/itinerario/` (gitignorado: tiene teléfonos y códigos).
+- Publicación: GitHub Pages en https://coloaguirre.github.io/guia_viajes/
+  desde la rama `gh-pages` (solo `app/`). Repo público porque el plan
+  gratuito no permite Pages en privados; no contiene datos sensibles.
+  Publicar con `scripts/deploy.sh`.
+- Rutas de vuelta por la misma RN3 fusionadas con las de ida.
+- Redacción: un agente por grupo geográfico, con investigación web y
+  validación automática (`uv run python -m guia validate`).
+
 ## Pendiente de confirmar con el usuario
-- Celular Android o iPhone (afecta reconocimiento de voz y voces TTS).
-- Itinerario real (Excel) para arrancar la Fase 3.
-- Dónde se sirve la app: GitHub Pages (HTTPS gratis) o solo local.
+- Día 17 (La Oriental → Comodoro): ¿por Gregores y ruta nacional 3, o por
+  Bajo Caracoles, Perito Moreno y Sarmiento (Cueva de las Manos, bosque
+  petrificado)? Define el relato de esa ruta.
