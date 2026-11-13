@@ -36,7 +36,6 @@ region = ""
 [[extra]]
 nombre = "Isla Pingüino"
 dias = [6]
-geo = "Isla Pingüino, Puerto Deseado, Santa Cruz, Argentina"
 [[extra]]
 nombre = "Ría Deseado"
 dias = [7]
@@ -69,7 +68,14 @@ nombre = "Bahía Blanca"
 dias = [1, 18]
 [[extra]]
 nombre = "Caleta Olivia"
-dias = [5, 17]
+dias = [5]
+[[extra]]
+nombre = "Sarmiento"
+dias = [17]
+geo = "Sarmiento, Chubut, Argentina"
+[[extra]]
+nombre = "Bosque Petrificado Sarmiento"
+dias = [17]
 
 # Rutas de vuelta que son el mismo camino que una de ida: se fusionan
 # (slug a fusionar -> slug que queda).
@@ -79,7 +85,8 @@ dias = [5, 17]
 
 # Coordenadas manuales para lo que el geocoder no encuentra.
 [geo_fix]
-"estancia-la-oriental" = { lat = -47.84, lon = -72.17 }  # costa norte del Lago Belgrano, pie del Cerro León
+"estancia-la-oriental" = { lat = -47.84, lon = -72.17 }
+"bosque-petrificado-sarmiento" = { lat = -45.86, lon = -69.12 }  # ~30 km al sur de Sarmiento, José Ormachea  # costa norte del Lago Belgrano, pie del Cerro León
 
 # Consultas de geocoding por lugar (cuando el nombre solo es ambiguo).
 [geo_query]

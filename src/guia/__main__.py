@@ -9,7 +9,7 @@ import tomllib
 from pathlib import Path
 
 from guia.geocode import geocode_places
-from guia.itinerary import parse_itinerary
+from guia.itinerary import parse_itinerary, slugify
 from guia.prompts import build_prompts
 from guia.relatos import pack, validate_file
 
@@ -48,12 +48,17 @@ def cmd_geocode(args) -> None:
     cfg = load_cfg()
     v = cfg["viaje"]
     hint = ", ".join(x for x in (v.get("region"), v.get("pais")) if x)
+    # Query overrides: [geo_query] by slug, plus the `geo` field of [[extra]] places.
+    queries = dict(cfg.get("geo_query", {}))
+    for e in cfg.get("extra", []):
+        if e.get("geo"):
+            queries.setdefault(slugify(e["nombre"]), e["geo"])
     save_places(
         geocode_places(
             load_places(),
             DATA / "geocache.json",
             hint,
-            queries=cfg.get("geo_query"),
+            queries=queries,
             fixes=cfg.get("geo_fix"),
         )
     )

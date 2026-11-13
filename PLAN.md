@@ -46,7 +46,7 @@ itinerario real en 2-3 días (meta: 2026-11-15/16).
 - Redacción: un agente por grupo geográfico, con investigación web y
   validación automática (`uv run python -m guia validate`).
 
-## Pendiente de confirmar con el usuario
-- Día 17 (La Oriental → Comodoro): ¿por Gregores y ruta nacional 3, o por
-  Bajo Caracoles, Perito Moreno y Sarmiento (Cueva de las Manos, bosque
-  petrificado)? Define el relato de esa ruta.
+- Día 17 (La Oriental → Comodoro): por ruta nacional 40 al norte (Bajo
+  Caracoles, Perito Moreno, Río Mayo), ruta nacional 26 por Sarmiento,
+  lagos Musters y Colhué Huapi y Bosque Petrificado José Ormachea.
+  Confirmado por el usuario 2026-11-13.
