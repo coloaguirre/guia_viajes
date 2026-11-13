@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1f3a2e">
+<title>Guía de viaje</title>
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon.svg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <button id="back" class="icon" aria-label="Volver" hidden>‹</button>
+  <h1 id="title">Guía de viaje</h1>
+  <button id="locate" class="icon" aria-label="Ubicarme">◎</button>
+</header>
+
+<main id="screen"></main>
+
+<section id="player" hidden>
+  <div id="player-title"></div>
+  <div id="player-meta"></div>
+  <div class="controls">
+    <button id="p-restart" aria-label="Desde el principio">⟲</button>
+    <button id="p-toggle" aria-label="Pausar o continuar">❚❚</button>
+    <button id="p-stop" aria-label="Detener">■</button>
+  </div>
+  <progress id="p-progress" value="0" max="1"></progress>
+</section>
+
+<footer>
+  <div id="status"></div>
+  <button id="mic" aria-label="Pedir por voz">🎤 Pedir por voz</button>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

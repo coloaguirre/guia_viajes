@@ -1,0 +1,85 @@
+{
+ "viaje": "Viaje de ejemplo",
+ "generado": "2026-11-13",
+ "lugares": [
+  {
+   "slug": "azul",
+   "nombre": "Azul",
+   "dias": [
+    1
+   ],
+   "lat": -36.777,
+   "lon": -59.858,
+   "relatos": [
+    {
+     "id": "azul-fundacion-0",
+     "tema": "Historia",
+     "subtema": "Fundación",
+     "titulo": "El fuerte del arroyo Azul",
+     "texto": "Desde la ruta se ve una llanura que parece no terminar nunca. El fuerte se levantó en mil ochocientos treinta y dos como avanzada de la frontera. Desde la ruta se ve una llanura que parece no terminar nunca. El fuerte se levantó en mil ochocientos treinta y dos como avanzada de la frontera. Desde la ruta se ve una llanura que parece no terminar nunca. El fuerte se levantó en mil ochocientos treinta y dos como avanzada de la frontera. Desde la ruta se ve una llanura que parece no terminar nunca. El fuerte se levantó en mil ochocientos treinta y dos como avanzada de la frontera. Desde la ruta se ve una llanura que parece no terminar nunca.",
+     "tags": [
+      "fundacion",
+      "fuerte",
+      "frontera",
+      "rosas"
+     ],
+     "minutos": 0.9
+    },
+    {
+     "id": "azul-aves-1",
+     "tema": "Naturaleza y biología",
+     "subtema": "Aves de la pampa",
+     "titulo": "Teros, chimangos y cardenales",
+     "texto": "Desde la ruta se ve una llanura que parece no terminar nunca. El tero avisa a los gritos y el chimango planea bajo sobre los campos. Desde la ruta se ve una llanura que parece no terminar nunca. El tero avisa a los gritos y el chimango planea bajo sobre los campos. Desde la ruta se ve una llanura que parece no terminar nunca. El tero avisa a los gritos y el chimango planea bajo sobre los campos. Desde la ruta se ve una llanura que parece no terminar nunca. El tero avisa a los gritos y el chimango planea bajo sobre los campos. Desde la ruta se ve una llanura que parece no terminar nunca. El tero avisa a.",
+     "tags": [
+      "aves",
+      "pajaros",
+      "tero",
+      "chimango",
+      "nidifican"
+     ],
+     "minutos": 0.9
+    }
+   ]
+  },
+  {
+   "slug": "tandil",
+   "nombre": "Tandil",
+   "dias": [
+    2
+   ],
+   "lat": -37.321,
+   "lon": -59.133,
+   "relatos": [
+    {
+     "id": "tandil-piedra-0",
+     "tema": "Paisaje y geología",
+     "subtema": "La Piedra Movediza",
+     "titulo": "Trescientas toneladas en equilibrio",
+     "texto": "Desde la ruta se ve una llanura que parece no terminar nunca. La piedra se balanceó durante siglos hasta caer en mil novecientos doce. Desde la ruta se ve una llanura que parece no terminar nunca. La piedra se balanceó durante siglos hasta caer en mil novecientos doce. Desde la ruta se ve una llanura que parece no terminar nunca. La piedra se balanceó durante siglos hasta caer en mil novecientos doce. Desde la ruta se ve una llanura que parece no terminar nunca. La piedra se balanceó durante siglos hasta caer en mil novecientos doce. Desde la ruta se ve una llanura que parece no terminar nunca. La piedra se balanceó durante siglos hasta caer en mil novecientos doce.",
+     "tags": [
+      "piedra",
+      "movediza",
+      "sierras",
+      "geologia"
+     ],
+     "minutos": 0.9
+    },
+    {
+     "id": "tandil-queso-1",
+     "tema": "Comidas y bebidas",
+     "subtema": "Quesos y salames",
+     "titulo": "El salame con denominación de origen",
+     "texto": "Desde la ruta se ve una llanura que parece no terminar nunca. Los inmigrantes italianos trajeron la receta y las sierras pusieron el clima. Desde la ruta se ve una llanura que parece no terminar nunca. Los inmigrantes italianos trajeron la receta y las sierras pusieron el clima. Desde la ruta se ve una llanura que parece no terminar nunca. Los inmigrantes italianos trajeron la receta y las sierras pusieron el clima. Desde la ruta se ve una llanura que parece no terminar nunca. Los inmigrantes italianos trajeron la receta y las sierras pusieron el clima. Desde la ruta se ve una llanura que parece no terminar nunca. Los inmigrantes italianos trajeron la receta y las sierras pusieron el clima.",
+     "tags": [
+      "queso",
+      "salame",
+      "picada",
+      "comida"
+     ],
+     "minutos": 0.9
+    }
+   ]
+  }
+ ]
+}
