@@ -25,13 +25,24 @@ def iter_relatos(relatos_dir: Path):
             yield f.stem, r
 
 
-async def _render_one(text: str, voice: str, rate: str, out: Path, bitrate: str, sem) -> None:
+async def _render_one(
+    text: str, voice: str, rate: str, out: Path, bitrate: str, sem, retries: int = 6
+) -> None:
     import edge_tts  # local import: optional dependency at runtime
 
     async with sem:
         with tempfile.TemporaryDirectory() as tmp:
             mp3 = Path(tmp) / "a.mp3"
-            await edge_tts.Communicate(text, voice, rate=rate).save(str(mp3))
+            for attempt in range(retries):
+                try:
+                    await edge_tts.Communicate(text, voice, rate=rate).save(str(mp3))
+                    break
+                except Exception as e:  # network blips, throttling: back off and retry
+                    if attempt == retries - 1:
+                        raise
+                    wait = 5 * 2**attempt
+                    print(f"  retry {attempt + 1}/{retries} in {wait}s ({type(e).__name__})")
+                    await asyncio.sleep(wait)
             out.parent.mkdir(parents=True, exist_ok=True)
             proc = await asyncio.create_subprocess_exec(
                 *[
@@ -53,16 +64,23 @@ async def _render_one(text: str, voice: str, rate: str, out: Path, bitrate: str,
                 ]
             )
             if await proc.wait() != 0:
+                out.unlink(missing_ok=True)
                 raise RuntimeError(f"ffmpeg failed for {out}")
 
 
 async def _render_all(jobs, voice, rate, bitrate, concurrency):
     sem = asyncio.Semaphore(concurrency)
     tasks = [_render_one(t, voice, rate, o, bitrate, sem) for t, o in jobs]
+    failed = 0
     for done, coro in enumerate(asyncio.as_completed(tasks), start=1):
-        await coro
+        try:
+            await coro
+        except Exception as e:  # noqa: BLE001 - keep going; the file stays missing and is reported
+            failed += 1
+            print(f"  FAILED: {type(e).__name__}: {e}")
         if done % 10 == 0 or done == len(tasks):
-            print(f"  {done}/{len(tasks)}")
+            print(f"  {done}/{len(tasks)}", flush=True)
+    return failed
 
 
 def render(
