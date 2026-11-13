@@ -9,5 +9,5 @@ if ! git diff --quiet -- app; then
 fi
 git push origin main
 # gh-pages = solo el contenido de app/, como raíz del sitio.
-git push origin "$(git subtree split --prefix app main):gh-pages" --force
+git push origin "$(git subtree split --prefix app main 2>/dev/null | tail -1):gh-pages" --force
 echo "publicado: https://$(git remote get-url origin | sed -E 's#.*github.com[:/]([^/]+)/([^/.]+).*#\1.github.io/\2#')/"
