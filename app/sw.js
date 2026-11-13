@@ -1,6 +1,6 @@
 // Cache-first service worker so the guide works without signal on the road.
 // Bump VERSION whenever content or code changes.
-const VERSION = "v20261113-0f1c4af3";
+const VERSION = "v20261113-3fad305f";
 const SHELL = ["./", "./index.html", "./style.css", "./app.js", "./manifest.json", "./icon.svg", "./content/relatos.json"];
 
 self.addEventListener("install", (e) => {
