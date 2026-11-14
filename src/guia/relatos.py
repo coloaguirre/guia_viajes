@@ -62,6 +62,44 @@ def validate_file(path: Path, min_words: int, max_words: int) -> list[str]:
     return errs
 
 
+def _haversine(a: dict, b: dict) -> float:
+    from math import asin, cos, radians, sin, sqrt
+
+    la1, lo1, la2, lo2 = (radians(x) for x in (a["lat"], a["lon"], b["lat"], b["lon"]))
+    h = sin((la2 - la1) / 2) ** 2 + cos(la1) * cos(la2) * sin((lo2 - lo1) / 2) ** 2
+    return 2 * 6371 * asin(sqrt(h))
+
+
+def order_places(places: list[dict]) -> list[dict]:
+    """Itinerary order: by first day; within a day, what is visited before leaving,
+    then the day's route, its intermediate stops by distance from the origin, and
+    the destination last. Places without a day keep their relative position."""
+    by_slug = {p["slug"]: p for p in places}
+
+    def first_day(p):
+        return min(p.get("dias") or [999])
+
+    routes = {first_day(p): p for p in places if p.get("extremos")}
+
+    def rank(p) -> float:
+        day = first_day(p)
+        r = routes.get(day)
+        if not r or p is r:
+            return 1.0 if r is p else 5.0
+        origin, dest = (by_slug.get(e) for e in r["extremos"])
+        if p is dest:
+            return 100.0
+        if not (origin and dest and p.get("lat") is not None and origin.get("lat") is not None):
+            return 50.0
+        span = _haversine(origin, dest) or 1.0
+        # Farther from the destination than the origin is: a side trip before leaving.
+        if _haversine(p, dest) > span:
+            return 0.0
+        return 1.0 + _haversine(origin, p) / span
+
+    return sorted(places, key=lambda p: (first_day(p), rank(p)))
+
+
 def pack(
     places: list[dict],
     relatos_dir: Path,
@@ -80,7 +118,7 @@ def pack(
     by_slug = {p["slug"]: p for p in places}
     bundle_places = []
     without = []
-    for p in places:
+    for p in order_places(places):
         f = relatos_dir / f"{p['slug']}.json"
         relatos = []
         if f.exists():

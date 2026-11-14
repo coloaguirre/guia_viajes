@@ -347,10 +347,12 @@
   "nombre": "Comodoro Rivadavia",
   "slug": "comodoro-rivadavia",
   "dias": [
+   5,
    17,
    18
   ],
   "roles": [
+   "extra",
    "noche",
    "tramo"
   ],

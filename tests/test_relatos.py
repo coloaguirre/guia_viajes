@@ -86,3 +86,30 @@ def test_pack_fails_on_orphan_relato_file(tmp_path):
     (rel / "marte.json").write_text(json.dumps({"lugar": "Marte", "relatos": []}), encoding="utf-8")
     with pytest.raises(ValueError, match="marte"):
         pack([], rel, tmp_path / "out.json", "Prueba")
+
+
+def test_order_places_by_day_and_route_position():
+    from guia.relatos import order_places
+
+    a = {"slug": "a", "nombre": "A", "dias": [1], "lat": 0.0, "lon": 0.0}
+    b = {"slug": "b", "nombre": "B", "dias": [1, 2], "lat": 0.0, "lon": 2.0}
+    ruta = {
+        "slug": "ruta-a-b",
+        "nombre": "Ruta",
+        "dias": [1],
+        "extremos": ["a", "b"],
+        "lat": 0.0,
+        "lon": 1.0,
+    }
+    mid = {"slug": "mid", "nombre": "Parada", "dias": [1], "lat": 0.0, "lon": 1.2}
+    near = {"slug": "near", "nombre": "Cerca del origen", "dias": [1], "lat": 0.0, "lon": 0.3}
+    side = {
+        "slug": "side",
+        "nombre": "Excursión antes de salir",
+        "dias": [1],
+        "lat": 0.0,
+        "lon": -1.0,
+    }
+    c = {"slug": "c", "nombre": "C", "dias": [2], "lat": 0.0, "lon": 3.0}
+    out = order_places([c, b, mid, side, a, ruta, near])
+    assert [p["slug"] for p in out] == ["side", "a", "ruta-a-b", "near", "mid", "b", "c"]

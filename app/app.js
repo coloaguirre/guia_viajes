@@ -78,8 +78,12 @@ function showPlace(slug) {
     .join("");
   const urls = l.relatos.map(audioUrl).filter(Boolean);
   const dl = urls.length ? `<button class="item" id="dl">⬇ Guardar audio para usar sin señal<small id="dl-info">${urls.length} relatos</small></button>` : "";
-  render(l.nombre, `<div class="list">${dl}${items || "<div class='hint'>Todavía no hay relatos de este lugar.</div>"}</div>`);
+  const totalMin = Math.round(l.relatos.reduce((a, r) => a + r.minutos, 0));
+  const all = l.relatos.length > 1 ? `<button class="item all" id="play-place">▶ Escuchar todo el lugar en orden<small>${l.relatos.length} relatos · ${totalMin} min</small></button>` : "";
+  render(l.nombre, `<div class="list">${all}${dl}${items || "<div class='hint'>Todavía no hay relatos de este lugar.</div>"}</div>`);
   $("screen").querySelectorAll("[data-tema]").forEach((b) => (b.onclick = () => push(() => showTema(l, b.dataset.tema))));
+  const pp = $("play-place");
+  if (pp) pp.onclick = () => { state.queue = l.relatos.slice(1); play(l.relatos[0]); };
   if (urls.length) { updateDlInfo(urls); $("dl").onclick = () => downloadAll(urls); }
 }
 

@@ -70,6 +70,9 @@ dias = [1, 18]
 nombre = "Caleta Olivia"
 dias = [5]
 [[extra]]
+nombre = "Comodoro Rivadavia"
+dias = [5]
+[[extra]]
 nombre = "Sarmiento"
 dias = [17]
 geo = "Sarmiento, Chubut, Argentina"
