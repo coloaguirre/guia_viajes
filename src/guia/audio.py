@@ -35,7 +35,9 @@ async def _render_one(
             mp3 = Path(tmp) / "a.mp3"
             for attempt in range(retries):
                 try:
-                    await edge_tts.Communicate(text, voice, rate=rate).save(str(mp3))
+                    await asyncio.wait_for(
+                        edge_tts.Communicate(text, voice, rate=rate).save(str(mp3)), timeout=600
+                    )
                     break
                 except Exception as e:  # network blips, throttling: back off and retry
                     if attempt == retries - 1:
